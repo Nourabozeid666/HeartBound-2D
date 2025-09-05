@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,32 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3384730881
+    locked: 0
+  - name: Walls
+    uniqueID: 3865057997
+    locked: 0
+  - name: 2nd floor
+    uniqueID: 2568418153
+    locked: 0
+  - name: Details
+    uniqueID: 2889934685
+    locked: 0
+  - name: hole
+    uniqueID: 2576289047
+    locked: 0
+  - name: Elements
+    uniqueID: 323412511
+    locked: 0
+  - name: Fire
+    uniqueID: 2128442611
+    locked: 0
+  - name: Door
+    uniqueID: 3853729391
+    locked: 0
+  - name: Rocks
+    uniqueID: 2987130729
+    locked: 0
+  m_RenderingLayers:
+  - Default
