@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 17394e0ab6f68c64dbc116f88e1d3d69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1492730279148447727
+    second: Ceiling Trap - Level 3 - Transition_0
+  - first:
+      213: 4342279053128273872
+    second: Ceiling Trap - Level 3 - Transition_1
+  - first:
+      213: 2342229092558740003
+    second: Ceiling Trap - Level 3 - Transition_2
+  - first:
+      213: 8995880720171487652
+    second: Ceiling Trap - Level 3 - Transition_3
+  - first:
+      213: -3384221168326756398
+    second: Ceiling Trap - Level 3 - Transition_4
+  - first:
+      213: -4684726646913195050
+    second: Ceiling Trap - Level 3 - Transition_5
+  - first:
+      213: -4152532032406252405
+    second: Ceiling Trap - Level 3 - Transition_6
+  - first:
+      213: 7288355552946597528
+    second: Ceiling Trap - Level 3 - Transition_7
+  - first:
+      213: 3538003186657320074
+    second: Ceiling Trap - Level 3 - Transition_8
+  - first:
+      213: -5622974716230157065
+    second: Ceiling Trap - Level 3 - Transition_9
+  - first:
+      213: -1259702685168140411
+    second: Ceiling Trap - Level 3 - Transition_10
+  - first:
+      213: -1376980647833101977
+    second: Ceiling Trap - Level 3 - Transition_11
+  - first:
+      213: -7585977311291938524
+    second: Ceiling Trap - Level 3 - Transition_12
+  - first:
+      213: -1569665340563561086
+    second: Ceiling Trap - Level 3 - Transition_13
+  - first:
+      213: 6656546785370141785
+    second: Ceiling Trap - Level 3 - Transition_14
+  - first:
+      213: -2524832261672451542
+    second: Ceiling Trap - Level 3 - Transition_15
+  - first:
+      213: -4021334331203290024
+    second: Ceiling Trap - Level 3 - Transition_16
+  - first:
+      213: 3122113818619751513
+    second: Ceiling Trap - Level 3 - Transition_17
+  - first:
+      213: 5412101611525737403
+    second: Ceiling Trap - Level 3 - Transition_18
+  - first:
+      213: -6594969370291179819
+    second: Ceiling Trap - Level 3 - Transition_19
+  - first:
+      213: -2480849098897679362
+    second: Ceiling Trap - Level 3 - Transition_20
+  - first:
+      213: 5401670800238736918
+    second: Ceiling Trap - Level 3 - Transition_21
+  - first:
+      213: 1894181870454042661
+    second: Ceiling Trap - Level 3 - Transition_22
+  - first:
+      213: -7301860275131918289
+    second: Ceiling Trap - Level 3 - Transition_23
+  - first:
+      213: -4181903915377773427
+    second: Ceiling Trap - Level 3 - Transition_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 47
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11813ed48b1c84be0800000000000000
+      internalID: -1492730279148447727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 57
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df845ddacfd24c30800000000000000
+      internalID: 4342279053128273872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 31
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a9c8433f4418020800000000000000
+      internalID: 2342229092558740003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 26
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a15b9f4ad9c7dc70800000000000000
+      internalID: 8995880720171487652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 48
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7b68c17c4d801d0800000000000000
+      internalID: -3384221168326756398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_5
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3aee47fe18cfeb0800000000000000
+      internalID: -4684726646913195050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 32
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b849ef91e1e3f56c0800000000000000
+      internalID: -4152532032406252405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 45
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ea02292c0752560800000000000000
+      internalID: 7288355552946597528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_8
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 40
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cd8e23723891130800000000000000
+      internalID: 3538003186657320074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_9
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 30
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc3912994e27f1b0800000000000000
+      internalID: -5622974716230157065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 31
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f72fff413a48ee0800000000000000
+      internalID: -1259702685168140411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_11
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 30
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7691257756bf3ece0800000000000000
+      internalID: -1376980647833101977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_12
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 31
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429654ed3d139b690800000000000000
+      internalID: -7585977311291938524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_13
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 31
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285677f60bd673ae0800000000000000
+      internalID: -1569665340563561086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 43
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95471cc880ec06c50800000000000000
+      internalID: 6656546785370141785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_15
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2241956f6ef5fcd0800000000000000
+      internalID: -2524832261672451542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_16
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c7b815bb95138c0800000000000000
+      internalID: -4021334331203290024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_17
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 41
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c2b23f9f9f35b20800000000000000
+      internalID: 3122113818619751513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_18
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb8f4bbdb5ab1b40800000000000000
+      internalID: 5412101611525737403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_19
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de6633ac46f974a0800000000000000
+      internalID: -6594969370291179819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_20
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb1bde73e0429dd0800000000000000
+      internalID: -2480849098897679362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 20
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61674d939f696fa40800000000000000
+      internalID: 5401670800238736918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520f568106c794a10800000000000000
+      internalID: 1894181870454042661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_23
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28d93544c49aaa90800000000000000
+      internalID: -7301860275131918289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling Trap - Level 3 - Transition_24
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84b71fab84e6f5c0800000000000000
+      internalID: -4181903915377773427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ceiling Trap - Level 3 - Transition_0: -1492730279148447727
+      Ceiling Trap - Level 3 - Transition_1: 4342279053128273872
+      Ceiling Trap - Level 3 - Transition_10: -1259702685168140411
+      Ceiling Trap - Level 3 - Transition_11: -1376980647833101977
+      Ceiling Trap - Level 3 - Transition_12: -7585977311291938524
+      Ceiling Trap - Level 3 - Transition_13: -1569665340563561086
+      Ceiling Trap - Level 3 - Transition_14: 6656546785370141785
+      Ceiling Trap - Level 3 - Transition_15: -2524832261672451542
+      Ceiling Trap - Level 3 - Transition_16: -4021334331203290024
+      Ceiling Trap - Level 3 - Transition_17: 3122113818619751513
+      Ceiling Trap - Level 3 - Transition_18: 5412101611525737403
+      Ceiling Trap - Level 3 - Transition_19: -6594969370291179819
+      Ceiling Trap - Level 3 - Transition_2: 2342229092558740003
+      Ceiling Trap - Level 3 - Transition_20: -2480849098897679362
+      Ceiling Trap - Level 3 - Transition_21: 5401670800238736918
+      Ceiling Trap - Level 3 - Transition_22: 1894181870454042661
+      Ceiling Trap - Level 3 - Transition_23: -7301860275131918289
+      Ceiling Trap - Level 3 - Transition_24: -4181903915377773427
+      Ceiling Trap - Level 3 - Transition_3: 8995880720171487652
+      Ceiling Trap - Level 3 - Transition_4: -3384221168326756398
+      Ceiling Trap - Level 3 - Transition_5: -4684726646913195050
+      Ceiling Trap - Level 3 - Transition_6: -4152532032406252405
+      Ceiling Trap - Level 3 - Transition_7: 7288355552946597528
+      Ceiling Trap - Level 3 - Transition_8: 3538003186657320074
+      Ceiling Trap - Level 3 - Transition_9: -5622974716230157065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

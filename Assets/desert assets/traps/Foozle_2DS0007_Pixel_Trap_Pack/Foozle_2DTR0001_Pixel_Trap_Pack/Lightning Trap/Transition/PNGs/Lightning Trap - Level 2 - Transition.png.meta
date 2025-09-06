@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: b34cf014df31c564391d5b91ac34939a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4431578709124300463
+    second: Lightning Trap - Level 2 - Transition_0
+  - first:
+      213: -6938290027479207025
+    second: Lightning Trap - Level 2 - Transition_1
+  - first:
+      213: 5761006755646553747
+    second: Lightning Trap - Level 2 - Transition_2
+  - first:
+      213: 4668772747679608110
+    second: Lightning Trap - Level 2 - Transition_3
+  - first:
+      213: -3423992284368066054
+    second: Lightning Trap - Level 2 - Transition_4
+  - first:
+      213: -7659974479651640179
+    second: Lightning Trap - Level 2 - Transition_5
+  - first:
+      213: -3157707894475055165
+    second: Lightning Trap - Level 2 - Transition_6
+  - first:
+      213: -6992848794382932217
+    second: Lightning Trap - Level 2 - Transition_7
+  - first:
+      213: 460314202729038131
+    second: Lightning Trap - Level 2 - Transition_8
+  - first:
+      213: -8910191687102629637
+    second: Lightning Trap - Level 2 - Transition_9
+  - first:
+      213: 131120126101908830
+    second: Lightning Trap - Level 2 - Transition_10
+  - first:
+      213: -4474201323998185109
+    second: Lightning Trap - Level 2 - Transition_11
+  - first:
+      213: 8181906479696271113
+    second: Lightning Trap - Level 2 - Transition_12
+  - first:
+      213: -4657941143823738191
+    second: Lightning Trap - Level 2 - Transition_13
+  - first:
+      213: -7757348863738127096
+    second: Lightning Trap - Level 2 - Transition_14
+  - first:
+      213: -8473528903142365070
+    second: Lightning Trap - Level 2 - Transition_15
+  - first:
+      213: 8337405352664038874
+    second: Lightning Trap - Level 2 - Transition_16
+  - first:
+      213: -3911942456420133378
+    second: Lightning Trap - Level 2 - Transition_17
+  - first:
+      213: -7175611360067906778
+    second: Lightning Trap - Level 2 - Transition_18
+  - first:
+      213: 7691145540504907178
+    second: Lightning Trap - Level 2 - Transition_19
+  - first:
+      213: 4590299827979147389
+    second: Lightning Trap - Level 2 - Transition_20
+  - first:
+      213: 1045966259976431998
+    second: Lightning Trap - Level 2 - Transition_21
+  - first:
+      213: 8176731027497984678
+    second: Lightning Trap - Level 2 - Transition_22
+  - first:
+      213: -5812747560817676452
+    second: Lightning Trap - Level 2 - Transition_23
+  - first:
+      213: -1752144265747220925
+    second: Lightning Trap - Level 2 - Transition_24
+  - first:
+      213: 3305750120332232701
+    second: Lightning Trap - Level 2 - Transition_25
+  - first:
+      213: -6458469597114801992
+    second: Lightning Trap - Level 2 - Transition_26
+  - first:
+      213: -4732248484453994275
+    second: Lightning Trap - Level 2 - Transition_27
+  - first:
+      213: -2066037259541310480
+    second: Lightning Trap - Level 2 - Transition_28
+  - first:
+      213: 7732977086266920404
+    second: Lightning Trap - Level 2 - Transition_29
+  - first:
+      213: -1115461430760743397
+    second: Lightning Trap - Level 2 - Transition_30
+  - first:
+      213: -74377627672255346
+    second: Lightning Trap - Level 2 - Transition_31
+  - first:
+      213: -2268093403716340670
+    second: Lightning Trap - Level 2 - Transition_32
+  - first:
+      213: 8904646876981314929
+    second: Lightning Trap - Level 2 - Transition_33
+  - first:
+      213: 7641872608770857105
+    second: Lightning Trap - Level 2 - Transition_34
+  - first:
+      213: -3588908077811364975
+    second: Lightning Trap - Level 2 - Transition_35
+  - first:
+      213: -5354882760679859146
+    second: Lightning Trap - Level 2 - Transition_36
+  - first:
+      213: 3486130922252173023
+    second: Lightning Trap - Level 2 - Transition_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 86
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeb98f3b51208d30800000000000000
+      internalID: 4431578709124300463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 72
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83777b0bfd36bf90800000000000000
+      internalID: -6938290027479207025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 90
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e30f20f1533ff40800000000000000
+      internalID: 5761006755646553747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 88
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2da77ae310dac040800000000000000
+      internalID: 4668772747679608110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 71
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9209098298b70d0800000000000000
+      internalID: -3423992284368066054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 84
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c6ec78bcd42b590800000000000000
+      internalID: -7659974479651640179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 83
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf1e5576619d24d0800000000000000
+      internalID: -3157707894475055165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_7
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70769ca321964fe90800000000000000
+      internalID: -6992848794382932217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_8
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 83
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3314bba145d536600800000000000000
+      internalID: 460314202729038131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_9
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 83
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8fb996ed3a85480800000000000000
+      internalID: -8910191687102629637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 83
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d653b5f05d1d100800000000000000
+      internalID: 131120126101908830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b697185e99178e1c0800000000000000
+      internalID: -4474201323998185109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 76
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90753cbf798fb8170800000000000000
+      internalID: 8181906479696271113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 72
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba95b1653bab5fb0800000000000000
+      internalID: -4657941143823738191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ddb120f4c585490800000000000000
+      internalID: -7757348863738127096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 75
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278a1367b5af76a80800000000000000
+      internalID: -8473528903142365070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addfaf9aef964b370800000000000000
+      internalID: 8337405352664038874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef51f4fef0df5b9c0800000000000000
+      internalID: -3911942456420133378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_18
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 73
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62315ec6c7b1b6c90800000000000000
+      internalID: -7175611360067906778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadef91ae107cba60800000000000000
+      internalID: 7691145540504907178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 12
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78db338f5504bf30800000000000000
+      internalID: 4590299827979147389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7960fc85c4048e00800000000000000
+      internalID: 1045966259976431998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 11
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2aeed1c85997170800000000000000
+      internalID: 8176731027497984678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 10
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fa17404e8f45fa0800000000000000
+      internalID: -5812747560817676452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34636e4d2122fa7e0800000000000000
+      internalID: -1752144265747220925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_25
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 15
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df78b96483260ed20800000000000000
+      internalID: 3305750120332232701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0ef4fae18ee56a0800000000000000
+      internalID: -6458469597114801992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd03d3f631da35eb0800000000000000
+      internalID: -4732248484453994275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3915c0f06f353e0800000000000000
+      internalID: -2066037259541310480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_29
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddcc2b50bd015b60800000000000000
+      internalID: 7732977086266920404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_30
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e5bda1db51580f0800000000000000
+      internalID: -1115461430760743397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_31
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84eb5311f1c7fef0800000000000000
+      internalID: -74377627672255346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_32
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244b412f01d1680e0800000000000000
+      internalID: -2268093403716340670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_33
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 0
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17543c0e729a39b70800000000000000
+      internalID: 8904646876981314929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_34
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 0
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198139836a26d0a60800000000000000
+      internalID: 7641872608770857105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_35
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b068a3e13a13ec0800000000000000
+      internalID: -3588908077811364975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_36
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c50d32082afa5b0800000000000000
+      internalID: -5354882760679859146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Trap - Level 2 - Transition_37
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde785d7a99316030800000000000000
+      internalID: 3486130922252173023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lightning Trap - Level 2 - Transition_0: 4431578709124300463
+      Lightning Trap - Level 2 - Transition_1: -6938290027479207025
+      Lightning Trap - Level 2 - Transition_10: 131120126101908830
+      Lightning Trap - Level 2 - Transition_11: -4474201323998185109
+      Lightning Trap - Level 2 - Transition_12: 8181906479696271113
+      Lightning Trap - Level 2 - Transition_13: -4657941143823738191
+      Lightning Trap - Level 2 - Transition_14: -7757348863738127096
+      Lightning Trap - Level 2 - Transition_15: -8473528903142365070
+      Lightning Trap - Level 2 - Transition_16: 8337405352664038874
+      Lightning Trap - Level 2 - Transition_17: -3911942456420133378
+      Lightning Trap - Level 2 - Transition_18: -7175611360067906778
+      Lightning Trap - Level 2 - Transition_19: 7691145540504907178
+      Lightning Trap - Level 2 - Transition_2: 5761006755646553747
+      Lightning Trap - Level 2 - Transition_20: 4590299827979147389
+      Lightning Trap - Level 2 - Transition_21: 1045966259976431998
+      Lightning Trap - Level 2 - Transition_22: 8176731027497984678
+      Lightning Trap - Level 2 - Transition_23: -5812747560817676452
+      Lightning Trap - Level 2 - Transition_24: -1752144265747220925
+      Lightning Trap - Level 2 - Transition_25: 3305750120332232701
+      Lightning Trap - Level 2 - Transition_26: -6458469597114801992
+      Lightning Trap - Level 2 - Transition_27: -4732248484453994275
+      Lightning Trap - Level 2 - Transition_28: -2066037259541310480
+      Lightning Trap - Level 2 - Transition_29: 7732977086266920404
+      Lightning Trap - Level 2 - Transition_3: 4668772747679608110
+      Lightning Trap - Level 2 - Transition_30: -1115461430760743397
+      Lightning Trap - Level 2 - Transition_31: -74377627672255346
+      Lightning Trap - Level 2 - Transition_32: -2268093403716340670
+      Lightning Trap - Level 2 - Transition_33: 8904646876981314929
+      Lightning Trap - Level 2 - Transition_34: 7641872608770857105
+      Lightning Trap - Level 2 - Transition_35: -3588908077811364975
+      Lightning Trap - Level 2 - Transition_36: -5354882760679859146
+      Lightning Trap - Level 2 - Transition_37: 3486130922252173023
+      Lightning Trap - Level 2 - Transition_4: -3423992284368066054
+      Lightning Trap - Level 2 - Transition_5: -7659974479651640179
+      Lightning Trap - Level 2 - Transition_6: -3157707894475055165
+      Lightning Trap - Level 2 - Transition_7: -6992848794382932217
+      Lightning Trap - Level 2 - Transition_8: 460314202729038131
+      Lightning Trap - Level 2 - Transition_9: -8910191687102629637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

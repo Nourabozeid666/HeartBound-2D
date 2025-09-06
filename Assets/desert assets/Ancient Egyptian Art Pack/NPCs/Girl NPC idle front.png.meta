@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 31c8b8202f9376047802a0cf73af5d6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5530423951097677462
+    second: Girl NPC idle front_0
+  - first:
+      213: -2753733747191073028
+    second: Girl NPC idle front_1
+  - first:
+      213: 3931978288179917604
+    second: Girl NPC idle front_2
+  - first:
+      213: -169081232472823934
+    second: Girl NPC idle front_3
+  - first:
+      213: 482760729475826728
+    second: Girl NPC idle front_4
+  - first:
+      213: 8117088919238876441
+    second: Girl NPC idle front_5
+  - first:
+      213: 311563453633276485
+    second: Girl NPC idle front_6
+  - first:
+      213: 716652871014101119
+    second: Girl NPC idle front_7
+  - first:
+      213: -2292916110647537619
+    second: Girl NPC idle front_8
+  - first:
+      213: -3233897443862013016
+    second: Girl NPC idle front_9
+  - first:
+      213: 654000531433847108
+    second: Girl NPC idle front_10
+  - first:
+      213: -8263020360039770232
+    second: Girl NPC idle front_11
+  - first:
+      213: -8654583440411384123
+    second: Girl NPC idle front_12
+  - first:
+      213: -4309610209509208647
+    second: Girl NPC idle front_13
+  - first:
+      213: -7720747151941055291
+    second: Girl NPC idle front_14
+  - first:
+      213: 704027660898100563
+    second: Girl NPC idle front_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Girl NPC idle front_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 98
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69b289c7bcff33b0800000000000000
+      internalID: -5530423951097677462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 98
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6bba03fb5c8c9d0800000000000000
+      internalID: -2753733747191073028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 98
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423338bab61319630800000000000000
+      internalID: 3931978288179917604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 98
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287a540d38d47adf0800000000000000
+      internalID: -169081232472823934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8244aef535c13b600800000000000000
+      internalID: 482760729475826728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 66
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d1e79ad51b5a070800000000000000
+      internalID: 8117088919238876441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 66
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a2ec27f45e25400800000000000000
+      internalID: 311563453633276485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 66
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f703f0c3dff02f900800000000000000
+      internalID: 716652871014101119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20551d12fced20e0800000000000000
+      internalID: -2292916110647537619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 34
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab9f82a863ee13d0800000000000000
+      internalID: -3233897443862013016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449f70fa40a731900800000000000000
+      internalID: 654000531433847108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 34
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887520c03cad35d80800000000000000
+      internalID: -8263020360039770232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c62d43073eb4e780800000000000000
+      internalID: -8654583440411384123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd8ec509503134c0800000000000000
+      internalID: -4309610209509208647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccc1ff1f556ad490800000000000000
+      internalID: -7720747151941055291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl NPC idle front_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35561ef6d6535c900800000000000000
+      internalID: 704027660898100563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Girl NPC idle front_0: -5530423951097677462
+      Girl NPC idle front_1: -2753733747191073028
+      Girl NPC idle front_10: 654000531433847108
+      Girl NPC idle front_11: -8263020360039770232
+      Girl NPC idle front_12: -8654583440411384123
+      Girl NPC idle front_13: -4309610209509208647
+      Girl NPC idle front_14: -7720747151941055291
+      Girl NPC idle front_15: 704027660898100563
+      Girl NPC idle front_2: 3931978288179917604
+      Girl NPC idle front_3: -169081232472823934
+      Girl NPC idle front_4: 482760729475826728
+      Girl NPC idle front_5: 8117088919238876441
+      Girl NPC idle front_6: 311563453633276485
+      Girl NPC idle front_7: 716652871014101119
+      Girl NPC idle front_8: -2292916110647537619
+      Girl NPC idle front_9: -3233897443862013016
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
