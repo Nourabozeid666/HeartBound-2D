@@ -38918,12 +38918,12 @@ Transform:
   m_GameObject: {fileID: 363707684}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6227857, y: -7.6724, z: 0}
-  m_LocalScale: {x: 2.5109062, y: 2.0293207, z: 1}
+  m_LocalPosition: {x: -0.029999984, y: 0.76504886, z: 0}
+  m_LocalScale: {x: 1.1207, y: 1.1064999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 980535891}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1755986875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &412565884
 GameObject:
@@ -108955,6 +108955,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6918144197514810188, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 363707685}
+    - target: {fileID: 6918144197514810188, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shot
+      objectReference: {fileID: 0}
     - target: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.69
@@ -108998,7 +109006,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7153657923101689844, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 363707687}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
 --- !u!1660057539 &9223372036854775807
@@ -109007,7 +109018,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 363707687}
   - {fileID: 7836537947681009846}
   - {fileID: 2047381096}
   - {fileID: 1008607378}
