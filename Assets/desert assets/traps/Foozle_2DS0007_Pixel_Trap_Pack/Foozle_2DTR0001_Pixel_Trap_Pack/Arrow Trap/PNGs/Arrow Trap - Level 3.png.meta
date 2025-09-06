@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 87145325255d09a4e8a6bc07f812458a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2389432160048814285
+    second: Arrow Trap - Level 3_0
+  - first:
+      213: -8953739251757208016
+    second: Arrow Trap - Level 3_1
+  - first:
+      213: 7556090937944983705
+    second: Arrow Trap - Level 3_2
+  - first:
+      213: -6267100809700289276
+    second: Arrow Trap - Level 3_3
+  - first:
+      213: -4100191195822175913
+    second: Arrow Trap - Level 3_4
+  - first:
+      213: -5556506053325421401
+    second: Arrow Trap - Level 3_5
+  - first:
+      213: -454627421678000607
+    second: Arrow Trap - Level 3_6
+  - first:
+      213: 5142248713260763523
+    second: Arrow Trap - Level 3_7
+  - first:
+      213: -7797013647749367026
+    second: Arrow Trap - Level 3_8
+  - first:
+      213: -8691958995323184134
+    second: Arrow Trap - Level 3_9
+  - first:
+      213: 3197277659809910432
+    second: Arrow Trap - Level 3_10
+  - first:
+      213: 1701547031697386331
+    second: Arrow Trap - Level 3_11
+  - first:
+      213: 1084511980043150955
+    second: Arrow Trap - Level 3_12
+  - first:
+      213: -7982738092131633111
+    second: Arrow Trap - Level 3_13
+  - first:
+      213: 7782191235607865620
+    second: Arrow Trap - Level 3_14
+  - first:
+      213: 7418614934807352474
+    second: Arrow Trap - Level 3_15
+  - first:
+      213: -764902162311613364
+    second: Arrow Trap - Level 3_16
+  - first:
+      213: 2769745081000326767
+    second: Arrow Trap - Level 3_17
+  - first:
+      213: -6633973122725796594
+    second: Arrow Trap - Level 3_18
+  - first:
+      213: 4973090728305503972
+    second: Arrow Trap - Level 3_19
+  - first:
+      213: -3298989181621878685
+    second: Arrow Trap - Level 3_20
+  - first:
+      213: -291176880559771325
+    second: Arrow Trap - Level 3_21
+  - first:
+      213: 4483681905252419122
+    second: Arrow Trap - Level 3_22
+  - first:
+      213: -3538949768384675250
+    second: Arrow Trap - Level 3_23
+  - first:
+      213: -2415362852424989734
+    second: Arrow Trap - Level 3_24
+  - first:
+      213: 2862075769546651521
+    second: Arrow Trap - Level 3_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 44
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33765653c1807ded0800000000000000
+      internalID: -2389432160048814285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 44
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e2a87e69dedb380800000000000000
+      internalID: -8953739251757208016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99842c69ca0acd860800000000000000
+      internalID: 7556090937944983705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4055042a409c609a0800000000000000
+      internalID: -6267100809700289276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759c5d5c4d13917c0800000000000000
+      internalID: -4100191195822175913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a40b332f2353e2b0800000000000000
+      internalID: -5556506053325421401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_6
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1262bb9c4c6d0b9f0800000000000000
+      internalID: -454627421678000607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_7
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3890e9cb5ffec5740800000000000000
+      internalID: 5142248713260763523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_8
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bb601d5617bc390800000000000000
+      internalID: -7797013647749367026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_9
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb10818855ff5780800000000000000
+      internalID: -8691958995323184134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_10
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 90
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae034977130f5c20800000000000000
+      internalID: 3197277659809910432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 86
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b61f8920c1d9710800000000000000
+      internalID: 1701547031697386331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_12
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66a02d56e5fc0f00800000000000000
+      internalID: 1084511980043150955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_13
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928b383effd973190800000000000000
+      internalID: -7982738092131633111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_14
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419a09c62b5effb60800000000000000
+      internalID: 7782191235607865620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_15
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 0
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94999a4af634f660800000000000000
+      internalID: 7418614934807352474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_16
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44fc7739858265f0800000000000000
+      internalID: -764902162311613364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_17
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 0
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66f867f97c107620800000000000000
+      internalID: 2769745081000326767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_18
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05a07ad7946fe3a0800000000000000
+      internalID: -6633973122725796594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_19
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 0
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee20783ba7f30540800000000000000
+      internalID: 4973090728305503972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_20
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 0
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360429f61d2a732d0800000000000000
+      internalID: -3298989181621878685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_21
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 0
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341bd6b7b2885fbf0800000000000000
+      internalID: -291176880559771325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_22
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 0
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236ca60ffec393e30800000000000000
+      internalID: 4483681905252419122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_23
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 0
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e420b719fef13eec0800000000000000
+      internalID: -3538949768384675250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_24
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 0
+        width: 44
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3c8896848ea7ed0800000000000000
+      internalID: -2415362852424989734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Trap - Level 3_25
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 0
+        width: 44
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187b41c9fb228b720800000000000000
+      internalID: 2862075769546651521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Arrow Trap - Level 3_0: -2389432160048814285
+      Arrow Trap - Level 3_1: -8953739251757208016
+      Arrow Trap - Level 3_10: 3197277659809910432
+      Arrow Trap - Level 3_11: 1701547031697386331
+      Arrow Trap - Level 3_12: 1084511980043150955
+      Arrow Trap - Level 3_13: -7982738092131633111
+      Arrow Trap - Level 3_14: 7782191235607865620
+      Arrow Trap - Level 3_15: 7418614934807352474
+      Arrow Trap - Level 3_16: -764902162311613364
+      Arrow Trap - Level 3_17: 2769745081000326767
+      Arrow Trap - Level 3_18: -6633973122725796594
+      Arrow Trap - Level 3_19: 4973090728305503972
+      Arrow Trap - Level 3_2: 7556090937944983705
+      Arrow Trap - Level 3_20: -3298989181621878685
+      Arrow Trap - Level 3_21: -291176880559771325
+      Arrow Trap - Level 3_22: 4483681905252419122
+      Arrow Trap - Level 3_23: -3538949768384675250
+      Arrow Trap - Level 3_24: -2415362852424989734
+      Arrow Trap - Level 3_25: 2862075769546651521
+      Arrow Trap - Level 3_3: -6267100809700289276
+      Arrow Trap - Level 3_4: -4100191195822175913
+      Arrow Trap - Level 3_5: -5556506053325421401
+      Arrow Trap - Level 3_6: -454627421678000607
+      Arrow Trap - Level 3_7: 5142248713260763523
+      Arrow Trap - Level 3_8: -7797013647749367026
+      Arrow Trap - Level 3_9: -8691958995323184134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: f5e837a45f916084fbd3e7a937075be7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 738061606092291218
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_0
+  - first:
+      213: 6132933504421065490
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_1
+  - first:
+      213: -7406189461244444398
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_2
+  - first:
+      213: -5446330921995960970
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_3
+  - first:
+      213: 8553387752136422078
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_4
+  - first:
+      213: 7305994499713150491
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_5
+  - first:
+      213: 7437593669322888426
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_6
+  - first:
+      213: -9217050405142228060
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_7
+  - first:
+      213: -5002453309881515420
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_8
+  - first:
+      213: -2519702361260288210
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_9
+  - first:
+      213: 8250268314670365865
+    second: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 261
+        width: 348
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c3c7dce1f1e3a00800000000000000
+      internalID: 738061606092291218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 60
+        width: 385
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae45fa34904a73760800000000000000
+      internalID: 7437593669322888426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 558
+        width: 340
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a390a49d75761080800000000000000
+      internalID: -9217050405142228060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_8
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 119
+        width: 320
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46209030837b39ab0800000000000000
+      internalID: -5002453309881515420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_9
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 100
+        width: 393
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e271e596d08380dd0800000000000000
+      internalID: -2519702361260288210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_10
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 527
+        width: 341
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac76950257de7270800000000000000
+      internalID: 8250268314670365865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 18e6641f1b9bccc48a392728268e2d1c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_0: 738061606092291218
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_1: 6132933504421065490
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_10: 8250268314670365865
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_2: -7406189461244444398
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_3: -5446330921995960970
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_4: 8553387752136422078
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_5: 7305994499713150491
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_6: 7437593669322888426
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_7: -9217050405142228060
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_8: -5002453309881515420
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkne8ebv3mpx0xvs5zy_9: -2519702361260288210
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 6a499072b596f8c448b974a69fe5c80e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7016675662606494106
+    second: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_0
+  - first:
+      213: -4440749048149776735
+    second: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_1
+  - first:
+      213: -4671511165952010628
+    second: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_2
+  - first:
+      213: 4337991941271199484
+    second: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 670
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666163a29a2cf9e90800000000000000
+      internalID: -7016675662606494106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6e060d44a4f52c0800000000000000
+      internalID: -4440749048149776735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 813
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76d82568557b2fb0800000000000000
+      internalID: -4671511165952010628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 955
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe1af9dfa4a33c30800000000000000
+      internalID: 4337991941271199484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_0: -7016675662606494106
+      20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_1: -4440749048149776735
+      20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_2: -4671511165952010628
+      20250902_2232_Pixel Art Altar_remix_01k45ygnc5e44b8hjr25mnfpm5_3: 4337991941271199484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
