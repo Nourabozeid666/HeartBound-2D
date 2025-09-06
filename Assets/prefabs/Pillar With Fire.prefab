@@ -155,6 +155,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5121688647210029787, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121688647210029787, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1873001941
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

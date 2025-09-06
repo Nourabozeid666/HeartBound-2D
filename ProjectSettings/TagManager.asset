@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Spike
-  - Enemy
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -46,8 +44,32 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ground
+    uniqueID: 775069695
+    locked: 0
+  - name: walls
+    uniqueID: 2755914639
+    locked: 0
+  - name: 2ndfloor
+    uniqueID: 875392109
+    locked: 0
+  - name: wallDetails
+    uniqueID: 635566059
+    locked: 0
+  - name: groundDetails
+    uniqueID: 928338107
+    locked: 0
+  - name: hole
+    uniqueID: 263812531
+    locked: 0
+  - name: Elements
+    uniqueID: 3374947939
+    locked: 0
+  - name: fire
+    uniqueID: 1873001941
+    locked: 0
   - name: player
-    uniqueID: 3642463711
+    uniqueID: 4085556529
     locked: 0
   m_RenderingLayers:
   - Default
