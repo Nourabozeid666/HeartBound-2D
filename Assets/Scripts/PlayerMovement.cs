@@ -13,11 +13,6 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
-
-    void Update()
-    {
-        
-    }
     private void FixedUpdate()
     {
         rb.MovePosition ( rb.position + moveInput * Time.fixedDeltaTime * movementSpeed);
@@ -34,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("inputX", moveInput.x);
         animator.SetFloat("inputY", moveInput.y);
-
     }
+    public void Dash(InputAction.CallbackContext context)
+    {
+
+    } 
 }

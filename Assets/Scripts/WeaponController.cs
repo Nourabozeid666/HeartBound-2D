@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    void Start()
+    [SerializeField] GameObject gun;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    void Update()
-    {
-        
+        if (collision.transform.tag == "Player")
+        { 
+            Destroy(this.gameObject);
+            gun.SetActive(true) ;
+        }
     }
 }
