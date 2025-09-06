@@ -404,6 +404,9 @@ GameObject:
   - component: {fileID: 70063778}
   - component: {fileID: 70063781}
   - component: {fileID: 70063782}
+  - component: {fileID: 70063785}
+  - component: {fileID: 70063784}
+  - component: {fileID: 70063783}
   m_Layer: 0
   m_Name: big Demon
   m_TagString: Enemy
@@ -500,7 +503,7 @@ Transform:
   m_GameObject: {fileID: 70063777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.99, y: -7.28, z: 0}
+  m_LocalPosition: {x: -8.59, y: -7.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -569,6 +572,59 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.163227, y: 4.418266}
   m_EdgeRadius: 0
+--- !u!114 &70063783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70063777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f7a9d03e7d584488ca584861fe1b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChasingController
+  MaxDistance: 10
+--- !u!114 &70063784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70063777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c4d562cd8820a4b879b47287e325aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  EnemySpeed: 5
+--- !u!50 &70063785
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70063777}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &91519913
 GameObject:
   m_ObjectHideFlags: 0
@@ -38896,7 +38952,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -652503585
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 960953373, guid: fd3104f54e7684746a62847b73c7dd63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
