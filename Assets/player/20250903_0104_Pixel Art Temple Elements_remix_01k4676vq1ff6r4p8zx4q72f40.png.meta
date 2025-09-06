@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: e452619897f9b724a82fba034f53f128
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8388180616088178351
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_0
+  - first:
+      213: 1093602247889771509
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_1
+  - first:
+      213: -6547355287141719819
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_2
+  - first:
+      213: 7054023540728353004
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_3
+  - first:
+      213: 4154165050138712560
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_4
+  - first:
+      213: -6101275734590501304
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_5
+  - first:
+      213: 979262867240547918
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_6
+  - first:
+      213: 9054204194159582017
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_7
+  - first:
+      213: 4630989940633545349
+    second: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 527
+        width: 93
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1513f321c22379b80800000000000000
+      internalID: -8388180616088178351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 175
+        width: 174
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbd90743714d2f00800000000000000
+      internalID: 1093602247889771509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 47
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ec50b9b0ae35ba0800000000000000
+      internalID: -6101275734590501304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_7
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 175
+        width: 166
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bdbbc4ebef6ad70800000000000000
+      internalID: 9054204194159582017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_8
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 29
+        width: 107
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58aaed1a0d4944040800000000000000
+      internalID: 4630989940633545349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 539
+        width: 142
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8740a9c6984e8c14d9d144e418a3e972
+      internalID: 1401384129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_10
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1
+        width: 345
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343e21f720836a54ebb88ec75ccb63fd
+      internalID: 1424163926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_11
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 539
+        width: 161
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db79b1c74f6af134380346e5089fbeac
+      internalID: 242102530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_12
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 516
+        width: 125
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72374e61f6472dc45a2084e90dcc80e9
+      internalID: -1177830019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_13
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 372
+        width: 189
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda0668a38e23f24ab873e8e83073fe2
+      internalID: -526146928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 375
+        width: 187
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d23cc33d295f34d9c369955841097b
+      internalID: 717525069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 329
+        width: 352
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f820a95d030d4184e84e20837cef69eb
+      internalID: -6547355287141719819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 50d4eae38ef1fbb4187129ec7e63f48f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_0: -8388180616088178351
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_1: 1093602247889771509
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_10: 1424163926
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_11: 242102530
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_12: -1177830019
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_13: -526146928
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_14: 717525069
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_2: -6547355287141719819
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_3: 7054023540728353004
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_4: 4154165050138712560
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_5: -6101275734590501304
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_6: 979262867240547918
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_7: 9054204194159582017
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_8: 4630989940633545349
+      20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_9: 1401384129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
