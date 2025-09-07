@@ -5,7 +5,7 @@ public class Gun : MonoBehaviour
     [SerializeField] float offset=-90;
     [SerializeField] GameObject bullets;
     [SerializeField] Transform shotPoint;
-
+    [SerializeField] GameObject gun;
     void Update()
     {
         //“depth”:Calculates how far the gun is in front of the camera along the camera’s view axis.
@@ -20,6 +20,9 @@ public class Gun : MonoBehaviour
     }
     public void Shot()
     {
-        Instantiate(bullets,shotPoint.position,shotPoint.rotation);
+        if (gun.activeInHierarchy)
+        {
+            Instantiate(bullets, shotPoint.position, shotPoint.rotation);
+        }
     }
 }

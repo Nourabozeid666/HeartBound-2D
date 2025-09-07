@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 406701dd3dbe87845983dca656f71a97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4426682444605624865
+    second: heart_counter-Sheet_0
+  - first:
+      213: -5536658556051927292
+    second: heart_counter-Sheet_1
+  - first:
+      213: -6723046731458720053
+    second: heart_counter-Sheet_2
+  - first:
+      213: 841722451882217464
+    second: heart_counter-Sheet_3
+  - first:
+      213: -1754951633449237228
+    second: heart_counter-Sheet_4
+  - first:
+      213: 6955716358934570279
+    second: heart_counter-Sheet_5
+  - first:
+      213: 8140600833696832599
+    second: heart_counter-Sheet_6
+  - first:
+      213: 4047654678713357496
+    second: heart_counter-Sheet_7
+  - first:
+      213: 7692532376127300705
+    second: heart_counter-Sheet_8
+  - first:
+      213: 2542209835942499983
+    second: heart_counter-Sheet_9
+  - first:
+      213: -6006323302236414692
+    second: heart_counter-Sheet_10
+  - first:
+      213: -1084796528347615594
+    second: heart_counter-Sheet_11
+  - first:
+      213: -3860257381130910126
+    second: heart_counter-Sheet_12
+  - first:
+      213: -7011328319068360992
+    second: heart_counter-Sheet_13
+  - first:
+      213: -655579703478460567
+    second: heart_counter-Sheet_14
+  - first:
+      213: 1214892179953650446
+    second: heart_counter-Sheet_15
+  - first:
+      213: 6557774756693893066
+    second: heart_counter-Sheet_16
+  - first:
+      213: 3214279572235678559
+    second: heart_counter-Sheet_17
+  - first:
+      213: -3638537878647505988
+    second: heart_counter-Sheet_18
+  - first:
+      213: 7916927037724602453
+    second: heart_counter-Sheet_19
+  - first:
+      213: -4295549773684995459
+    second: heart_counter-Sheet_20
+  - first:
+      213: -1849484644451351361
+    second: heart_counter-Sheet_21
+  - first:
+      213: 2738926029275371721
+    second: heart_counter-Sheet_22
+  - first:
+      213: -5630736273673891817
+    second: heart_counter-Sheet_23
+  - first:
+      213: -2306348318914185287
+    second: heart_counter-Sheet_24
+  - first:
+      213: -2022800648529310965
+    second: heart_counter-Sheet_25
+  - first:
+      213: -29875528124084424
+    second: heart_counter-Sheet_26
+  - first:
+      213: 619598589115204310
+    second: heart_counter-Sheet_27
+  - first:
+      213: -30012155745590591
+    second: heart_counter-Sheet_28
+  - first:
+      213: -3142627654275673360
+    second: heart_counter-Sheet_29
+  - first:
+      213: -2077818504833863914
+    second: heart_counter-Sheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heart_counter-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdde2db25c34192c0800000000000000
+      internalID: -4426682444605624865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 927
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fc5e3b066d923b0800000000000000
+      internalID: -5536658556051927292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 895
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce4d033e90f2b2a0800000000000000
+      internalID: -6723046731458720053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 863
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff09ef3c166eab00800000000000000
+      internalID: 841722451882217464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415444a99c825a7e0800000000000000
+      internalID: -1754951633449237228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 799
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7252bacec2ba78060800000000000000
+      internalID: 6955716358934570279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c9fb6d35939f070800000000000000
+      internalID: 8140600833696832599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b458222c782c2830800000000000000
+      internalID: 4047654678713357496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1646246707d51ca60800000000000000
+      internalID: 7692532376127300705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 671
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f865bd7606eb74320800000000000000
+      internalID: 2542209835942499983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d1c0c87c045aca0800000000000000
+      internalID: -6006323302236414692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e63421e4702f0f0800000000000000
+      internalID: -1084796528347615594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256cc184d5c9d6ac0800000000000000
+      internalID: -3860257381130910126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee2b4a9a02c2be90800000000000000
+      internalID: -7011328319068360992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fd53cabb9e6e6f0800000000000000
+      internalID: -655579703478460567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b898a300a2cd010800000000000000
+      internalID: 1214892179953650446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf53c98565e10b50800000000000000
+      internalID: 6557774756693893066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53f6efad3a6b9c20800000000000000
+      internalID: 3214279572235678559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb7961c311518dc0800000000000000
+      internalID: -3638537878647505988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550b244f1339edd60800000000000000
+      internalID: 7916927037724602453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a0f785d342364c0800000000000000
+      internalID: -4295549773684995459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb400fdc38f4556e0800000000000000
+      internalID: -1849484644451351361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8970156be920620800000000000000
+      internalID: 2738926029275371721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710d2c7213b9bd1b0800000000000000
+      internalID: -5630736273673891817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7fcca6c643effd0800000000000000
+      internalID: -2306348318914185287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b0bf407819de3e0800000000000000
+      internalID: -2022800648529310965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fcfae8d5cd59ff0800000000000000
+      internalID: -29875528124084424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d28b8f42a1499800800000000000000
+      internalID: 619598589115204310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c227d57a10659ff0800000000000000
+      internalID: -30012155745590591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 179
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2549d7cc42364d0800000000000000
+      internalID: -3142627654275673360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_counter-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 179
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fe4af141b1a23e0800000000000000
+      internalID: -2077818504833863914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heart_counter-Sheet_0: -4426682444605624865
+      heart_counter-Sheet_1: -5536658556051927292
+      heart_counter-Sheet_10: -6006323302236414692
+      heart_counter-Sheet_11: -1084796528347615594
+      heart_counter-Sheet_12: -3860257381130910126
+      heart_counter-Sheet_13: -7011328319068360992
+      heart_counter-Sheet_14: -655579703478460567
+      heart_counter-Sheet_15: 1214892179953650446
+      heart_counter-Sheet_16: 6557774756693893066
+      heart_counter-Sheet_17: 3214279572235678559
+      heart_counter-Sheet_18: -3638537878647505988
+      heart_counter-Sheet_19: 7916927037724602453
+      heart_counter-Sheet_2: -6723046731458720053
+      heart_counter-Sheet_20: -4295549773684995459
+      heart_counter-Sheet_21: -1849484644451351361
+      heart_counter-Sheet_22: 2738926029275371721
+      heart_counter-Sheet_23: -5630736273673891817
+      heart_counter-Sheet_24: -2306348318914185287
+      heart_counter-Sheet_25: -2022800648529310965
+      heart_counter-Sheet_26: -29875528124084424
+      heart_counter-Sheet_27: 619598589115204310
+      heart_counter-Sheet_28: -30012155745590591
+      heart_counter-Sheet_29: -3142627654275673360
+      heart_counter-Sheet_3: 841722451882217464
+      heart_counter-Sheet_30: -2077818504833863914
+      heart_counter-Sheet_4: -1754951633449237228
+      heart_counter-Sheet_5: 6955716358934570279
+      heart_counter-Sheet_6: 8140600833696832599
+      heart_counter-Sheet_7: 4047654678713357496
+      heart_counter-Sheet_8: 7692532376127300705
+      heart_counter-Sheet_9: 2542209835942499983
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
