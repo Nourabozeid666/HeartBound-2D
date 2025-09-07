@@ -55,6 +55,7 @@ public class EnemyHealth : MonoBehaviour
     IEnumerator DeathCleanup()
     {
         yield return new WaitForSeconds(1f);
-        Destroy(this.gameObject);
+        Destroy(transform.parent.gameObject);
+
     }
 }
