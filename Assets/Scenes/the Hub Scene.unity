@@ -39458,7 +39458,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000004b7aa6f4df951bd9
+  m_ApplyToSortingLayers: 000000004b7aa6f45980adacff3cf5f9d32a530895febfc031ce9a1a
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -40111,18 +40111,18 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1061159275
+  m_SortingLayer: 9
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3531587522566827436, guid: 661526878beb15c4892dacdd035a9ff3, type: 3}
+  m_Sprite: {fileID: 2067954438553292767, guid: 778abb34826d69141bc45c5f7f6932a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.86, y: 1.5}
+  m_Size: {x: 0.9375, y: 1.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &728742855
@@ -40193,8 +40193,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.86, y: 1.5}
-    newSize: {x: 1.86, y: 1.5}
+    oldSize: {x: 0.9375, y: 1.25}
+    newSize: {x: 0.9375, y: 1.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -109010,6 +109010,14 @@ PrefabInstance:
     - target: {fileID: 3906446410309438068, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253171557927565889, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253171557927565889, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -209410767
       objectReference: {fileID: 0}
     - target: {fileID: 6918144197514810188, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
