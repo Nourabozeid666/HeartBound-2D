@@ -70,8 +70,11 @@ TagManager:
   - name: fire
     uniqueID: 1873001941
     locked: 0
-  - name: player
-    uniqueID: 4085556529
+  - name: collision
+    uniqueID: 2864856699
+    locked: 0
+  - name: playerLayer
+    uniqueID: 3529842303
     locked: 0
   - name: walkBehind
     uniqueID: 626812855

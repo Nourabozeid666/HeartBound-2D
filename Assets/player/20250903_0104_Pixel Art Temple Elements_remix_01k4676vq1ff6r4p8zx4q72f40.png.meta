@@ -328,7 +328,7 @@ TextureImporter:
         x: 1124
         y: 372
         width: 189
-        height: 625
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,9 +369,9 @@ TextureImporter:
       name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_2
       rect:
         serializedVersion: 2
-        x: 591
+        x: 646
         y: 329
-        width: 352
+        width: 245
         height: 457
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -383,6 +383,50 @@ TextureImporter:
       bones: []
       spriteID: f820a95d030d4184e84e20837cef69eb
       internalID: -6547355287141719819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_3
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 372
+        width: 248
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87a83e5feb695046a30f03fe5e2d56c
+      internalID: 7054023540728353004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250903_0104_Pixel Art Temple Elements_remix_01k4676vq1ff6r4p8zx4q72f40_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 503
+        width: 189
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c735adfba7ec2114d915bf07f082f930
+      internalID: 4154165050138712560
       vertices: []
       indices: 
       edges: []

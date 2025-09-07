@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/the Hub Scene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Pyramid 1.unity
+    guid: ab80db1e5b542c047b311d708ac0b736
+  - enabled: 1
+    path: Assets/Scenes/Pyramid 4.unity
+    guid: 6f66f914a31bc9a42b62d2fedaea63e3
+  - enabled: 1
+    path: Assets/Scenes/Pyramid 2.unity
+    guid: 6a185a660410926469834caeae3e2d56
+  - enabled: 1
+    path: Assets/Scenes/Pyramid 3.unity
+    guid: 3564c78c70a94ee4187f93bfe974d162
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cca97aaf1b2f5c245be85bf8c55ce75f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

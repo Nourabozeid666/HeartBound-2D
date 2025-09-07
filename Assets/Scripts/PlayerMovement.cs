@@ -1,24 +1,29 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    [Header("Move")]
     [SerializeField] float movementSpeed;
     private Animator animator;
     private Vector2 moveInput;
+    private Vector2 lastFacing = Vector2.down;
 
     [Header("Dash")]
-    [SerializeField] float dashSpeed;
+    [SerializeField] float dashSpeed = 20;
     [SerializeField] float dashCooldown = 0.45f;
+    [SerializeField] float dashDuration = 0.15f;
 
-    bool isDashing = false;
+    public bool isDashing { get; private set; }
     bool dashOnCooldown = false;
     private Vector2 dashDirection;
 
     void Awake()
     {
+        isDashing = false;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -34,6 +39,12 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Move(InputAction.CallbackContext context)
     {
+        moveInput = context.ReadValue<Vector2>();
+        if(moveInput.sqrMagnitude > 0.00001f)
+        {
+            lastFacing = moveInput.normalized;
+        }
+
         animator.SetBool("isWalking", true);
         if (context.canceled)
         {
@@ -41,19 +52,24 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("lastInputX", moveInput.x);
             animator.SetFloat("lastInputY", moveInput.y);
         }
-        moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("inputX", moveInput.x);
         animator.SetFloat("inputY", moveInput.y);
     }
     public void Dash(InputAction.CallbackContext context)
     {
         if (isDashing || dashOnCooldown) return;
-        isDashing = true;
+        //Use 'sqrMagnitude' when you're just comparing many vector lengths (e.g., is the player moving? is enemy close enough?).
+        //Use 'magnitude' if you actually need the exact length(e.g., for a UI display or physics effect).
+        dashDirection = (moveInput.sqrMagnitude > 0.001f) ? moveInput.normalized : lastFacing;
         StartCoroutine(dashtRountine());
-        isDashing = false;
     } 
     IEnumerator dashtRountine()
     {
-        yield return new WaitForSeconds(0.4f);
+        isDashing = true;
+        dashOnCooldown = true;
+        yield return new WaitForSeconds(dashDuration);
+        isDashing = false;
+        yield return new WaitForSeconds(dashCooldown);
+        dashOnCooldown = false;
     }
 }
