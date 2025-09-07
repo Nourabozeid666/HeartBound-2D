@@ -16,23 +16,25 @@ public class PlayerState : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-
-        currentHealth -= damage;
-        if (currentHealth < 0)
-            currentHealth = 0;
-        if (lives > 0 && currentHealth == 0)
+        if(!playerMovement.isDashing)
         {
-            currentHealth = health;
-            //lives--;
-           // FindObjectOfType<LevelManager>().RespawnPlayer();
+            currentHealth -= damage;
+            if (currentHealth < 0)
+                currentHealth = 0;
+            if (lives > 0 && currentHealth == 0)
+            {
+                currentHealth = health;
+                //lives--;
+                // FindObjectOfType<LevelManager>().RespawnPlayer();
+            }
+            if (lives == 0 && currentHealth == 0)
+            {
+                StartCoroutine(HandleDeath());
+                Destroy(playerMovement);
+            }
+            Debug.Log("the Player lives : " + lives);
+            Debug.Log("the Player health : " + currentHealth);
         }
-        if (lives == 0 && currentHealth == 0)
-        {
-            StartCoroutine(HandleDeath());
-            Destroy(playerMovement);
-        }
-        Debug.Log("the Player lives : " + lives);
-        Debug.Log("the Player health : " + currentHealth);
     }
     IEnumerator HandleDeath()
     {

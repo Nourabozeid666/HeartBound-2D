@@ -106,12 +106,12 @@ TextureImporter:
       name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 376
         y: 0
-        width: 774
-        height: 1024
+        width: 409
+        height: 291
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -128,12 +128,12 @@ TextureImporter:
       name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_1
       rect:
         serializedVersion: 2
-        x: 807
+        x: 785
         y: 0
-        width: 706
-        height: 1024
+        width: 409
+        height: 175
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,11 +146,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 291
+        width: 409
+        height: 715
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d83ee501e53c849b5e8ffc8faafff9
+      internalID: -80009553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 174
+        width: 409
+        height: 832
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833f4562d5fe18c448e9235c7b313bae
+      internalID: 1909521462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aeacc9043ae897b48afc66be2b2ff449
     internalID: 0
     vertices: []
     indices: 
@@ -162,6 +206,8 @@ TextureImporter:
     nameFileIdTable:
       20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_0: 4857173081803346077
       20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_1: 7134014122016137942
+      20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_2: -80009553
+      20250902_2232_Pixel Art Altar_remix_01k45ygnc1fd08yg1gmay8w8jy_3: 1909521462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
