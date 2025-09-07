@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,14 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Vector2 moveInput;
 
+    [Header("Dash")]
+    [SerializeField] float dashSpeed;
+    [SerializeField] float dashCooldown = 0.45f;
+
+    bool isDashing = false;
+    bool dashOnCooldown = false;
+    private Vector2 dashDirection;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -16,6 +25,12 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition ( rb.position + moveInput * Time.fixedDeltaTime * movementSpeed);
+        if (isDashing)
+        {
+            // Only dash movement while dashing (don’t also apply normal movement this frame)
+            rb.MovePosition(rb.position + dashDirection * dashSpeed * Time.fixedDeltaTime);
+            //return;
+        }
     }
     public void Move(InputAction.CallbackContext context)
     {
@@ -32,6 +47,13 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Dash(InputAction.CallbackContext context)
     {
-
+        if (isDashing || dashOnCooldown) return;
+        isDashing = true;
+        StartCoroutine(dashtRountine());
+        isDashing = false;
     } 
+    IEnumerator dashtRountine()
+    {
+        yield return new WaitForSeconds(0.4f);
+    }
 }
