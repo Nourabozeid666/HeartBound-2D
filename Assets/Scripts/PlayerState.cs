@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerState : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerState : MonoBehaviour
     public int currentHealth;
     [SerializeField] Animator animator;
     [SerializeField] PlayerMovement playerMovement;
+    [SerializeField] PlayerInput playerInput;
 
     private void Awake()
     {
@@ -31,6 +33,7 @@ public class PlayerState : MonoBehaviour
             {
                 StartCoroutine(HandleDeath());
                 Destroy(playerMovement);
+                Destroy(playerInput);
             }
             Debug.Log("the Player lives : " + lives);
             Debug.Log("the Player health : " + currentHealth);

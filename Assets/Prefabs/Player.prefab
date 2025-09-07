@@ -83,8 +83,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -209410767
-  m_SortingLayer: 9
+  m_SortingLayerID: -765124993
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: -5354697982743340735, guid: d34421ca7d1ea7c4187542ddc7fa28b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -167,7 +167,19 @@ MonoBehaviour:
     m_ActionId: 27c5f898-bc57-4ee1-8800-db469aca5fe3
     m_ActionName: 'Player/Crouch[/Keyboard/c]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8323004684991511334}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Dash
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: f1ba0d36-48eb-4cd5-b651-1c94a6531f70
     m_ActionName: 'Player/Jump[/Keyboard/space]'
   - m_PersistentCalls:
@@ -267,6 +279,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   movementSpeed: 10
+  dashSpeed: 25
+  dashCooldown: 0.45
+  dashDuration: 0.15
 --- !u!95 &4353061609659153426
 Animator:
   serializedVersion: 7
@@ -360,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &592952138198495867
 Transform:
   m_ObjectHideFlags: 0
@@ -370,7 +385,7 @@ Transform:
   m_GameObject: {fileID: 7153657923101689844}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.31903872, y: 0.76504886, z: 0}
+  m_LocalPosition: {x: -0.07, y: 0.76504886, z: 0}
   m_LocalScale: {x: 1.1207, y: 1.1064999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -421,8 +436,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -652503585
-  m_SortingLayer: 0
+  m_SortingLayerID: 626812855
+  m_SortingLayer: 11
   m_SortingOrder: 2
   m_Sprite: {fileID: 960953373, guid: fd3104f54e7684746a62847b73c7dd63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -448,8 +463,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gun
   offset: 0
-  bullets: {fileID: 5624524580465994327, guid: 136f05cced7990945962f5644cc0411b, type: 3}
+  bullets: {fileID: 2351297128730839738, guid: 7aee77d0b835c35469786c08d33923a3, type: 3}
   shotPoint: {fileID: 3746707617556106700}
+  gun: {fileID: 7153657923101689844}
 --- !u!1 &7776025447198354226
 GameObject:
   m_ObjectHideFlags: 0
