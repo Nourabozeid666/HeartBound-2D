@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 45f7898ce640b2b448753ffc0eaf2580
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5210301067447764106
+    second: breakable pots (red)_0
+  - first:
+      213: -451628788619286429
+    second: breakable pots (red)_1
+  - first:
+      213: 7456268624836117805
+    second: breakable pots (red)_2
+  - first:
+      213: 5190524341915112829
+    second: breakable pots (red)_3
+  - first:
+      213: 1716283250688841876
+    second: breakable pots (red)_4
+  - first:
+      213: 1687657961993002742
+    second: breakable pots (red)_5
+  - first:
+      213: 329956058766175281
+    second: breakable pots (red)_6
+  - first:
+      213: 6157846121697351110
+    second: breakable pots (red)_7
+  - first:
+      213: 9145260314768260892
+    second: breakable pots (red)_8
+  - first:
+      213: -7872259314630356611
+    second: breakable pots (red)_9
+  - first:
+      213: -4008034811902662251
+    second: breakable pots (red)_10
+  - first:
+      213: 6527834797783726833
+    second: breakable pots (red)_11
+  - first:
+      213: 4548957734019333260
+    second: breakable pots (red)_12
+  - first:
+      213: 6541143879763249385
+    second: breakable pots (red)_13
+  - first:
+      213: 2883797267677365275
+    second: breakable pots (red)_14
+  - first:
+      213: -297833839146651904
+    second: breakable pots (red)_15
+  - first:
+      213: 6667796920310998181
+    second: breakable pots (red)_16
+  - first:
+      213: 6613100359186132848
+    second: breakable pots (red)_17
+  - first:
+      213: -7396042018069558709
+    second: breakable pots (red)_18
+  - first:
+      213: -4952831022343018667
+    second: breakable pots (red)_19
+  - first:
+      213: 3434221528432975845
+    second: breakable pots (red)_20
+  - first:
+      213: -2250552608138601954
+    second: breakable pots (red)_21
+  - first:
+      213: -5965469764267681893
+    second: breakable pots (red)_22
+  - first:
+      213: 3652594478487046261
+    second: breakable pots (red)_23
+  - first:
+      213: -7744174360906637970
+    second: breakable pots (red)_24
+  - first:
+      213: -429266840082462821
+    second: breakable pots (red)_25
+  - first:
+      213: -2966194229292824481
+    second: breakable pots (red)_26
+  - first:
+      213: -8459289672190558592
+    second: breakable pots (red)_27
+  - first:
+      213: -4577787639656939966
+    second: breakable pots (red)_28
+  - first:
+      213: 5340942745066197464
+    second: breakable pots (red)_29
+  - first:
+      213: 6894377444035827963
+    second: breakable pots (red)_30
+  - first:
+      213: 157183341174881967
+    second: breakable pots (red)_31
+  - first:
+      213: -5493042941545582320
+    second: breakable pots (red)_32
+  - first:
+      213: 8213314019523940375
+    second: breakable pots (red)_33
+  - first:
+      213: 1643010960899774783
+    second: breakable pots (red)_34
+  - first:
+      213: -9212532640285784839
+    second: breakable pots (red)_35
+  - first:
+      213: 3297127471675260285
+    second: breakable pots (red)_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: breakable pots (red)_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bffe5d8ca41b7b0800000000000000
+      internalID: -5210301067447764106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 98
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368e104720e7bb9f0800000000000000
+      internalID: -451628788619286429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 107
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d254f3d2fccf97760800000000000000
+      internalID: 7456268624836117805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d755edd6362780840800000000000000
+      internalID: 5190524341915112829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 106
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498d243f58671d710800000000000000
+      internalID: 1716283250688841876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 97
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fed3fe89f3cb6710800000000000000
+      internalID: 1687657961993002742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 100
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cee3a894d349400800000000000000
+      internalID: 329956058766175281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 103
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c599490c60157550800000000000000
+      internalID: 6157846121697351110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 95
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f3d387dcd7aee70800000000000000
+      internalID: 9145260314768260892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 95
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7192b3ccdd10c290800000000000000
+      internalID: -7872259314630356611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5996425f2999068c0800000000000000
+      internalID: -4008034811902662251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 76
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa3552a927879a50800000000000000
+      internalID: 6527834797783726833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cfc7a25f4212f30800000000000000
+      internalID: 4548957734019333260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 74
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e84202c3bfc6ca50800000000000000
+      internalID: 6541143879763249385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14c620065e450820800000000000000
+      internalID: 2883797267677365275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fa29783b1eddbf0800000000000000
+      internalID: -297833839146651904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 67
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4a495b8f5c88c50800000000000000
+      internalID: 6667796920310998181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f2c4d2db376cb50800000000000000
+      internalID: 6613100359186132848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ac91178fafb5990800000000000000
+      internalID: -7396042018069558709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557a5b82d62044bb0800000000000000
+      internalID: -4952831022343018667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 63
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef1f3ae84ec8af20800000000000000
+      internalID: 3434221528432975845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 32
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ad19ba35e64c0e0800000000000000
+      internalID: -2250552608138601954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97dd761bd4663da0800000000000000
+      internalID: -5965469764267681893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 34
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57806ce635f90b230800000000000000
+      internalID: 3652594478487046261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_24
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 50
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dd87bf27a278490800000000000000
+      internalID: -7744174360906637970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 35
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97c7035510fa0af0800000000000000
+      internalID: -429266840082462821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 47
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5800346016f5d6d0800000000000000
+      internalID: -2966194229292824481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e73f4ccd09a9a80800000000000000
+      internalID: -8459289672190558592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ef219556e6870c0800000000000000
+      internalID: -4577787639656939966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 31
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1de5d0127de1a40800000000000000
+      internalID: 5340942745066197464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 32
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf89833e1cfbdaf50800000000000000
+      internalID: 6894377444035827963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae765f7a6d6e2200800000000000000
+      internalID: 157183341174881967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011753d4c8ac4c3b0800000000000000
+      internalID: -5493042941545582320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710d572b59d8bf170800000000000000
+      internalID: 8213314019523940375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39118e83c52dc610800000000000000
+      internalID: 1643010960899774783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4031eaf52862080800000000000000
+      internalID: -9212532640285784839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakable pots (red)_36
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 3
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7db26077ffb1cd20800000000000000
+      internalID: 3297127471675260285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      breakable pots (red)_0: -5210301067447764106
+      breakable pots (red)_1: -451628788619286429
+      breakable pots (red)_10: -4008034811902662251
+      breakable pots (red)_11: 6527834797783726833
+      breakable pots (red)_12: 4548957734019333260
+      breakable pots (red)_13: 6541143879763249385
+      breakable pots (red)_14: 2883797267677365275
+      breakable pots (red)_15: -297833839146651904
+      breakable pots (red)_16: 6667796920310998181
+      breakable pots (red)_17: 6613100359186132848
+      breakable pots (red)_18: -7396042018069558709
+      breakable pots (red)_19: -4952831022343018667
+      breakable pots (red)_2: 7456268624836117805
+      breakable pots (red)_20: 3434221528432975845
+      breakable pots (red)_21: -2250552608138601954
+      breakable pots (red)_22: -5965469764267681893
+      breakable pots (red)_23: 3652594478487046261
+      breakable pots (red)_24: -7744174360906637970
+      breakable pots (red)_25: -429266840082462821
+      breakable pots (red)_26: -2966194229292824481
+      breakable pots (red)_27: -8459289672190558592
+      breakable pots (red)_28: -4577787639656939966
+      breakable pots (red)_29: 5340942745066197464
+      breakable pots (red)_3: 5190524341915112829
+      breakable pots (red)_30: 6894377444035827963
+      breakable pots (red)_31: 157183341174881967
+      breakable pots (red)_32: -5493042941545582320
+      breakable pots (red)_33: 8213314019523940375
+      breakable pots (red)_34: 1643010960899774783
+      breakable pots (red)_35: -9212532640285784839
+      breakable pots (red)_36: 3297127471675260285
+      breakable pots (red)_4: 1716283250688841876
+      breakable pots (red)_5: 1687657961993002742
+      breakable pots (red)_6: 329956058766175281
+      breakable pots (red)_7: 6157846121697351110
+      breakable pots (red)_8: 9145260314768260892
+      breakable pots (red)_9: -7872259314630356611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
