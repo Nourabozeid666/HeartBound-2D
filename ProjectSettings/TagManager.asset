@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Spike
   layers:
   - Default
   - TransparentFX
@@ -70,6 +72,12 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 4085556529
+    locked: 0
+  - name: walkBehind
+    uniqueID: 626812855
+    locked: 0
+  - name: Decor
+    uniqueID: 2268163039
     locked: 0
   m_RenderingLayers:
   - Default

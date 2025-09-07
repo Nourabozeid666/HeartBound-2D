@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] float speed;
     private Animator animator;
     [SerializeField] float BulletDamage;
-
+    bool undestroyedBullet=true;
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -23,6 +23,7 @@ public class Bullet : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         animator.SetBool("active", true);
+        undestroyedBullet = false;
         yield return new WaitForSeconds(0.4f);
         Destroy(gameObject);
     }
@@ -33,7 +34,7 @@ public class Bullet : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy")&&undestroyedBullet)
         {
             EnemyHealth hitEnemy = collision.GetComponent<EnemyHealth>();
             if (hitEnemy != null)

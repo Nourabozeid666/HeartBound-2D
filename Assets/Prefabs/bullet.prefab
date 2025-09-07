@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   bulletDestroyingTime: 0
-  speed: 7
+  speed: 5
   BulletDamage: 15
 --- !u!50 &6301863363315413220
 Rigidbody2D:

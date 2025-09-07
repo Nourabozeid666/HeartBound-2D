@@ -7,7 +7,7 @@ public class ChasingController : MonoBehaviour
     public Vector2 DirToPlayer { get; private set; }
 
 
-    [SerializeField] float MaxDistance = 30;
+    [SerializeField] float MaxDistance = 10;
 
     Transform Player;
 

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: ad61cc0a5c336894d8ae801863859e29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1097548958004882813
+    second: boss_bar3-Sheet_0
+  - first:
+      213: -3307575698814670178
+    second: boss_bar3-Sheet_1
+  - first:
+      213: 3914097810819401669
+    second: boss_bar3-Sheet_2
+  - first:
+      213: -605996395195181297
+    second: boss_bar3-Sheet_3
+  - first:
+      213: -1210485428881081454
+    second: boss_bar3-Sheet_4
+  - first:
+      213: -8017613433721748931
+    second: boss_bar3-Sheet_5
+  - first:
+      213: -1364111224321802586
+    second: boss_bar3-Sheet_6
+  - first:
+      213: 160465654677589055
+    second: boss_bar3-Sheet_7
+  - first:
+      213: -3177179985529399554
+    second: boss_bar3-Sheet_8
+  - first:
+      213: -3878913430456535508
+    second: boss_bar3-Sheet_9
+  - first:
+      213: 8051546449401276620
+    second: boss_bar3-Sheet_10
+  - first:
+      213: 7256841746819044465
+    second: boss_bar3-Sheet_11
+  - first:
+      213: 318983074698518403
+    second: boss_bar3-Sheet_12
+  - first:
+      213: 7450101046213838380
+    second: boss_bar3-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 417
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d2b7556f64b3f00800000000000000
+      internalID: 1097548958004882813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 387
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9aef6c1d612912d0800000000000000
+      internalID: -3307575698814670178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 356
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7460e983ba15630800000000000000
+      internalID: 3914097810819401669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 329
+        width: 208
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0759314d711797f0800000000000000
+      internalID: -605996395195181297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 297
+        width: 272
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bb1c57aed733fe0800000000000000
+      internalID: -1210485428881081454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 265
+        width: 304
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d328d98af07bbb090800000000000000
+      internalID: -8017613433721748931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 233
+        width: 354
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aefc20a114b11de0800000000000000
+      internalID: -1364111224321802586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 201
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c45b9a9a61a3200800000000000000
+      internalID: 160465654677589055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 169
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef61a07f2a368e3d0800000000000000
+      internalID: -3177179985529399554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26752f49c45b2ac0800000000000000
+      internalID: -3878913430456535508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 105
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8ee1936d6dcbf60800000000000000
+      internalID: 8051546449401276620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174df5ece1b75b460800000000000000
+      internalID: 7256841746819044465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f54c89a614d6400800000000000000
+      internalID: 318983074698518403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_bar3-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 368
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c268750ed63146760800000000000000
+      internalID: 7450101046213838380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_bar3-Sheet_0: 1097548958004882813
+      boss_bar3-Sheet_1: -3307575698814670178
+      boss_bar3-Sheet_10: 8051546449401276620
+      boss_bar3-Sheet_11: 7256841746819044465
+      boss_bar3-Sheet_12: 318983074698518403
+      boss_bar3-Sheet_13: 7450101046213838380
+      boss_bar3-Sheet_2: 3914097810819401669
+      boss_bar3-Sheet_3: -605996395195181297
+      boss_bar3-Sheet_4: -1210485428881081454
+      boss_bar3-Sheet_5: -8017613433721748931
+      boss_bar3-Sheet_6: -1364111224321802586
+      boss_bar3-Sheet_7: 160465654677589055
+      boss_bar3-Sheet_8: -3177179985529399554
+      boss_bar3-Sheet_9: -3878913430456535508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
