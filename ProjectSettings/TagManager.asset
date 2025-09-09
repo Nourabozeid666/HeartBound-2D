@@ -40,38 +40,47 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: ground-walls
     uniqueID: 4104550987
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: ground
     uniqueID: 775069695
     locked: 0
-  - name: walkInfron
-    uniqueID: 1508512495
+  - name: walls
+    uniqueID: 2755914639
     locked: 0
   - name: 2ndfloor
     uniqueID: 875392109
     locked: 0
-  - name: player
-    uniqueID: 4085556529
+  - name: wallDetails
+    uniqueID: 635566059
     locked: 0
-  - name: colision
-    uniqueID: 2755914639
-    locked: 0
-  - name: walkBehind
-    uniqueID: 626812855
-    locked: 0
-  - name: decor
-    uniqueID: 3374947939
+  - name: groundDetails
+    uniqueID: 928338107
     locked: 0
   - name: hole
     uniqueID: 263812531
     locked: 0
+  - name: Elements
+    uniqueID: 3374947939
+    locked: 0
   - name: fire
     uniqueID: 1873001941
+    locked: 0
+  - name: collision
+    uniqueID: 2864856699
+    locked: 0
+  - name: playerLayer
+    uniqueID: 3529842303
+    locked: 0
+  - name: walkBehind
+    uniqueID: 626812855
+    locked: 0
+  - name: Decor
+    uniqueID: 2268163039
     locked: 0
   m_RenderingLayers:
   - Default

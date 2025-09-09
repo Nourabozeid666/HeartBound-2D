@@ -261,9 +261,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 94
-        y: 102
+        y: 227
         width: 331
-        height: 296
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,9 +327,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1099
-        y: 101
+        y: 214
         width: 358
-        height: 260
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,6 +362,50 @@ TextureImporter:
       bones: []
       spriteID: e4accabbe7ecbf04590ffdd598e90257
       internalID: 5880121531972376548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkjeembj1bgzmzg40re_2
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 67
+        width: 358
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f5099807570034aa82417910c32fbd
+      internalID: -2961975076634991577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkjeembj1bgzmzg40re_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 58
+        width: 331
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588902c365574a5419ba89323a8a9dcb
+      internalID: 4757188008891625666
       vertices: []
       indices: 
       edges: []

@@ -243,9 +243,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 512
-        y: 33
+        y: 196
         width: 512
-        height: 401
+        height: 238
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,6 +282,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkrfecb16ye88k0xr9f_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4
+        width: 512
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35291f38cfe6804b9271aef30caaff0
+      internalID: 370509015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -304,6 +326,7 @@ TextureImporter:
       20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkrfecb16ye88k0xr9f_3: 161441198835736002
       20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkrfecb16ye88k0xr9f_4: 7674139689798095554
       20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkrfecb16ye88k0xr9f_5: -9216776122941564808
+      20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkrfecb16ye88k0xr9f_6: 370509015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -349,10 +349,10 @@ TextureImporter:
       name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkqfmmbmh8pdk1cq0jr_4
       rect:
         serializedVersion: 2
-        x: 709
-        y: 51
+        x: 706
+        y: 201
         width: 222
-        height: 387
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,6 +385,28 @@ TextureImporter:
       bones: []
       spriteID: 74f444db6f621b300800000000000000
       internalID: 266036694170750791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250902_1901_Mythic Egyptian Altar Sprites_remix_01k45jewkqfmmbmh8pdk1cq0jr_3
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 29
+        width: 222
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f983358f4d1ffc644ad416178c3f04ac
+      internalID: 2927415450939687080
       vertices: []
       indices: 
       edges: []
