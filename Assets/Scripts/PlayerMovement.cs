@@ -66,9 +66,11 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator dashtRountine()
     {
         isDashing = true;
+        animator.SetBool("isDashing", true);
         dashOnCooldown = true;
         yield return new WaitForSeconds(dashDuration);
         isDashing = false;
+        animator.SetBool("isDashing",false);
         yield return new WaitForSeconds(dashCooldown);
         dashOnCooldown = false;
     }

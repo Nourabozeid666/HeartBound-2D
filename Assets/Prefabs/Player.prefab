@@ -32,8 +32,8 @@ Transform:
   m_GameObject: {fileID: 3906446410309438068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.69, y: -8.75, z: 0}
-  m_LocalScale: {x: 2.2404802, y: 1.8339999, z: 1}
+  m_LocalPosition: {x: 2.2011, y: -7.7643, z: 0}
+  m_LocalScale: {x: 6.22339, y: 5.801174, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2115490215412286125}
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingLayerID: -765124993
   m_SortingLayer: 10
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5354697982743340735, guid: d34421ca7d1ea7c4187542ddc7fa28b5, type: 3}
+  m_Sprite: {fileID: 2629151423853186541, guid: 763d1a3bb1aad624da56d7bc6fc4466b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!50 &7792365066452067913
@@ -355,8 +355,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.024390634, y: 0.7368896}
-  m_Size: {x: 0.2912157, y: 1.4737792}
+  m_Offset: {x: 0.025725307, y: -0.038546626}
+  m_Size: {x: 0.13966979, y: 0.5473807}
   m_Direction: 0
 --- !u!1 &4000656715370855398
 GameObject:
@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2115490215412286125
 Transform:
   m_ObjectHideFlags: 0
@@ -385,8 +385,8 @@ Transform:
   m_GameObject: {fileID: 4000656715370855398}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.029999984, y: 0.76504886, z: 0}
-  m_LocalScale: {x: 1.1207, y: 1.1064999, z: 1}
+  m_LocalPosition: {x: 0.019, y: -0.058, z: 0}
+  m_LocalScale: {x: 0.60085225, y: 0.3868733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1130945334856831004}
