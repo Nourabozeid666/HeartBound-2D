@@ -510,6 +510,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -765124993
       objectReference: {fileID: 0}
+    - target: {fileID: 1947372216366950728, guid: 9657c654be4ee7b4ab9acd7fb1d878e8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1004298403}
     - target: {fileID: 2591671886898415739, guid: 9657c654be4ee7b4ab9acd7fb1d878e8, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -554,6 +558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8803584810096522649, guid: 9657c654be4ee7b4ab9acd7fb1d878e8, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 11884137}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
