@@ -15,9 +15,13 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 lastFacing = Vector2.down;
 
     [Header("Dash")]
-    [SerializeField] float dashSpeed = 20;
-    [SerializeField] float dashCooldown = 0.45f;
-    [SerializeField] float dashDuration = 0.15f;
+    [SerializeField] public float dashSpeed = 20;
+    [SerializeField] public float dashCooldown = 0.95f;
+    [SerializeField] public float dashDuration = 0.15f;
+    [SerializeField] float doubleDashCoolDown = 0.5f;
+
+    [Tooltip("Do not touch that from the hierchey")]
+    public int manyDashes=0;
 
     public bool isDashing { get; private set; }
     bool dashOnCooldown = false;
@@ -38,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         {
             // Only dash movement while dashing (don’t also apply normal movement this frame)
             rb.MovePosition(rb.position + dashDirection * dashSpeed * Time.fixedDeltaTime);
-            //return;
+            return;
         }
     }
     public void Move(InputAction.CallbackContext context)
@@ -66,19 +70,40 @@ public class PlayerMovement : MonoBehaviour
         //Use 'magnitude' if you actually need the exact length(e.g., for a UI display or physics effect).
         dashDirection = (moveInput.sqrMagnitude > 0.001f) ? moveInput.normalized : lastFacing;
         StartCoroutine(dashtRountine());
-    } 
+    }
     IEnumerator dashtRountine()
     {
         isDashing = true;
         animator.SetBool("isDashing", true);
-        dashOnCooldown = true;
-        Physics2D.IgnoreLayerCollision(playerLayer, obstacleLayer, true);
+        if (playerLayer >= 0 && obstacleLayer >= 0)
+            Physics2D.IgnoreLayerCollision(playerLayer, obstacleLayer, true);
+
         yield return new WaitForSeconds(dashDuration);
+
         isDashing = false;
-        //enable is for components aand setactive is for gameobjects
-        animator.SetBool("isDashing",false);
-        Physics2D.IgnoreLayerCollision(playerLayer, obstacleLayer, false);
-        yield return new WaitForSeconds(dashCooldown);
-        dashOnCooldown = false;
+        animator.SetBool("isDashing", false);
+
+        if (playerLayer >= 0 && obstacleLayer >= 0)
+            Physics2D.IgnoreLayerCollision(playerLayer, obstacleLayer, false);
+
+        // count how many dashes we've done in this chain
+        manyDashes++;
+        if (dashCooldown>=.3f)
+        {
+            dashOnCooldown = true;
+            yield return new WaitForSeconds(dashCooldown);
+            dashOnCooldown = false;
+        }
+
+        // If we've spent 2 quick dashes, apply the longer penalty before allowing another
+        if (manyDashes >= 2 && dashCooldown < .3f)
+        {
+            dashOnCooldown = true;
+            yield return new WaitForSeconds(doubleDashCoolDown);
+            dashOnCooldown = false;
+            manyDashes = 0; // reset the chain after the penalty
+        }
+        // else: allow a second dash immediately (no global cooldown)
     }
+
 }
