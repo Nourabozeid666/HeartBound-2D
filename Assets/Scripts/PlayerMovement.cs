@@ -6,6 +6,8 @@ using static UnityEngine.UIElements.UxmlAttributeDescription;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    [SerializeField] Collider2D Playercollider;
+
     [Header("Move")]
     [SerializeField] float movementSpeed;
     private Animator animator;
@@ -20,9 +22,11 @@ public class PlayerMovement : MonoBehaviour
     public bool isDashing { get; private set; }
     bool dashOnCooldown = false;
     private Vector2 dashDirection;
-
+    int playerLayer, obstacleLayer;
     void Awake()
     {
+        playerLayer = LayerMask.NameToLayer("player");
+        obstacleLayer = LayerMask.NameToLayer("obstacles"); 
         isDashing = false;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -68,9 +72,12 @@ public class PlayerMovement : MonoBehaviour
         isDashing = true;
         animator.SetBool("isDashing", true);
         dashOnCooldown = true;
+        Physics2D.IgnoreLayerCollision(playerLayer, obstacleLayer, true);
         yield return new WaitForSeconds(dashDuration);
         isDashing = false;
+        //enable is for components aand setactive is for gameobjects
         animator.SetBool("isDashing",false);
+        Physics2D.IgnoreLayerCollision(playerLayer, obstacleLayer, false);
         yield return new WaitForSeconds(dashCooldown);
         dashOnCooldown = false;
     }
