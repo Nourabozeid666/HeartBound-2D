@@ -1,11 +1,17 @@
+using System.Collections;
 using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
     [SerializeField] float offset=-90;
-    [SerializeField] GameObject bullets;
+    [SerializeField] GameObject weakBullets;
+    [SerializeField] GameObject strongBullets;
     [SerializeField] Transform shotPoint;
     [SerializeField] GameObject gun;
+    [SerializeField] float timeBetweenStrongShoots;
+    [SerializeField] float timeBetweenSmallerShoots = 0.09f;
+    [SerializeField] float reloadTime = 0.75f;
+    [SerializeField] int bulletsNumber = 0;
     void Update()
     {
         //“depth”:Calculates how far the gun is in front of the camera along the camera’s view axis.
@@ -18,11 +24,43 @@ public class Gun : MonoBehaviour
         float angle = Mathf.Atan2 (dir.y, dir.x) *Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0,0,angle+offset);
     }
-    public void Shot()
+    public void Attack_1()
     {
         if (gun.activeInHierarchy)
         {
-            Instantiate(bullets, shotPoint.position, shotPoint.rotation);
+            if (bulletsNumber <= 12)
+            {
+                Instantiate(weakBullets, shotPoint.position, shotPoint.rotation);
+                bulletsNumber++;
+                StartCoroutine(Attack_1Cooldown());
+            }
+            else
+            {
+                bulletsNumber = 0;
+                StartCoroutine(Attack_1Cooldown());
+            }
         }
     }
+    public void Attack_2()
+    {
+        if (gun.activeInHierarchy)
+        {
+            Instantiate(strongBullets, shotPoint.position, shotPoint.rotation);
+            StartCoroutine(StrongAttackCooldown());
+        }
+    }
+
+    IEnumerator StrongAttackCooldown()
+    {
+        yield return new WaitForSeconds(timeBetweenStrongShoots);
+    }
+    IEnumerator Attack_1Cooldown()
+    {
+        yield return new WaitForSeconds(timeBetweenStrongShoots);
+    }
+    IEnumerator Attack_1Inbetween()
+    {
+        yield return new WaitForSeconds(timeBetweenSmallerShoots);
+    }
+
 }

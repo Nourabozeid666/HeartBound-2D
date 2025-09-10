@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4353061609659153426}
   - component: {fileID: 6236386436871919077}
   - component: {fileID: 4530683772834570359}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -278,10 +278,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1752f4b7b5d27243a914d5b3aa09e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  Playercollider: {fileID: 4530683772834570359}
   movementSpeed: 10
-  dashSpeed: 25
-  dashCooldown: 0.45
+  dashSpeed: 40
+  dashCooldown: 0.4
   dashDuration: 0.17
+  doubleDashCoolDown: 0.6
+  manyDashes: 0
 --- !u!95 &4353061609659153426
 Animator:
   serializedVersion: 7
@@ -375,7 +378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2115490215412286125
 Transform:
   m_ObjectHideFlags: 0
