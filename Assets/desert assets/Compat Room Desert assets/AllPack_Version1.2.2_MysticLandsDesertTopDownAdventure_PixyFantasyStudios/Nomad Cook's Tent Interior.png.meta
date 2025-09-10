@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b5156f011b18bae418ce6a71dd94a0b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4673568971426840816
+    second: Nomad Cook's Tent Interior_0
+  - first:
+      213: -8953006718212497695
+    second: Nomad Cook's Tent Interior_1
+  - first:
+      213: 671442822829548638
+    second: Nomad Cook's Tent Interior_2
+  - first:
+      213: 9135281470075350025
+    second: Nomad Cook's Tent Interior_3
+  - first:
+      213: -2379483679549138336
+    second: Nomad Cook's Tent Interior_4
+  - first:
+      213: -7827200921754763985
+    second: Nomad Cook's Tent Interior_5
+  - first:
+      213: 6101501188062134602
+    second: Nomad Cook's Tent Interior_6
+  - first:
+      213: -4327360013623301493
+    second: Nomad Cook's Tent Interior_7
+  - first:
+      213: 981434844943926078
+    second: Nomad Cook's Tent Interior_8
+  - first:
+      213: 5567594438491043374
+    second: Nomad Cook's Tent Interior_9
+  - first:
+      213: -3372439580125306032
+    second: Nomad Cook's Tent Interior_10
+  - first:
+      213: 1009504985970265137
+    second: Nomad Cook's Tent Interior_11
+  - first:
+      213: -96684481424268219
+    second: Nomad Cook's Tent Interior_12
+  - first:
+      213: -995597768876460067
+    second: Nomad Cook's Tent Interior_13
+  - first:
+      213: 48693347754464236
+    second: Nomad Cook's Tent Interior_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 142
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f04f27c73adbd040800000000000000
+      internalID: 4673568971426840816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 119
+        width: 82
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee124923d780c380800000000000000
+      internalID: -8953006718212497695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 87
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54adbd90b1715900800000000000000
+      internalID: 671442822829548638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 63
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cac03a81a07ce70800000000000000
+      internalID: 9135281470075350025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 63
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a52a353306afed0800000000000000
+      internalID: -2379483679549138336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d72316b32306390800000000000000
+      internalID: -7827200921754763985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41411fd003eca450800000000000000
+      internalID: 6101501188062134602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 50
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ae0c4bef022f3c0800000000000000
+      internalID: -4327360013623301493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 50
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33c217aac1ce9d00800000000000000
+      internalID: 981434844943926078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26f2b7b4a1144d40800000000000000
+      internalID: 5567594438491043374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053e920e110b231d0800000000000000
+      internalID: -3372439580125306032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 35
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c4eb7af6b720e00800000000000000
+      internalID: 1009504985970265137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 36
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544e965f9f188aef0800000000000000
+      internalID: -96684481424268219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 33
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd772f6aa1dee22f0800000000000000
+      internalID: -995597768876460067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nomad Cook's Tent Interior_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce354df775efca000800000000000000
+      internalID: 48693347754464236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nomad Cook's Tent Interior_0: 4673568971426840816
+      Nomad Cook's Tent Interior_1: -8953006718212497695
+      Nomad Cook's Tent Interior_10: -3372439580125306032
+      Nomad Cook's Tent Interior_11: 1009504985970265137
+      Nomad Cook's Tent Interior_12: -96684481424268219
+      Nomad Cook's Tent Interior_13: -995597768876460067
+      Nomad Cook's Tent Interior_14: 48693347754464236
+      Nomad Cook's Tent Interior_2: 671442822829548638
+      Nomad Cook's Tent Interior_3: 9135281470075350025
+      Nomad Cook's Tent Interior_4: -2379483679549138336
+      Nomad Cook's Tent Interior_5: -7827200921754763985
+      Nomad Cook's Tent Interior_6: 6101501188062134602
+      Nomad Cook's Tent Interior_7: -4327360013623301493
+      Nomad Cook's Tent Interior_8: 981434844943926078
+      Nomad Cook's Tent Interior_9: 5567594438491043374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
