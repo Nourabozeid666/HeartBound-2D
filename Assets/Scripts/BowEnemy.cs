@@ -5,48 +5,42 @@ public class BowEnemy : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] float enemySpeed = 5f;
-    [SerializeField] float stopDis = 6f;    // يقترب حتى هذه المسافة
-    [SerializeField] float retreatDis = 3.5f;  // يهرب لو أقرب من هذه المسافة
+    [SerializeField] float stopDis = 6f;      
+    [SerializeField] float retreatDis = 3.5f;  
 
     [Header("Target")]
     [SerializeField] Transform player;
 
     [Header("Shooting")]
-    [SerializeField] GameObject arrowPrefab;   // Prefab السهم
-    [SerializeField] Transform shootOrigin;    // نقطة خروج السهم (لو فاضي = this.transform)
-    [SerializeField] float fireCooldown = 1.0f;
+    [SerializeField] GameObject arrowPrefab;    
+    [SerializeField] Transform shootOrigin;     
+    [SerializeField] float fireCooldown = 1.0f; 
     [SerializeField] float arrowSpeed = 12f;
     [SerializeField] int arrowDamage = 10;
 
-    Rigidbody2D rb;
-    Animator anim;
-    SpriteRenderer sr;
-    float nextFireTime;
 
-    // Animator params (اختياري)
-    readonly int hashIsWalking = Animator.StringToHash("isWalking");
-    readonly int hashAttack = Animator.StringToHash("Attack");
+    Rigidbody2D rb;
+    float nextFireTime;
+    bool inComfortRange;
+    Animator anim;
+
+    bool driveWalkAnim = true;
+    bool driveShootAnim = true;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        if (!anim) anim = GetComponentInChildren<Animator>(true);
-        sr = GetComponentInChildren<SpriteRenderer>();
+        anim = GetComponentInChildren<Animator>(true);
 
-        if (!shootOrigin) shootOrigin = transform;
         if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
-
-        if (!anim || anim.runtimeAnimatorController == null)
-            Debug.LogWarning("[BowEnemy] Missing Animator/Controller.", this);
     }
 
     void Start()
     {
         if (!player)
         {
-            var go = GameObject.FindGameObjectWithTag("Player");
-            if (go) player = go.transform;
+            var GetPlayer = GameObject.FindGameObjectWithTag("Player");
+            if (GetPlayer) player = GetPlayer.transform;
         }
     }
 
@@ -60,95 +54,75 @@ public class BowEnemy : MonoBehaviour
 
         if (distance > stopDis)
         {
-            // اقترب
             newPos = Vector2.MoveTowards(rb.position, player.position, enemySpeed * Time.fixedDeltaTime);
             isMoving = true;
+            inComfortRange = false;
         }
         else if (distance < retreatDis)
         {
-            // اهرب
             Vector2 away = (rb.position - (Vector2)player.position).normalized;
             newPos = rb.position + away * enemySpeed * Time.fixedDeltaTime;
             isMoving = true;
+            inComfortRange = false;
         }
         else
         {
-            // واقف في المدى المريح → اضرب باستمرار بكولداون
-            TryShootWhileStanding();
+            inComfortRange = true;
+            TryShootOnTimer();
             isMoving = false;
         }
 
         rb.MovePosition(newPos);
 
-        // لف يمين/شمال ناحية اللاعب (اختياري)
-        if (sr)
-        {
-            float dx = player.position.x - transform.position.x;
-            if (Mathf.Abs(dx) > 0.01f) sr.flipX = dx < 0;
-        }
+        UpdateFacing();
 
-        // أنيميشن مشي (لو المتغير موجود)
-        if (anim) SafeSetBool(hashIsWalking, isMoving);
+        if (anim && driveWalkAnim && anim.HasParameterOfType("isWalking", AnimatorControllerParameterType.Bool))
+            anim.SetBool("isWalking", isMoving);
+
+        if (anim && driveShootAnim && anim.HasParameterOfType("isShooting", AnimatorControllerParameterType.Bool))
+            anim.SetBool("isShooting", inComfortRange);
     }
 
-    void TryShootWhileStanding()
+    void UpdateFacing()
     {
-        if (!anim || !arrowPrefab || !player) return;
+        if (!player) return;
 
-        // ماترميش Trigger جديد لو لسه كليب الضرب شغال (منع التداخل)
-        if (IsInAttackAnim()) return;
-
-        if (Time.time >= nextFireTime)
-        {
-            SafeSetTrigger(hashAttack);            // يبدأ كليب bowHolderShot
-            nextFireTime = Time.time + fireCooldown;
-        }
+        int face = (player.position.x >= transform.position.x) ? 1 : -1;
+        var s = transform.localScale;
+        s.x = Mathf.Abs(s.x) * face;
+        transform.localScale = s;
     }
 
-    bool IsInAttackAnim()
-    {
-        if (!anim) return false;
-        var st = anim.GetCurrentAnimatorStateInfo(0);
-        // عدّلي الاسم لو كليبك اسمه مختلف
-        return st.IsName("bowHolderShot") || st.tagHash == Animator.StringToHash("Shot");
-    }
-
-    // ===== تُنادى من Animation Event داخل كليب الضرب =====
-    public void Anim_Shoot()
+    void TryShootOnTimer()
     {
         if (!arrowPrefab || !player) return;
+        if (Time.time < nextFireTime) return;
 
-        Vector2 dir = ((Vector2)player.position - (Vector2)shootOrigin.position).normalized;
+        Vector2 origin = shootOrigin ? (Vector2)shootOrigin.position : (Vector2)transform.position;
 
-        GameObject arrow = Instantiate(arrowPrefab, shootOrigin.position, Quaternion.identity);
+        Vector2 dir = ((Vector2)player.position - origin).normalized;
 
-        // وجّه السهم
+        GameObject arrow = Instantiate(arrowPrefab, origin, Quaternion.identity);
         float ang = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.AngleAxis(ang, Vector3.forward);
 
-        // ادّي سرعة
         var rbArrow = arrow.GetComponent<Rigidbody2D>();
-        if (rbArrow) rbArrow.linearVelocity = dir * arrowSpeed;
+        if (rbArrow) rbArrow.linearVelocity = dir * arrowSpeed;  
 
-        // ادّي Damage لو السكربت موجود
         var proj = arrow.GetComponent<Projectile>();
         if (proj) proj.SetDamage(arrowDamage);
-    }
 
-    // Helpers آمنة (ما تشتغلش لو البراميتر مش موجود)
-    void SafeSetBool(int hash, bool v)
-    {
-        if (!anim) return;
-        foreach (var p in anim.parameters)
-            if (p.type == AnimatorControllerParameterType.Bool && p.nameHash == hash)
-            { anim.SetBool(hash, v); return; }
+        nextFireTime = Time.time + fireCooldown;
     }
-    void SafeSetTrigger(int hash)
+}
+
+static class AnimatorParamCheck
+{
+    public static bool HasParameterOfType(this Animator a, string name, AnimatorControllerParameterType type)
     {
-        if (!anim) return;
-        foreach (var p in anim.parameters)
-            if (p.type == AnimatorControllerParameterType.Trigger && p.nameHash == hash)
-            { anim.SetTrigger(hash); return; }
-        Debug.LogWarning("[BowEnemy] Missing Trigger 'Attack' on Animator.", this);
+        if (!a) return false;
+        foreach (var p in a.parameters)
+            if (p.type == type && p.name == name) return true;
+        return false;
     }
 }
