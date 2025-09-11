@@ -37,7 +37,7 @@ AnimationClip:
     - time: 0.5833333
       value: {fileID: 4116411608050698257, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
     - time: 0.6666667
-      value: {fileID: 2696214034221626940, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
+      value: {fileID: 182515998739034355, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -68,7 +68,7 @@ AnimationClip:
     - {fileID: -5351138903708955224, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
     - {fileID: -5895191231709818157, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
     - {fileID: 4116411608050698257, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
-    - {fileID: 2696214034221626940, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
+    - {fileID: 182515998739034355, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -79,7 +79,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -161,6 +161,83 @@ AnimationClip:
     functionName: Anim_Shoot
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 58187889edbfbd14c8f769d05393759c, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: Anim_Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: Anim_Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: Anim_Shoot
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 58187889edbfbd14c8f769d05393759c, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: Anim_Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: Anim_Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: Anim_Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
