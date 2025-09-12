@@ -113990,6 +113990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 850858b241b7d4a459f2cc0f5f2843b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeleeAttackSword
+  shotPoint: {fileID: 7836537947681009847}
+  attackRange: {fileID: 7798814241807824825, guid: 8f6cf5f68ee3cce4289014fbb94c62e5, type: 3}
 --- !u!1 &2135674450
 GameObject:
   m_ObjectHideFlags: 0
@@ -114310,6 +114312,10 @@ PrefabInstance:
     - target: {fileID: 2789709316888272219, guid: 73fb85f60f9b3a74fbf240fde9fad650, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789709316888272219, guid: 73fb85f60f9b3a74fbf240fde9fad650, type: 3}
+      propertyPath: m_TagString
+      value: Sword
       objectReference: {fileID: 0}
     - target: {fileID: 6103422494772461552, guid: 73fb85f60f9b3a74fbf240fde9fad650, type: 3}
       propertyPath: gun
@@ -114777,6 +114783,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2105945136}
   m_SourcePrefab: {fileID: 100100000, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+--- !u!4 &7836537947681009847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1130945334856831004, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+  m_PrefabInstance: {fileID: 7836537947681009846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8086107704676962045
 MonoBehaviour:
   m_ObjectHideFlags: 0

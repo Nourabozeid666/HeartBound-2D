@@ -6,6 +6,9 @@ public class MeleeAttackSword : MonoBehaviour
     Animator animator;
     bool canAttackWeak = true;
     bool canAttackStrong = true;
+    [SerializeField] Transform shotPoint;
+    [SerializeField] GameObject attackRange;
+    public bool isUsingSword;
     enum lockShooting { none, strong, weak }
     lockShooting isLocked = lockShooting.none;
 
@@ -13,18 +16,20 @@ public class MeleeAttackSword : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
+
     public void Attack_1()
-    {
-        if (!canAttackWeak)
+    {  
+        if (!canAttackWeak || !isUsingSword)
             return;
         if (isLocked != lockShooting.none || !canAttackWeak)
             return;
         animator.SetTrigger("usingLightAttack");
+        Instantiate(attackRange, shotPoint.position, shotPoint.rotation);
         StartCoroutine(WeakCooldown());
     }
     public void Attack_2()
     {
-        if (!canAttackStrong)
+        if (!canAttackStrong || !isUsingSword)
             return;
         if (isLocked != lockShooting.none || !canAttackStrong)
             return;
@@ -32,6 +37,7 @@ public class MeleeAttackSword : MonoBehaviour
         StartCoroutine(StrongCooldown());
 
     }
+    
     IEnumerator WeakCooldown()
     {
         isLocked = lockShooting.weak;

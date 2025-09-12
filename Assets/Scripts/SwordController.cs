@@ -1,16 +1,21 @@
 using UnityEngine;
 public class SwordController : MonoBehaviour
 {
-    [SerializeField] Animator playerAnim;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag == "Player")
         {
-            var anim = collision.GetComponentInParent<Animator>();
-            if (anim != null)
+            var playerAnim = collision.GetComponentInParent<Animator>();
+            var playerMelee = playerAnim.GetComponentInParent<MeleeAttackSword>();
+            if (playerAnim != null)
             {
-                anim.SetBool("isHoldingSword", true);
+                playerAnim.SetBool("isHoldingSword", true);
                 Destroy(gameObject);
+            }
+            if (playerMelee != null)
+            {
+                playerMelee.isUsingSword = true;
             }
         }
     }
