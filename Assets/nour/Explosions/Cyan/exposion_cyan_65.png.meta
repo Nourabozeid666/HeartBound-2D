@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 37ebad2f75cc6654991accc8c709d082
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6464802206806595654
+    second: exposion_cyan_65_0
+  - first:
+      213: 3804892196682047070
+    second: exposion_cyan_65_1
+  - first:
+      213: 2968760388136848334
+    second: exposion_cyan_65_2
+  - first:
+      213: -7069075704098281052
+    second: exposion_cyan_65_3
+  - first:
+      213: -9209033374098602282
+    second: exposion_cyan_65_4
+  - first:
+      213: -8918226858149020123
+    second: exposion_cyan_65_5
+  - first:
+      213: -3268424887677440873
+    second: exposion_cyan_65_6
+  - first:
+      213: 4189414783541475679
+    second: exposion_cyan_65_7
+  - first:
+      213: -1260836239691705410
+    second: exposion_cyan_65_8
+  - first:
+      213: -167877556006802946
+    second: exposion_cyan_65_9
+  - first:
+      213: 5391969917395792966
+    second: exposion_cyan_65_10
+  - first:
+      213: -6914652661091103829
+    second: exposion_cyan_65_11
+  - first:
+      213: -5371992450599758051
+    second: exposion_cyan_65_12
+  - first:
+      213: 6742758386804652438
+    second: exposion_cyan_65_13
+  - first:
+      213: -7109113996619277
+    second: exposion_cyan_65_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: exposion_cyan_65_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 67
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6485ed7ea5797b950800000000000000
+      internalID: 6464802206806595654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e93ef2b41bdc430800000000000000
+      internalID: 3804892196682047070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 84
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbc52608d7233920800000000000000
+      internalID: 2968760388136848334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 62
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9a0e6c91995ed90800000000000000
+      internalID: -7069075704098281052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 69
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6c22410f0f23080800000000000000
+      internalID: -9209033374098602282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 68
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52efdad5ce71c3480800000000000000
+      internalID: -8918226858149020123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 59
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ca0faa1e834a2d0800000000000000
+      internalID: -3268424887677440873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5972c59c8ac32a30800000000000000
+      internalID: 4189414783541475679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 55
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb39c35ce1c908ee0800000000000000
+      internalID: -1260836239691705410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9247490449badf0800000000000000
+      internalID: -167877556006802946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644f7fd621024da40800000000000000
+      internalID: 5391969917395792966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab84764a083a00a0800000000000000
+      internalID: -6914652661091103829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17dbe50459d275b0800000000000000
+      internalID: -5371992450599758051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 35
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699f6c33707139d50800000000000000
+      internalID: 6742758386804652438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exposion_cyan_65_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f150996c4eb6eff0800000000000000
+      internalID: -7109113996619277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      exposion_cyan_65_0: 6464802206806595654
+      exposion_cyan_65_1: 3804892196682047070
+      exposion_cyan_65_10: 5391969917395792966
+      exposion_cyan_65_11: -6914652661091103829
+      exposion_cyan_65_12: -5371992450599758051
+      exposion_cyan_65_13: 6742758386804652438
+      exposion_cyan_65_14: -7109113996619277
+      exposion_cyan_65_2: 2968760388136848334
+      exposion_cyan_65_3: -7069075704098281052
+      exposion_cyan_65_4: -9209033374098602282
+      exposion_cyan_65_5: -8918226858149020123
+      exposion_cyan_65_6: -3268424887677440873
+      exposion_cyan_65_7: 4189414783541475679
+      exposion_cyan_65_8: -1260836239691705410
+      exposion_cyan_65_9: -167877556006802946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: f50bf3ddc41ff474ebcafeb0552e6a42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -381541234799078885
+    second: Spellsword sprite sheet idle_0
+  - first:
+      213: -8520780109787244081
+    second: Spellsword sprite sheet idle_1
+  - first:
+      213: -7190339905882108213
+    second: Spellsword sprite sheet idle_2
+  - first:
+      213: -8474076545466391894
+    second: Spellsword sprite sheet idle_3
+  - first:
+      213: -2688774045148884115
+    second: Spellsword sprite sheet idle_4
+  - first:
+      213: 662454534281701724
+    second: Spellsword sprite sheet idle_5
+  - first:
+      213: 5093175865993373237
+    second: Spellsword sprite sheet idle_6
+  - first:
+      213: -622451029905670704
+    second: Spellsword sprite sheet idle_7
+  - first:
+      213: -4741457410047843485
+    second: Spellsword sprite sheet idle_8
+  - first:
+      213: 931345688797729095
+    second: Spellsword sprite sheet idle_9
+  - first:
+      213: -2367334418223959994
+    second: Spellsword sprite sheet idle_10
+  - first:
+      213: -5390143737035590953
+    second: Spellsword sprite sheet idle_11
+  - first:
+      213: 3278922498487425961
+    second: Spellsword sprite sheet idle_12
+  - first:
+      213: -39824692304086510
+    second: Spellsword sprite sheet idle_13
+  - first:
+      213: 8615877559373172708
+    second: Spellsword sprite sheet idle_14
+  - first:
+      213: -7225470301359780962
+    second: Spellsword sprite sheet idle_15
+  - first:
+      213: -6333288401391605156
+    second: Spellsword sprite sheet idle_16
+  - first:
+      213: -6100837749502101127
+    second: Spellsword sprite sheet idle_17
+  - first:
+      213: 4297361718755095674
+    second: Spellsword sprite sheet idle_18
+  - first:
+      213: 3499066172553628387
+    second: Spellsword sprite sheet idle_19
+  - first:
+      213: -1170160693783678858
+    second: Spellsword sprite sheet idle_20
+  - first:
+      213: 2610093203208710283
+    second: Spellsword sprite sheet idle_21
+  - first:
+      213: 9056574231961417264
+    second: Spellsword sprite sheet idle_22
+  - first:
+      213: -2404772791512151496
+    second: Spellsword sprite sheet idle_23
+  - first:
+      213: 5081862439750867894
+    second: Spellsword sprite sheet idle_24
+  - first:
+      213: 6144309298810165898
+    second: Spellsword sprite sheet idle_25
+  - first:
+      213: 6190997541432775255
+    second: Spellsword sprite sheet idle_26
+  - first:
+      213: 5949450344070373403
+    second: Spellsword sprite sheet idle_27
+  - first:
+      213: -2581625812387713760
+    second: Spellsword sprite sheet idle_28
+  - first:
+      213: -6517930506439694248
+    second: Spellsword sprite sheet idle_29
+  - first:
+      213: -2649016471313807861
+    second: Spellsword sprite sheet idle_30
+  - first:
+      213: 6241088525345408331
+    second: Spellsword sprite sheet idle_31
+  - first:
+      213: -1678633028117396527
+    second: Spellsword sprite sheet idle_32
+  - first:
+      213: -3582884412489542428
+    second: Spellsword sprite sheet idle_33
+  - first:
+      213: 4183968384967719609
+    second: Spellsword sprite sheet idle_34
+  - first:
+      213: -2052243945718127587
+    second: Spellsword sprite sheet idle_35
+  - first:
+      213: -5251258022038277946
+    second: Spellsword sprite sheet idle_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1213a8b44e74baf0800000000000000
+      internalID: -381541234799078885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9daea92ab10c980800000000000000
+      internalID: -8520780109787244081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcec49f93f7c63c90800000000000000
+      internalID: -7190339905882108213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2a10c8748066a80800000000000000
+      internalID: -8474076545466391894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d635c9d604e8faad0800000000000000
+      internalID: -2688774045148884115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5925bb93e2813900800000000000000
+      internalID: 662454534281701724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536a02f17789ea640800000000000000
+      internalID: 5093175865993373237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_7
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd7560161c9c57f0800000000000000
+      internalID: -622451029905670704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363647c5b95f23eb0800000000000000
+      internalID: -4741457410047843485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_9
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74151ef28fdccec00800000000000000
+      internalID: 931345688797729095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_10
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6407439a3e9852fd0800000000000000
+      internalID: -2367334418223959994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_11
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d272b154dc5235b0800000000000000
+      internalID: -5390143737035590953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab1160d3a2118d20800000000000000
+      internalID: 3278922498487425961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_13
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21afce147a3827ff0800000000000000
+      internalID: -39824692304086510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_14
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef82bacdfeb19770800000000000000
+      internalID: 8615877559373172708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_15
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bc0580b09f9bb90800000000000000
+      internalID: -7225470301359780962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_16
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aa3fe01c3ab18a0800000000000000
+      internalID: -6333288401391605156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_17
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97932a4f368755ba0800000000000000
+      internalID: -6100837749502101127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_18
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7472cdf6bb43ab30800000000000000
+      internalID: 4297361718755095674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_19
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea05a4252e2f8030800000000000000
+      internalID: 3499066172553628387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_20
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67036ec7c01c2cfe0800000000000000
+      internalID: -1170160693783678858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_21
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88aaef70f9e83420800000000000000
+      internalID: 2610093203208710283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_22
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036340ab74a6fad70800000000000000
+      internalID: 9056574231961417264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_23
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ac46c13e780aed0800000000000000
+      internalID: -2404772791512151496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_24
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb10cec6f6668640800000000000000
+      internalID: 5081862439750867894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_25
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a95b9d0c8f44550800000000000000
+      internalID: 6144309298810165898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_26
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752da6e6677dae550800000000000000
+      internalID: 6190997541432775255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_27
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10e32ff091b09250800000000000000
+      internalID: 5949450344070373403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_28
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02da6ad60093c2cd0800000000000000
+      internalID: -2581625812387713760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_29
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858eaf4ecb8ab85a0800000000000000
+      internalID: -6517930506439694248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_30
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b068e2fed8dcc3bd0800000000000000
+      internalID: -2649016471313807861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_31
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45caf472fccc9650800000000000000
+      internalID: 6241088525345408331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_32
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d303da972c44b8e0800000000000000
+      internalID: -1678633028117396527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_33
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4d64a1c99074ec0800000000000000
+      internalID: -3582884412489542428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_34
+      rect:
+        serializedVersion: 2
+        x: 4264
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba37791411701a30800000000000000
+      internalID: 4183968384967719609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_35
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14660f2107f483e0800000000000000
+      internalID: -2052243945718127587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet idle_36
+      rect:
+        serializedVersion: 2
+        x: 4512
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0fc7cb6a8cf17b0800000000000000
+      internalID: -5251258022038277946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spellsword sprite sheet idle_0: -381541234799078885
+      Spellsword sprite sheet idle_1: -8520780109787244081
+      Spellsword sprite sheet idle_10: -2367334418223959994
+      Spellsword sprite sheet idle_11: -5390143737035590953
+      Spellsword sprite sheet idle_12: 3278922498487425961
+      Spellsword sprite sheet idle_13: -39824692304086510
+      Spellsword sprite sheet idle_14: 8615877559373172708
+      Spellsword sprite sheet idle_15: -7225470301359780962
+      Spellsword sprite sheet idle_16: -6333288401391605156
+      Spellsword sprite sheet idle_17: -6100837749502101127
+      Spellsword sprite sheet idle_18: 4297361718755095674
+      Spellsword sprite sheet idle_19: 3499066172553628387
+      Spellsword sprite sheet idle_2: -7190339905882108213
+      Spellsword sprite sheet idle_20: -1170160693783678858
+      Spellsword sprite sheet idle_21: 2610093203208710283
+      Spellsword sprite sheet idle_22: 9056574231961417264
+      Spellsword sprite sheet idle_23: -2404772791512151496
+      Spellsword sprite sheet idle_24: 5081862439750867894
+      Spellsword sprite sheet idle_25: 6144309298810165898
+      Spellsword sprite sheet idle_26: 6190997541432775255
+      Spellsword sprite sheet idle_27: 5949450344070373403
+      Spellsword sprite sheet idle_28: -2581625812387713760
+      Spellsword sprite sheet idle_29: -6517930506439694248
+      Spellsword sprite sheet idle_3: -8474076545466391894
+      Spellsword sprite sheet idle_30: -2649016471313807861
+      Spellsword sprite sheet idle_31: 6241088525345408331
+      Spellsword sprite sheet idle_32: -1678633028117396527
+      Spellsword sprite sheet idle_33: -3582884412489542428
+      Spellsword sprite sheet idle_34: 4183968384967719609
+      Spellsword sprite sheet idle_35: -2052243945718127587
+      Spellsword sprite sheet idle_36: -5251258022038277946
+      Spellsword sprite sheet idle_4: -2688774045148884115
+      Spellsword sprite sheet idle_5: 662454534281701724
+      Spellsword sprite sheet idle_6: 5093175865993373237
+      Spellsword sprite sheet idle_7: -622451029905670704
+      Spellsword sprite sheet idle_8: -4741457410047843485
+      Spellsword sprite sheet idle_9: 931345688797729095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

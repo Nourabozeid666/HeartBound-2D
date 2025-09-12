@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 971d590041cc80f4b9ddba5e311cd600
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7447078562285705709
+    second: Spellsword sprite sheet enchant_0
+  - first:
+      213: 6444824919020296255
+    second: Spellsword sprite sheet enchant_1
+  - first:
+      213: -1603410443965212798
+    second: Spellsword sprite sheet enchant_2
+  - first:
+      213: -4349880441838270182
+    second: Spellsword sprite sheet enchant_3
+  - first:
+      213: -3632312629014898489
+    second: Spellsword sprite sheet enchant_4
+  - first:
+      213: 4820383860703671924
+    second: Spellsword sprite sheet enchant_5
+  - first:
+      213: -6053019262683791829
+    second: Spellsword sprite sheet enchant_6
+  - first:
+      213: -2599580411834609705
+    second: Spellsword sprite sheet enchant_7
+  - first:
+      213: -1369965444288585572
+    second: Spellsword sprite sheet enchant_8
+  - first:
+      213: -6286790325973302497
+    second: Spellsword sprite sheet enchant_9
+  - first:
+      213: -2847272816986116342
+    second: Spellsword sprite sheet enchant_10
+  - first:
+      213: -511500199824111905
+    second: Spellsword sprite sheet enchant_11
+  - first:
+      213: 6529871514057997759
+    second: Spellsword sprite sheet enchant_12
+  - first:
+      213: 5443260297768141455
+    second: Spellsword sprite sheet enchant_13
+  - first:
+      213: -5098553771059320517
+    second: Spellsword sprite sheet enchant_14
+  - first:
+      213: 5139500511868033427
+    second: Spellsword sprite sheet enchant_15
+  - first:
+      213: -5656445538051950160
+    second: Spellsword sprite sheet enchant_16
+  - first:
+      213: -1309511373700983229
+    second: Spellsword sprite sheet enchant_17
+  - first:
+      213: 1956755357966333501
+    second: Spellsword sprite sheet enchant_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_0
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 26
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9577ffe76595760800000000000000
+      internalID: 7447078562285705709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 26
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f385ac12e1e907950800000000000000
+      internalID: 6444824919020296255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 27
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2875d4a42ba8fb9e0800000000000000
+      internalID: -1603410443965212798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 25
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfc88b736f6cebd0800000000000000
+      internalID: -2599580411834609705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_8
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 26
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c906e92dfa7ecfce0800000000000000
+      internalID: -1369965444288585572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 25
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13cff2e185d0c8a0800000000000000
+      internalID: -6286790325973302497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_10
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 26
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0faaec55747c78d0800000000000000
+      internalID: -2847272816986116342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_11
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 26
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd641fe3749c6e8f0800000000000000
+      internalID: -511500199824111905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet enchant_12
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 26
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd7e589b83ce9a50800000000000000
+      internalID: 6529871514057997759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3072b7dc2cc1f984ab21c4f343b50c94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spellsword sprite sheet enchant_0: 7447078562285705709
+      Spellsword sprite sheet enchant_1: 6444824919020296255
+      Spellsword sprite sheet enchant_10: -2847272816986116342
+      Spellsword sprite sheet enchant_11: -511500199824111905
+      Spellsword sprite sheet enchant_12: 6529871514057997759
+      Spellsword sprite sheet enchant_13: 5443260297768141455
+      Spellsword sprite sheet enchant_14: -5098553771059320517
+      Spellsword sprite sheet enchant_15: 5139500511868033427
+      Spellsword sprite sheet enchant_16: -5656445538051950160
+      Spellsword sprite sheet enchant_17: -1309511373700983229
+      Spellsword sprite sheet enchant_18: 1956755357966333501
+      Spellsword sprite sheet enchant_2: -1603410443965212798
+      Spellsword sprite sheet enchant_3: -4349880441838270182
+      Spellsword sprite sheet enchant_4: -3632312629014898489
+      Spellsword sprite sheet enchant_5: 4820383860703671924
+      Spellsword sprite sheet enchant_6: -6053019262683791829
+      Spellsword sprite sheet enchant_7: -2599580411834609705
+      Spellsword sprite sheet enchant_8: -1369965444288585572
+      Spellsword sprite sheet enchant_9: -6286790325973302497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

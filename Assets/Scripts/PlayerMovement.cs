@@ -48,20 +48,24 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-        if(moveInput.sqrMagnitude > 0.00001f)
-        {
-            lastFacing = moveInput.normalized;
-        }
 
-        animator.SetBool("isWalking", true);
+        if (context.performed || context.started)
+        {
+            if (moveInput.sqrMagnitude > 0.00001f)
+                lastFacing = moveInput.normalized;
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("inputX", moveInput.x);
+            animator.SetFloat("inputY", moveInput.y);
+            return;
+        }
         if (context.canceled)
         {
             animator.SetBool("isWalking", false);
-            animator.SetFloat("lastInputX", moveInput.x);
-            animator.SetFloat("lastInputY", moveInput.y);
+            animator.SetFloat("lastInputX", lastFacing.x);
+            animator.SetFloat("lastInputY", lastFacing.y);
+            animator.SetFloat("inputX", 0f);
+            animator.SetFloat("inputY", 0f);
         }
-        animator.SetFloat("inputX", moveInput.x);
-        animator.SetFloat("inputY", moveInput.y);
     }
     public void Dash(InputAction.CallbackContext context)
     {

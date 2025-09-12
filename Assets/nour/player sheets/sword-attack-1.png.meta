@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: eabab7045d6c980408dc5dbb3614c890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7492715974378572489
+    second: Spellsword sprite sheet attack 1_0
+  - first:
+      213: -6550430085924191395
+    second: Spellsword sprite sheet attack 1_1
+  - first:
+      213: 6130848689243105815
+    second: Spellsword sprite sheet attack 1_2
+  - first:
+      213: -2070968828137165413
+    second: Spellsword sprite sheet attack 1_3
+  - first:
+      213: -7969829321773543502
+    second: Spellsword sprite sheet attack 1_4
+  - first:
+      213: -6340592770755818352
+    second: Spellsword sprite sheet attack 1_5
+  - first:
+      213: -2745031012891395034
+    second: Spellsword sprite sheet attack 1_6
+  - first:
+      213: -7124372437868199383
+    second: Spellsword sprite sheet attack 1_7
+  - first:
+      213: 779032462339460439
+    second: Spellsword sprite sheet attack 1_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 25
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cacab70b797bf760800000000000000
+      internalID: 7492715974378572489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 25
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d530572ea823815a0800000000000000
+      internalID: -6550430085924191395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 25
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a21067666251550800000000000000
+      internalID: 6130848689243105815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 25
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d2af1c2d07243e0800000000000000
+      internalID: -2070968828137165413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 25
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf0233357a756190800000000000000
+      internalID: -7969829321773543502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_5
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 25
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c80b90870b108a0800000000000000
+      internalID: -6340592770755818352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 25
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c7d2b66d0b7e9d0800000000000000
+      internalID: -2745031012891395034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_7
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 25
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9224849a305212d90800000000000000
+      internalID: -7124372437868199383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet attack 1_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 25
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dcd32a5edafca00800000000000000
+      internalID: 779032462339460439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spellsword sprite sheet attack 1_0: 7492715974378572489
+      Spellsword sprite sheet attack 1_1: -6550430085924191395
+      Spellsword sprite sheet attack 1_2: 6130848689243105815
+      Spellsword sprite sheet attack 1_3: -2070968828137165413
+      Spellsword sprite sheet attack 1_4: -7969829321773543502
+      Spellsword sprite sheet attack 1_5: -6340592770755818352
+      Spellsword sprite sheet attack 1_6: -2745031012891395034
+      Spellsword sprite sheet attack 1_7: -7124372437868199383
+      Spellsword sprite sheet attack 1_8: 779032462339460439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
