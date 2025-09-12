@@ -16,8 +16,7 @@ public class EnemyHealth : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
-        if (isDead || recentlyHit) return;
-        StartCoroutine(HitCooldown());
+        if (isDead ) return;
         currentHealth -= damage;
         if (currentHealth < 0)
             currentHealth = 0;

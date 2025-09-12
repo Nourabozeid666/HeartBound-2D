@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: e340e92f89f33644b935b9aa7b2f6ab7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1881251011179776874
+    second: Spellsword sprite sheet death_0
+  - first:
+      213: -8185375866399130723
+    second: Spellsword sprite sheet death_1
+  - first:
+      213: 3960194702313867830
+    second: Spellsword sprite sheet death_2
+  - first:
+      213: -636958793920648013
+    second: Spellsword sprite sheet death_3
+  - first:
+      213: 7821953219805147468
+    second: Spellsword sprite sheet death_4
+  - first:
+      213: 2853636908886824564
+    second: Spellsword sprite sheet death_5
+  - first:
+      213: -5351002957472457654
+    second: Spellsword sprite sheet death_6
+  - first:
+      213: 1266779264940975871
+    second: Spellsword sprite sheet death_7
+  - first:
+      213: 4114756486794586596
+    second: Spellsword sprite sheet death_8
+  - first:
+      213: 8663308181301582223
+    second: Spellsword sprite sheet death_9
+  - first:
+      213: 3570060661648879777
+    second: Spellsword sprite sheet death_10
+  - first:
+      213: 5180471909543382872
+    second: Spellsword sprite sheet death_11
+  - first:
+      213: -8370219684732575212
+    second: Spellsword sprite sheet death_12
+  - first:
+      213: 4797360909694039894
+    second: Spellsword sprite sheet death_13
+  - first:
+      213: -2825411633028337572
+    second: Spellsword sprite sheet death_14
+  - first:
+      213: -1180857529089536412
+    second: Spellsword sprite sheet death_15
+  - first:
+      213: 1043320430840271613
+    second: Spellsword sprite sheet death_16
+  - first:
+      213: 6125605978410445128
+    second: Spellsword sprite sheet death_17
+  - first:
+      213: -323595887131717013
+    second: Spellsword sprite sheet death_18
+  - first:
+      213: -3687502830945944565
+    second: Spellsword sprite sheet death_19
+  - first:
+      213: 1689403403784115752
+    second: Spellsword sprite sheet death_20
+  - first:
+      213: -3678432875080006555
+    second: Spellsword sprite sheet death_21
+  - first:
+      213: -6988733833067644371
+    second: Spellsword sprite sheet death_22
+  - first:
+      213: -4804778812311116737
+    second: Spellsword sprite sheet death_23
+  - first:
+      213: -3306755653786652053
+    second: Spellsword sprite sheet death_24
+  - first:
+      213: 8561956141677040050
+    second: Spellsword sprite sheet death_25
+  - first:
+      213: -6496708581103815143
+    second: Spellsword sprite sheet death_26
+  - first:
+      213: 2018124995152526117
+    second: Spellsword sprite sheet death_27
+  - first:
+      213: -4400490604977159893
+    second: Spellsword sprite sheet death_28
+  - first:
+      213: -6126810770214489045
+    second: Spellsword sprite sheet death_29
+  - first:
+      213: 4912767273473142549
+    second: Spellsword sprite sheet death_30
+  - first:
+      213: 6769887603216741226
+    second: Spellsword sprite sheet death_31
+  - first:
+      213: 621610493833815380
+    second: Spellsword sprite sheet death_32
+  - first:
+      213: 45653919973288465
+    second: Spellsword sprite sheet death_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 25
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b07bec3db8b1a10800000000000000
+      internalID: 1881251011179776874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 25
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b793a7404b76e80800000000000000
+      internalID: -8185375866399130723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 25
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a4dc8891075f630800000000000000
+      internalID: 3960194702313867830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_3
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 25
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc6cc70a511927f0800000000000000
+      internalID: -636958793920648013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 25
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41753cc2092d8c60800000000000000
+      internalID: 7821953219805147468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_5
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 25
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476942046a72a9720800000000000000
+      internalID: 2853636908886824564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c1ac7392b6db5b0800000000000000
+      internalID: -5351002957472457654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_7
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff623af9701849110800000000000000
+      internalID: 1266779264940975871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_8
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e920ac493d8a1930800000000000000
+      internalID: 4114756486794586596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_9
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89573604e04a3870800000000000000
+      internalID: 8663308181301582223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_10
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a07d2cb1476b8130800000000000000
+      internalID: 3570060661648879777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_11
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f093121cbb4e740800000000000000
+      internalID: 5180471909543382872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_12
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41268874b8107db80800000000000000
+      internalID: -8370219684732575212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65778a17456a39240800000000000000
+      internalID: 4797360909694039894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_14
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50f615e61f1ac8d0800000000000000
+      internalID: -2825411633028337572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_15
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ec5407550cc9fe0800000000000000
+      internalID: -1180857529089536412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_16
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df25423776e9a7e00800000000000000
+      internalID: 1043320430840271613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_17
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 25
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849e929be26820550800000000000000
+      internalID: 6125605978410445128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_18
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 25
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b629cb0514b528bf0800000000000000
+      internalID: -323595887131717013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_19
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 25
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c383566bb53dcc0800000000000000
+      internalID: -3687502830945944565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_20
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 25
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82653e4e177f17710800000000000000
+      internalID: 1689403403784115752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_21
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 25
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564ccbe0ac493fcc0800000000000000
+      internalID: -3678432875080006555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_22
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 25
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2abf325b97030f90800000000000000
+      internalID: -6988733833067644371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_23
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 25
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f346fd3802ff15db0800000000000000
+      internalID: -4804778812311116737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_24
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 25
+        width: 53
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b623809b04b0c12d0800000000000000
+      internalID: -3306755653786652053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_25
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 25
+        width: 58
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b152276fbd22d670800000000000000
+      internalID: 8561956141677040050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_26
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 25
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916331e67fd07d5a0800000000000000
+      internalID: -6496708581103815143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_27
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 25
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b37689df1d10c10800000000000000
+      internalID: 2018124995152526117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_28
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 25
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2184ec0c115ee2c0800000000000000
+      internalID: -4400490604977159893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_29
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 25
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24f353d01239faa0800000000000000
+      internalID: -6126810770214489045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_30
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 25
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fe7876ec7ad2440800000000000000
+      internalID: 4912767273473142549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_31
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 25
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63fd0f18e873fd50800000000000000
+      internalID: 6769887603216741226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_32
+      rect:
+        serializedVersion: 2
+        x: 4023
+        y: 25
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455ae91637760a800800000000000000
+      internalID: 621610493833815380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellsword sprite sheet death_33
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 25
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11aac929ff132a000800000000000000
+      internalID: 45653919973288465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spellsword sprite sheet death_0: 1881251011179776874
+      Spellsword sprite sheet death_1: -8185375866399130723
+      Spellsword sprite sheet death_10: 3570060661648879777
+      Spellsword sprite sheet death_11: 5180471909543382872
+      Spellsword sprite sheet death_12: -8370219684732575212
+      Spellsword sprite sheet death_13: 4797360909694039894
+      Spellsword sprite sheet death_14: -2825411633028337572
+      Spellsword sprite sheet death_15: -1180857529089536412
+      Spellsword sprite sheet death_16: 1043320430840271613
+      Spellsword sprite sheet death_17: 6125605978410445128
+      Spellsword sprite sheet death_18: -323595887131717013
+      Spellsword sprite sheet death_19: -3687502830945944565
+      Spellsword sprite sheet death_2: 3960194702313867830
+      Spellsword sprite sheet death_20: 1689403403784115752
+      Spellsword sprite sheet death_21: -3678432875080006555
+      Spellsword sprite sheet death_22: -6988733833067644371
+      Spellsword sprite sheet death_23: -4804778812311116737
+      Spellsword sprite sheet death_24: -3306755653786652053
+      Spellsword sprite sheet death_25: 8561956141677040050
+      Spellsword sprite sheet death_26: -6496708581103815143
+      Spellsword sprite sheet death_27: 2018124995152526117
+      Spellsword sprite sheet death_28: -4400490604977159893
+      Spellsword sprite sheet death_29: -6126810770214489045
+      Spellsword sprite sheet death_3: -636958793920648013
+      Spellsword sprite sheet death_30: 4912767273473142549
+      Spellsword sprite sheet death_31: 6769887603216741226
+      Spellsword sprite sheet death_32: 621610493833815380
+      Spellsword sprite sheet death_33: 45653919973288465
+      Spellsword sprite sheet death_4: 7821953219805147468
+      Spellsword sprite sheet death_5: 2853636908886824564
+      Spellsword sprite sheet death_6: -5351002957472457654
+      Spellsword sprite sheet death_7: 1266779264940975871
+      Spellsword sprite sheet death_8: 4114756486794586596
+      Spellsword sprite sheet death_9: 8663308181301582223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
