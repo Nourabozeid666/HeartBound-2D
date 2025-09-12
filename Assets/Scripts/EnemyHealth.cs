@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] AudioClip enemyHurt;
     [SerializeField] AudioClip enemyDead;
-    private bool recentlyHit = false;
+   // private bool recentlyHit = false;
     void Start()
     {
         currentHealth = health;
@@ -34,12 +34,12 @@ public class EnemyHealth : MonoBehaviour
         }
     }
     //to avoid the double hit from the back
-    IEnumerator HitCooldown()
-    {
-        recentlyHit = true;
-        yield return new WaitForSeconds(0.4f); // adjust based on animation/delay
-        recentlyHit = false;
-    }
+    //IEnumerator HitCooldown()
+    //{
+    //    recentlyHit = true;
+    //    yield return new WaitForSeconds(0.4f); // adjust based on animation/delay
+    //    recentlyHit = false;
+    //}
     void HitReactionRoutine()
     {
         StartCoroutine(EnemyHitReaction());
