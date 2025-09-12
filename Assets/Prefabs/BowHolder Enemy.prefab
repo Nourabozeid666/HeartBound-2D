@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606780818343450153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: 0.066, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6600001, y: 0.065999985, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 4488640142702528251}
   - component: {fileID: 7598952877335411314}
   m_Layer: 0
-  m_Name: Enemy 1
+  m_Name: BowHolder Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ MonoBehaviour:
   enemySpeed: 5
   stopDis: 6
   retreatDis: 3.5
-  player: {fileID: 0}
+  player: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
   arrowPrefab: {fileID: 1503419230760656796, guid: c1bc39f6e2bdd514d8c5c3f22d8ed705, type: 3}
   shootOrigin: {fileID: 3902569900339395354}
   fireCooldown: 1
@@ -173,7 +173,6 @@ GameObject:
   - component: {fileID: 3671217815712734665}
   - component: {fileID: 2658066976178401565}
   - component: {fileID: 6075397414460108884}
-  - component: {fileID: 5236396357163887919}
   m_Layer: 0
   m_Name: BowHolder
   m_TagString: Enemy
@@ -340,16 +339,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.375, y: 2.25}
   m_EdgeRadius: 0
---- !u!114 &5236396357163887919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7994805770227233350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58187889edbfbd14c8f769d05393759c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArroeShooter
-  owner: {fileID: 0}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7521233111077089435}
   - component: {fileID: 8803584810096522649}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Demon Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.AIDestinationSetter
   version: 1
-  target: {fileID: 0}
+  target: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
 --- !u!61 &7521233111077089435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -181,12 +181,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaseLimit
   aiPath: {fileID: 936427725390248292}
   destSetter: {fileID: 1947372216366950728}
-  player: {fileID: 0}
+  player: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
   enterChaseRadius: 15
   exitChaseRadius: 16
   stopDistance: 1.5
   attackRange: 3
   attackCooldown: 1.5
+  Damage: 10
   slowdownDistance: 3
   chaseSpeed: 3.5
 --- !u!1001 &7370017559144259116
@@ -245,7 +246,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8712105749160174624, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
+    - {fileID: 2252548831895402548, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
