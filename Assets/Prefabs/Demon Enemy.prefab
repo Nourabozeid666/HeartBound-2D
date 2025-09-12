@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1947372216366950728}
   - component: {fileID: 7521233111077089435}
   - component: {fileID: 8803584810096522649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Demon Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,6 +205,10 @@ PrefabInstance:
     - target: {fileID: 3346596759925860659, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
       propertyPath: m_Name
       value: big Demon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346596759925860659, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8776560188255886825, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
       propertyPath: m_LocalPosition.x
