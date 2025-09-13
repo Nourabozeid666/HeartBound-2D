@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4353061609659153426}
   - component: {fileID: 6236386436871919077}
   - component: {fileID: 4530683772834570359}
+  - component: {fileID: 4174866348346690389}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -37,6 +38,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2115490215412286125}
+  - {fileID: 3900185579193040620}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4253171557927565889
@@ -146,7 +148,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2141927634619297125}
         m_TargetAssemblyTypeName: Gun, Assembly-CSharp
-        m_MethodName: Shot
+        m_MethodName: Attack_1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4174866348346690389}
+        m_TargetAssemblyTypeName: MeleeAttackSword, Assembly-CSharp
+        m_MethodName: Attack_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -234,6 +248,34 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2141927634619297125}
+        m_TargetAssemblyTypeName: Gun, Assembly-CSharp
+        m_MethodName: Attack_2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4174866348346690389}
+        m_TargetAssemblyTypeName: MeleeAttackSword, Assembly-CSharp
+        m_MethodName: Attack_2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dbb3422b-bb5c-4f13-aa14-1e910b2aad29
+    m_ActionName: 'Player/Attack-2[/Mouse/rightButton,/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -280,6 +322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   Playercollider: {fileID: 4530683772834570359}
   movementSpeed: 10
+  isFacingRight: 1
   dashSpeed: 40
   dashCooldown: 0.4
   dashDuration: 0.17
@@ -361,6 +404,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0.025725307, y: -0.038546626}
   m_Size: {x: 0.13966979, y: 0.5473807}
   m_Direction: 0
+--- !u!114 &4174866348346690389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906446410309438068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850858b241b7d4a459f2cc0f5f2843b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeAttackSword
+  shotPoint: {fileID: 1130945334856831004}
+  attackVFX: {fileID: 7798814241807824825, guid: 8f6cf5f68ee3cce4289014fbb94c62e5, type: 3}
+  attack_2_VFX: {fileID: 7536594491015245035, guid: af6fdc341eafbaf448bd35cf835c6d9b, type: 3}
+  baseLocalOffset: {x: 0.3, y: 0}
+  isUsingSword: 0
+  isLocked: 0
 --- !u!1 &4000656715370855398
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +449,7 @@ Transform:
   m_GameObject: {fileID: 4000656715370855398}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.019, y: -0.058, z: 0}
+  m_LocalPosition: {x: 0.027, y: -0.058, z: 0}
   m_LocalScale: {x: 0.60085225, y: 0.3868733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -466,8 +527,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gun
   offset: 0
-  bullets: {fileID: 5624524580465994327, guid: 136f05cced7990945962f5644cc0411b, type: 3}
   shotPoint: {fileID: 1130945334856831004}
+  weakBullets: {fileID: 5624524580465994327, guid: 136f05cced7990945962f5644cc0411b, type: 3}
+  timeBetweenStrongShoots: 1
+  reloadTime: 0.8
+  timeBetweenSmallerShoots: 0.09
+  bulletsInMag: 0
+  strongBullets: {fileID: 6989982116581036525, guid: 8cf95329a35bbf540897529bd5f440b9, type: 3}
   gun: {fileID: 4000656715370855398}
 --- !u!1 &6860034271300976620
 GameObject:
@@ -500,3 +566,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2115490215412286125}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8946888924802816952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3900185579193040620}
+  m_Layer: 3
+  m_Name: Attacking Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3900185579193040620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8946888924802816952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.11, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8646362972892390297}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}

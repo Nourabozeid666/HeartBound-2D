@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static MeleeAttackSword;
 using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class PlayerMovement : MonoBehaviour
@@ -13,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Vector2 moveInput;
     private Vector2 lastFacing = Vector2.down;
+    public bool isFacingRight = true;
+
 
     [Header("Dash")]
     [SerializeField] public float dashSpeed = 20;
@@ -22,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Tooltip("Do not touch that from the hierchey")]
     public int manyDashes=0;
-
+    MeleeAttackSword attackSword;
     public bool isDashing { get; private set; }
     bool dashOnCooldown = false;
     private Vector2 dashDirection;
@@ -34,15 +37,19 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        attackSword = GetComponent<MeleeAttackSword>();
     }
     private void FixedUpdate()
     {
-        rb.MovePosition ( rb.position + moveInput * Time.fixedDeltaTime * movementSpeed);
-        if (isDashing)
-        {
-            // Only dash movement while dashing (don’t also apply normal movement this frame)
-            rb.MovePosition(rb.position + dashDirection * dashSpeed * Time.fixedDeltaTime);
-            return;
+        if (attackSword.isLocked == lockShooting.none)
+        { 
+            rb.MovePosition(rb.position + moveInput * Time.fixedDeltaTime * movementSpeed);
+            if (isDashing)
+            {
+                // Only dash movement while dashing (don’t also apply normal movement this frame)
+                rb.MovePosition(rb.position + dashDirection * dashSpeed * Time.fixedDeltaTime);
+                return;
+            }
         }
     }
     public void Move(InputAction.CallbackContext context)
@@ -56,6 +63,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking", true);
             animator.SetFloat("inputX", moveInput.x);
             animator.SetFloat("inputY", moveInput.y);
+            if (moveInput.x >= 0)
+            {
+                isFacingRight = true;
+            }
+            else if (moveInput.x < 0)
+            { 
+                isFacingRight = false;
+            }
             return;
         }
         if (context.canceled)
@@ -65,6 +80,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("lastInputY", lastFacing.y);
             animator.SetFloat("inputX", 0f);
             animator.SetFloat("inputY", 0f);
+            if (lastFacing.x >= 0)
+            {
+                isFacingRight = true;
+            }
+            else if (lastFacing.x < 0)
+            {
+                isFacingRight = false;
+            }
         }
     }
     public void Dash(InputAction.CallbackContext context)
