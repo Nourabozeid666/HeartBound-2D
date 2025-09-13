@@ -7,14 +7,20 @@ public class MeleeAttackSword : MonoBehaviour
     bool canAttackWeak = true;
     bool canAttackStrong = true;
     [SerializeField] Transform shotPoint;
-    [SerializeField] GameObject attackRange;
+    [SerializeField] GameObject attackVFX;
+    [SerializeField] GameObject attack_2_VFX;
+    [SerializeField] Vector2 baseLocalOffset = new Vector2(1f, 0f);
     public bool isUsingSword;
-    enum lockShooting { none, strong, weak }
-    lockShooting isLocked = lockShooting.none;
+    PlayerMovement playerMovement;
+    Transform player;
+    public enum lockShooting { none, strong, weak }
+    public lockShooting isLocked = lockShooting.none;
 
     private void Awake()
     {
+        player = transform;
         animator = GetComponent<Animator>();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     public void Attack_1()
@@ -24,7 +30,15 @@ public class MeleeAttackSword : MonoBehaviour
         if (isLocked != lockShooting.none || !canAttackWeak)
             return;
         animator.SetTrigger("usingLightAttack");
-        Instantiate(attackRange, shotPoint.position, shotPoint.rotation);
+        // instantly face the opposite way
+        bool facingRight = playerMovement.isFacingRight;
+        shotPoint.right = facingRight ? Vector2.right : Vector2.left;
+        float sign = facingRight ? 1 : -1;
+        Vector3 local = new Vector3(baseLocalOffset.x * sign, baseLocalOffset.y, 0f);
+        // means: “take the point local, which is expressed in the player’s local space,
+        // and convert it into a world-space position, then put shotPoint there.”
+        shotPoint.position = player.TransformPoint(local);
+        Instantiate(attackVFX, shotPoint.position, shotPoint.rotation);
         StartCoroutine(WeakCooldown());
     }
     public void Attack_2()
@@ -34,8 +48,15 @@ public class MeleeAttackSword : MonoBehaviour
         if (isLocked != lockShooting.none || !canAttackStrong)
             return;
         animator.SetTrigger("usingHeavyAttack");
+        bool facingRight = playerMovement.isFacingRight;
+        shotPoint.right = facingRight ? Vector2.right : Vector2.left;
+        float sign = facingRight ? 1 : -1;
+        Vector3 local = new Vector3(baseLocalOffset.x * sign, baseLocalOffset.y, 0f);
+        // means: “take the point local, which is expressed in the player’s local space,
+        // and convert it into a world-space position, then put shotPoint there.”
+        shotPoint.position = player.TransformPoint(local);
+        Instantiate(attack_2_VFX, shotPoint.position, shotPoint.rotation);
         StartCoroutine(StrongCooldown());
-
     }
     
     IEnumerator WeakCooldown()
