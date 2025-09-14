@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6208524352238303374
 Transform:
   m_ObjectHideFlags: 0
@@ -79,8 +79,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1430110597
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: -4589636935864589242, guid: 6ded511928e379240a978f1e1e4a1343, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -163,7 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abd53ac9710ae104d977f93a5253195c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordController
-  playerAnim: {fileID: 4353061609659153426, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
 --- !u!1 &6575276583192317069
 GameObject:
   m_ObjectHideFlags: 0

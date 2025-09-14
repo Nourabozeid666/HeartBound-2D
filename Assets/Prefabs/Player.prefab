@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   Playercollider: {fileID: 4530683772834570359}
-  movementSpeed: 10
+  movementSpeed: 20
   isFacingRight: 1
   dashSpeed: 40
   dashCooldown: 0.4
@@ -421,6 +421,8 @@ MonoBehaviour:
   attack_2_VFX: {fileID: 7536594491015245035, guid: af6fdc341eafbaf448bd35cf835c6d9b, type: 3}
   baseLocalOffset: {x: 0.3, y: 0}
   isUsingSword: 0
+  weakDamageMult: 1
+  strongDamageMult: 1
   isLocked: 0
 --- !u!1 &4000656715370855398
 GameObject:
