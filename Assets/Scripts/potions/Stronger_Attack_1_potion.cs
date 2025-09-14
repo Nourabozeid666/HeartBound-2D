@@ -3,18 +3,18 @@ using UnityEngine.AI;
 
 public class Stronger_Attack_1_potion : MonoBehaviour
 {
-    private MeleeAttackSword meleeAttack;
-    [SerializeField] float dashSpeed;
+    private MeleeAttackSword attackController;
+    [SerializeField] float slashStrength;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            meleeAttack = collision.GetComponent<MeleeAttackSword>();
-            Debug.Log("the player collides with the potion");
-            if (meleeAttack != null)
+            Debug.Log("the player is colliding with the bottle");
+            attackController = collision.GetComponent<MeleeAttackSword>();
+            if (attackController != null )
             {
-               // meleeAttack. = dashSpeed;
+                attackController.weakDamageMul = slashStrength; 
             }
             Destroy(gameObject);
         }

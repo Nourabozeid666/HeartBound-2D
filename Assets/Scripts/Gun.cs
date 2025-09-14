@@ -10,7 +10,17 @@ public class Gun : MonoBehaviour
     [Header("Attack_1")]
     [SerializeField] GameObject weakBullets;
     [SerializeField] float timeBetweenStrongShoots = 0.9f;
+    public float strongShotsTime
+    {
+        get => timeBetweenStrongShoots;
+        set => timeBetweenStrongShoots = value;
+    }
     [SerializeField] float reloadTime = 0.75f;
+    public float reloadtime
+    {
+        get => reloadTime;
+        set => reloadTime = value;
+    }
     [SerializeField] float timeBetweenSmallerShoots = 0.09f;
     [SerializeField] int bulletsInMag = 0;
     int magazineSize = 12;

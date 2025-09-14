@@ -11,6 +11,13 @@ public class Bullet : MonoBehaviour
     [SerializeField] float steamSpeed;
     private Animator animator;
     [SerializeField] float BulletDamage;
+    // was BulletDamage
+    // per-instance setter/getter
+    public float damage
+    {
+        get => BulletDamage;
+        set => BulletDamage = value;
+    }
     bool undestroyedBullet=true;
     private void Awake()
     {

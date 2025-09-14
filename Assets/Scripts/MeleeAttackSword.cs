@@ -13,6 +13,21 @@ public class MeleeAttackSword : MonoBehaviour
     public bool isUsingSword;
     PlayerMovement playerMovement;
     Transform player;
+
+    [Header("if the Strength potion is working")]
+    [SerializeField] float weakDamageMult = 1f;
+    public float weakDamageMul
+    {
+        get => weakDamageMult;
+        set => weakDamageMult = value;
+    }
+    [SerializeField] float strongDamageMult = 1f;
+    public float strongDamageMul
+    {
+        get => strongDamageMult;
+        set => strongDamageMult = value;
+    }
+
     public enum lockShooting { none, strong, weak }
     public lockShooting isLocked = lockShooting.none;
 
@@ -38,7 +53,10 @@ public class MeleeAttackSword : MonoBehaviour
         // means: “take the point local, which is expressed in the player’s local space,
         // and convert it into a world-space position, then put shotPoint there.”
         shotPoint.position = player.TransformPoint(local);
-        Instantiate(attackVFX, shotPoint.position, shotPoint.rotation);
+        var weakAttack = Instantiate(attackVFX, shotPoint.position, shotPoint.rotation);
+        var b1 = weakAttack.GetComponent<Bullet>();
+        if (b1 != null)
+            b1.damage *= weakDamageMult;
         StartCoroutine(WeakCooldown());
     }
     public void Attack_2()
