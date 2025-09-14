@@ -19,7 +19,7 @@ TagManager:
   - enemy
   - arrow
   - Weapons
-  - 
+  - walls
   - 
   - 
   - 
@@ -83,6 +83,18 @@ TagManager:
     locked: 0
   - name: Decor
     uniqueID: 2268163039
+    locked: 0
+  - name: new collision
+    uniqueID: 2640913215
+    locked: 0
+  - name: new playerLayer
+    uniqueID: 764163099
+    locked: 0
+  - name: new walkBehind
+    uniqueID: 247473915
+    locked: 0
+  - name: New Decor
+    uniqueID: 1034062315
     locked: 0
   m_RenderingLayers:
   - Default
