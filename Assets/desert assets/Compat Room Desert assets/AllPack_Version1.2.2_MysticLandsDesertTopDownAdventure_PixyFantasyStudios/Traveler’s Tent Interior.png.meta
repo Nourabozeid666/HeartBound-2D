@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 9ae82acecaf696743a2b8a77bb8a4d82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -963800543731727906
+    second: "Traveler\u2019s Tent Interior_0"
+  - first:
+      213: 3082309157098064443
+    second: "Traveler\u2019s Tent Interior_1"
+  - first:
+      213: -8399492933352959212
+    second: "Traveler\u2019s Tent Interior_2"
+  - first:
+      213: 5400044780608719725
+    second: "Traveler\u2019s Tent Interior_3"
+  - first:
+      213: 1410463829254773947
+    second: "Traveler\u2019s Tent Interior_4"
+  - first:
+      213: -3372180628978244742
+    second: "Traveler\u2019s Tent Interior_5"
+  - first:
+      213: -6552643055821298537
+    second: "Traveler\u2019s Tent Interior_6"
+  - first:
+      213: 2766026113729809713
+    second: "Traveler\u2019s Tent Interior_7"
+  - first:
+      213: -4499182074101147085
+    second: "Traveler\u2019s Tent Interior_8"
+  - first:
+      213: 8924153031771863417
+    second: "Traveler\u2019s Tent Interior_9"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_0"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 142
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1ca8c0384ef92f0800000000000000
+      internalID: -963800543731727906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_1"
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 128
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a83ccf8df86ca20800000000000000
+      internalID: 3082309157098064443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_2"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 114
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413d716fda10f6b80800000000000000
+      internalID: -8399492933352959212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_3"
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 113
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b82670e10d0fa40800000000000000
+      internalID: 5400044780608719725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_4"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 114
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc94473169f29310800000000000000
+      internalID: 1410463829254773947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_5"
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a736c43a59b9331d0800000000000000
+      internalID: -3372180628978244742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_6"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79467ddabd55015a0800000000000000
+      internalID: -6552643055821298537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_7"
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 29
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dc15c6816e26620800000000000000
+      internalID: 2766026113729809713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_8"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 37
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a5565cdb1bf81c0800000000000000
+      internalID: -4499182074101147085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Traveler\u2019s Tent Interior_9"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 40
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979bcf376e5f8db70800000000000000
+      internalID: 8924153031771863417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Traveler\u2019s Tent Interior_0": -963800543731727906
+      "Traveler\u2019s Tent Interior_1": 3082309157098064443
+      "Traveler\u2019s Tent Interior_2": -8399492933352959212
+      "Traveler\u2019s Tent Interior_3": 5400044780608719725
+      "Traveler\u2019s Tent Interior_4": 1410463829254773947
+      "Traveler\u2019s Tent Interior_5": -3372180628978244742
+      "Traveler\u2019s Tent Interior_6": -6552643055821298537
+      "Traveler\u2019s Tent Interior_7": 2766026113729809713
+      "Traveler\u2019s Tent Interior_8": -4499182074101147085
+      "Traveler\u2019s Tent Interior_9": 8924153031771863417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

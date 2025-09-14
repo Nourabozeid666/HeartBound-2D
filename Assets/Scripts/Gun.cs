@@ -1,11 +1,43 @@
+using System.Collections;
 using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
+    [Header("Gun settings")]
     [SerializeField] float offset=-90;
-    [SerializeField] GameObject bullets;
     [SerializeField] Transform shotPoint;
+
+    [Header("Attack_1")]
+    [SerializeField] GameObject weakBullets;
+    [SerializeField] float timeBetweenStrongShoots = 0.9f;
+    public float strongShotsTime
+    {
+        get => timeBetweenStrongShoots;
+        set => timeBetweenStrongShoots = value;
+    }
+    [SerializeField] float reloadTime = 0.75f;
+    public float reloadtime
+    {
+        get => reloadTime;
+        set => reloadTime = value;
+    }
+    [SerializeField] float timeBetweenSmallerShoots = 0.09f;
+    [SerializeField] int bulletsInMag = 0;
+    int magazineSize = 12;
+    bool reloading = false;
+    bool canFireWeak = true;
+
+    [Header("Attack_2")]
+    [SerializeField] GameObject strongBullets;
     [SerializeField] GameObject gun;
+    bool canFireStrong = true;
+
+    enum lockShooting { none, strong, weak}
+    lockShooting isLocked = lockShooting.none;
+
+    void Awake() {
+        bulletsInMag = magazineSize; 
+    }
     void Update()
     {
         //“depth”:Calculates how far the gun is in front of the camera along the camera’s view axis.
@@ -18,11 +50,62 @@ public class Gun : MonoBehaviour
         float angle = Mathf.Atan2 (dir.y, dir.x) *Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0,0,angle+offset);
     }
-    public void Shot()
+    public void Attack_1()
     {
+        if (!canFireWeak || !gun.activeInHierarchy || reloading) 
+            return;
+        if(isLocked != lockShooting.none)
+            return;
         if (gun.activeInHierarchy)
         {
-            Instantiate(bullets, shotPoint.position, shotPoint.rotation);
+            if (bulletsInMag <= magazineSize && bulletsInMag != 0)
+            {
+                Instantiate(weakBullets, shotPoint.position, shotPoint.rotation);
+                bulletsInMag--;
+                StartCoroutine(WeakCooldown());
+            }
+            else if(bulletsInMag == 0)
+            {
+                StartCoroutine(AutomaticReload());
+            }
         }
     }
+    public void Attack_2()
+    {
+        if (!gun.activeInHierarchy || !canFireStrong )
+            return;
+        if (isLocked != lockShooting.none)
+            return;
+        if (gun.activeInHierarchy)
+        {
+            Instantiate(strongBullets, shotPoint.position, shotPoint.rotation);
+            StartCoroutine(StrongCooldown());
+        }
+    }
+
+    IEnumerator StrongCooldown()
+    {
+        canFireStrong = false;
+        isLocked = lockShooting.strong;
+        yield return new WaitForSeconds(timeBetweenStrongShoots);
+        canFireStrong = true;
+        isLocked = lockShooting.none;
+    }
+    IEnumerator WeakCooldown()
+    {
+        isLocked = lockShooting.weak;
+        canFireWeak = false;
+        yield return new WaitForSeconds(timeBetweenSmallerShoots);
+        canFireWeak = true;
+        isLocked = lockShooting.none;
+    }
+    IEnumerator AutomaticReload()
+    {
+        if (reloading) yield break;
+        reloading = true;
+        yield return new WaitForSeconds(reloadTime);
+        bulletsInMag = magazineSize;
+        reloading = false;
+    }
+
 }

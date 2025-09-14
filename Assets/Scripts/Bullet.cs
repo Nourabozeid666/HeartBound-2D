@@ -6,9 +6,18 @@ using UnityEngine.PlayerLoop;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] float bulletDestroyingTime;
+    [SerializeField] float steamTime;
     [SerializeField] float speed;
+    [SerializeField] float steamSpeed;
     private Animator animator;
     [SerializeField] float BulletDamage;
+    // was BulletDamage
+    // per-instance setter/getter
+    public float damage
+    {
+        get => BulletDamage;
+        set => BulletDamage = value;
+    }
     bool undestroyedBullet=true;
     private void Awake()
     {
@@ -21,16 +30,19 @@ public class Bullet : MonoBehaviour
     }
     IEnumerator bulletSystem()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(bulletDestroyingTime);
         animator.SetBool("active", true);
         undestroyedBullet = false;
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(steamTime);
         Destroy(gameObject);
     }
 
     private void Update()
     {
-        transform.Translate(Vector3.right * speed * Time.deltaTime, Space.Self);
+        if (undestroyedBullet)
+            transform.Translate(Vector3.right * speed * Time.deltaTime, Space.Self);
+        else
+            transform.Translate(Vector3.right * steamSpeed * Time.deltaTime, Space.Self);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {

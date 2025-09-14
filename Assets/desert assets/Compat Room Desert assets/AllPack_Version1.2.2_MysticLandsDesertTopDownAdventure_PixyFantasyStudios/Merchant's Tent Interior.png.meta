@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: bb8116e0b09002e4fbe2ce2aea3ded42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 500119372239367375
+    second: Merchant's Tent Interior_0
+  - first:
+      213: -7105410984964150186
+    second: Merchant's Tent Interior_1
+  - first:
+      213: 7116426694277215658
+    second: Merchant's Tent Interior_2
+  - first:
+      213: -9197577373021596744
+    second: Merchant's Tent Interior_3
+  - first:
+      213: 7570375452860222416
+    second: Merchant's Tent Interior_4
+  - first:
+      213: -7051717816147309004
+    second: Merchant's Tent Interior_5
+  - first:
+      213: -2306472448034183505
+    second: Merchant's Tent Interior_6
+  - first:
+      213: -8866724058642449789
+    second: Merchant's Tent Interior_7
+  - first:
+      213: 8747287017608978453
+    second: Merchant's Tent Interior_8
+  - first:
+      213: -1930736119170438612
+    second: Merchant's Tent Interior_9
+  - first:
+      213: 7623547651342617168
+    second: Merchant's Tent Interior_10
+  - first:
+      213: 4980823827387263828
+    second: Merchant's Tent Interior_11
+  - first:
+      213: 2659755596696644899
+    second: Merchant's Tent Interior_12
+  - first:
+      213: -6355851809406459505
+    second: Merchant's Tent Interior_13
+  - first:
+      213: -3852733019144027049
+    second: Merchant's Tent Interior_14
+  - first:
+      213: 8513475184811456382
+    second: Merchant's Tent Interior_15
+  - first:
+      213: -1997025925336272834
+    second: Merchant's Tent Interior_16
+  - first:
+      213: -3566862348739287229
+    second: Merchant's Tent Interior_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 142
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc6e975be7c0f600800000000000000
+      internalID: 500119372239367375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 111
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cad02fa52846d90800000000000000
+      internalID: -7105410984964150186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 116
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5308ebf50a2c260800000000000000
+      internalID: 7116426694277215658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 85
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b390ee2c14ab5080800000000000000
+      internalID: -9197577373021596744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db02146d506f0960800000000000000
+      internalID: 7570375452860222416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 85
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e0f300204432e90800000000000000
+      internalID: -7051717816147309004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa662ba5783cdffd0800000000000000
+      internalID: -2306472448034183505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 85
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38af433527113f480800000000000000
+      internalID: -8866724058642449789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 85
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51028f8823b946970800000000000000
+      internalID: 8747287017608978453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a64d5aab5a435e0800000000000000
+      internalID: -1930736119170438612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a4a8692384cc960800000000000000
+      internalID: 7623547651342617168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b2838a1e07f1540800000000000000
+      internalID: 4980823827387263828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32de57a8f9959e420800000000000000
+      internalID: 2659755596696644899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81ed4f347a7bc7a0800000000000000
+      internalID: -6355851809406459505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 65
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75480835bb7588ac0800000000000000
+      internalID: -3852733019144027049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e773ac20390f52670800000000000000
+      internalID: 8513475184811456382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30f51960832944e0800000000000000
+      internalID: -1997025925336272834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant's Tent Interior_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347eda48795ff7ec0800000000000000
+      internalID: -3566862348739287229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Merchant's Tent Interior_0: 500119372239367375
+      Merchant's Tent Interior_1: -7105410984964150186
+      Merchant's Tent Interior_10: 7623547651342617168
+      Merchant's Tent Interior_11: 4980823827387263828
+      Merchant's Tent Interior_12: 2659755596696644899
+      Merchant's Tent Interior_13: -6355851809406459505
+      Merchant's Tent Interior_14: -3852733019144027049
+      Merchant's Tent Interior_15: 8513475184811456382
+      Merchant's Tent Interior_16: -1997025925336272834
+      Merchant's Tent Interior_17: -3566862348739287229
+      Merchant's Tent Interior_2: 7116426694277215658
+      Merchant's Tent Interior_3: -9197577373021596744
+      Merchant's Tent Interior_4: 7570375452860222416
+      Merchant's Tent Interior_5: -7051717816147309004
+      Merchant's Tent Interior_6: -2306472448034183505
+      Merchant's Tent Interior_7: -8866724058642449789
+      Merchant's Tent Interior_8: 8747287017608978453
+      Merchant's Tent Interior_9: -1930736119170438612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
