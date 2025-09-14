@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/bullets.prefab.meta
+guid: 632a87becc968b74e8dd7c0105e4049c
+========
 guid: 97ba544d2313e1d4a9e7428384812734
+>>>>>>>> main:Assets/Prefabs/Environment_01_0.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

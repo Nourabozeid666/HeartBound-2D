@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class BowEnemy : MonoBehaviour
+public class BowEnemy : MonoBehaviour, ITargetedEnemy
 {
     [Header("Movement")]
     [SerializeField] float enemySpeed = 5f;
@@ -27,6 +27,11 @@ public class BowEnemy : MonoBehaviour
     bool driveWalkAnim = true;
     bool driveShootAnim = true;
 
+
+    public void SetTarget(Transform target)
+    {
+        player = target;
+    }
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

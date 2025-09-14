@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public event Action<EnemyHealth> OnDead;
+
     [SerializeField] float health;
     float currentHealth;
     public bool isDead = false;
@@ -25,6 +28,7 @@ public class EnemyHealth : MonoBehaviour
             //AudioManager.instance.EnemyAction(enemyDead);
             animator.SetBool("isDead", true);
             isDead = true;
+            OnDead?.Invoke(this);
             StartCoroutine(DeathCleanup());
         }
         else

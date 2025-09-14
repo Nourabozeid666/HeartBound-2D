@@ -1,37 +1,59 @@
 ﻿using Pathfinding;
 using UnityEngine;
 
-public class EnemyChaseLimit : MonoBehaviour
+public class EnemyChaseLimit : MonoBehaviour, ITargetedEnemy
 {
     [SerializeField] AIPath aiPath;
     [SerializeField] AIDestinationSetter destSetter;
-    [SerializeField] Transform player;           
-      
+    [SerializeField] Transform player;
+
+    [Header("Chase")]
     [SerializeField] float enterChaseRadius = 8f;
     [SerializeField] float exitChaseRadius = 10f;
 
-    [SerializeField] float stopDistance = 1.5f;   
+    [Header("Attack")]
+    [SerializeField] float stopDistance = 1.5f;
     [SerializeField] float attackRange = 1.0f;   
-    [SerializeField] float attackCooldown = 1.5f;  
+    [SerializeField] float attackCooldown = 1.5f;
     [SerializeField] int Damage = 10;
-    float lastAttackTime;
 
+    [Header("Melee Hitbox (required for valid hit)")]
+    [SerializeField] Transform hitPoint;         
+    [SerializeField] float hitRadius = 0.6f;  
+    [SerializeField] LayerMask playerLayer;     
+
+    [Header("Pathfinding")]
     [SerializeField] float slowdownDistance = 3f;
     [SerializeField] float chaseSpeed = 3.5f;
 
     enum State { Idle, Chase, Attack }
     State state = State.Idle;
 
+    float lastAttackTime;
     float enterSqr, exitSqr, stopSqr, attackSqr;
 
     PlayerState playerState;
     Animator Enemyanim;
+
+
+    public void SetTarget(Transform target)
+    {
+        player = target;
+    }
+
+    void Start()
+    {
+        if (!player)
+        {
+            var GetPlayer = GameObject.FindGameObjectWithTag("Player");
+            if (GetPlayer) player = GetPlayer.transform;
+        }
+    }
     void Awake()
     {
         aiPath = GetComponent<AIPath>();
         destSetter = GetComponent<AIDestinationSetter>();
         Enemyanim = GetComponentInChildren<Animator>(true);
-        player.GetComponent<PlayerState>();
 
         enterSqr = enterChaseRadius * enterChaseRadius;
         exitSqr = exitChaseRadius * exitChaseRadius;
@@ -45,14 +67,14 @@ public class EnemyChaseLimit : MonoBehaviour
 
         if (destSetter) destSetter.target = null;
 
-        CachePlayerState(); 
+        CachePlayerState();
     }
 
     void OnValidate()
     {
- 
         if (exitChaseRadius < enterChaseRadius)
             exitChaseRadius = enterChaseRadius + 0.5f;
+        if (hitRadius < 0f) hitRadius = 0f;
     }
 
     void CachePlayerState()
@@ -64,46 +86,30 @@ public class EnemyChaseLimit : MonoBehaviour
 
     void Update()
     {
-        if (!player)
-        {
-            EnterIdle();
-            return;
-        }
-
+        if (!player) { EnterIdle(); return; }
         if (!playerState) CachePlayerState();
+
         float sqrDist = (player.position - transform.position).sqrMagnitude;
+
         switch (state)
         {
             case State.Idle:
-                if (sqrDist <= enterSqr)
-                    EnterChase();
+                if (sqrDist <= enterSqr) EnterChase();
                 break;
 
             case State.Chase:
-                if (sqrDist > exitSqr)
-                {
-                    EnterIdle();
-                    break;
-                }
-                if (sqrDist <= attackSqr)
-                {
-                    EnterAttack();
-                    break;
-                }
+                if (sqrDist > exitSqr) { EnterIdle(); break; }
+                if (sqrDist <= attackSqr) { EnterAttack(); break; }
 
-                aiPath.canMove = sqrDist > stopSqr;
+                aiPath.canMove = sqrDist > stopSqr; 
                 break;
 
             case State.Attack:
-                if (sqrDist > attackSqr && sqrDist <= exitSqr)
-                {
-                    EnterChase();
-                    break;
-                }
+                if (sqrDist > attackSqr && sqrDist <= exitSqr) { EnterChase(); break; }
 
                 if (Time.time - lastAttackTime >= attackCooldown)
                 {
-                    DoAttack();
+                    DoAttack();                
                     lastAttackTime = Time.time;
                 }
                 break;
@@ -130,7 +136,7 @@ public class EnemyChaseLimit : MonoBehaviour
     void EnterAttack()
     {
         state = State.Attack;
-        aiPath.canMove = false;
+        aiPath.canMove = false; 
         if (Enemyanim)
         {
             Enemyanim.SetBool("isWalking", false);
@@ -140,12 +146,31 @@ public class EnemyChaseLimit : MonoBehaviour
 
     void DoAttack()
     {
-        if (!playerState)
+        if (!playerState) { CachePlayerState(); if (!playerState) return; }
+
+
+        Vector2 center = hitPoint ? (Vector2)hitPoint.position : (Vector2)transform.position;
+        Collider2D hit = Physics2D.OverlapCircle(center, hitRadius, playerLayer);
+
+        if (hit)
         {
-            CachePlayerState();
-            if (!playerState) return;
+        
+            var ps = hit.GetComponent<PlayerState>();
+            if (ps != null)
+            {
+                ps.TakeDamage(Damage);
+             
+            }
         }
-        playerState.TakeDamage(Damage);
-        if (Enemyanim) Enemyanim.SetTrigger("Attack");
+
+        if (Enemyanim) Enemyanim.SetTrigger("Attack"); 
+    }
+
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Vector3 c = hitPoint ? hitPoint.position : transform.position;
+        Gizmos.DrawWireSphere(c, hitRadius);
     }
 }
