@@ -1,53 +1,95 @@
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using Unity.Cinemachine;
 
 public class LevelManager : MonoBehaviour
 {
-    public GameObject currentCheckPoint;
-    public GameObject playerPrefab;
-    public Transform spawnPoint;
-   // [SerializeField] Unity.Cinemachine.CinemachineVirtualCamera virtualCamera;
+    public static LevelManager Instance;
 
-    public void RespawnPlayer()
+    [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private CinemachineCamera cinemachineCam;
+
+    private GameObject player;
+
+    private void Awake()
     {
-        // Destroy old player if needed (optional, depends on your game logic)
-        PlayerMovement oldPlayer = FindFirstObjectByType<PlayerMovement>();
-        if (oldPlayer != null)
+        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        var mainCam = Camera.main;
+        if (mainCam) DontDestroyOnLoad(mainCam.gameObject);
+        if (cinemachineCam) DontDestroyOnLoad(cinemachineCam.gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDestroy() => SceneManager.sceneLoaded -= OnSceneLoaded;
+
+    private void Start()
+    {
+        if (player == null && playerPrefab != null)
         {
-            Destroy(oldPlayer.gameObject);
+            var created = Instantiate(playerPrefab);
+            RegisterPlayer(created);              // ← use Register here
+        }
+        else
+        {
+            SnapPlayerToSceneSpawn();
+            RetargetCameraToPlayer();
+        }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // If the scene already has a Player (e.g., spawned by your scene logic), adopt it.
+        var scenePlayer = GameObject.FindGameObjectWithTag("Player");
+        if (scenePlayer != null && scenePlayer != player)
+        {
+            RegisterPlayer(scenePlayer);
+            return;
         }
 
-        // Instantiate new player at checkpoint
-        GameObject player = Instantiate(playerPrefab, currentCheckPoint.transform.position, currentCheckPoint.transform.rotation);
+        if (player == null && playerPrefab != null)
+        {
+            var created = Instantiate(playerPrefab);
+            RegisterPlayer(created);
+            return;
+        }
 
-        // Re-set camera follow
-      //  if (virtualCamera != null)
-      //      virtualCamera.Follow = player.transform;
-
-        // Update HealthBar reference
-      //  PlayerStats playerStats = player.GetComponent<PlayerStats>();
-      //  HealthBar healthBar = FindObjectOfType<HealthBar>();
-      //  if (healthBar != null && playerStats != null)
-      //      healthBar.SetPlayerHealth();
+        SnapPlayerToSceneSpawn();
+        RetargetCameraToPlayer();
     }
-    void Start()
+
+    public void RegisterPlayer(GameObject newPlayer)
     {
-        GameObject player = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
-        PlayerMovement oldPlayer = FindFirstObjectByType<PlayerMovement>();
-       // playerStats playerStats = player.GetComponent<PlayerState>();
-        HealthBar healthBar = FindFirstObjectByType<HealthBar>();
-        //if (healthBar != null && playerStats != null)
-        //{
-        //    healthBar.SetPlayerHealth();
-        //}
-        //else
-        //{
-        //    Debug.Log("HealthBar or PlayerStats not found!");
-        //}
-      //  if (virtualCamera != null)
-      //  {
-      //      virtualCamera.Follow = player.transform;
-      //  }
+        if (!newPlayer) return;
+
+        if (player != null && player != newPlayer)
+            Destroy(player);                      // keep only one persistent player
+
+        player = newPlayer;
+        DontDestroyOnLoad(player);
+
+        SnapPlayerToSceneSpawn();
+        RetargetCameraToPlayer();
     }
 
+    private void SnapPlayerToSceneSpawn()
+    {
+        if (!player) return;
+        var spawn = FindFirstObjectByType<SpownPoint>(); // ← spell exactly like your script/class
+        if (spawn)
+            player.transform.SetPositionAndRotation(spawn.transform.position, spawn.transform.rotation);
+    }
+
+    private void RetargetCameraToPlayer()
+    {
+        if (!cinemachineCam || !player) return;
+
+        var t = cinemachineCam.Target;           // CM3: CameraTarget struct
+        t.TrackingTarget = player.transform;     // follow the *new* player
+        t.CustomLookAtTarget = false;
+        cinemachineCam.Target = t;               // assign back
+    }
 }
