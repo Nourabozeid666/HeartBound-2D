@@ -450,8 +450,8 @@ GameObject:
   - component: {fileID: 7020347477529961941}
   - component: {fileID: 2141927634619297125}
   m_Layer: 0
-  m_Name: gun
-  m_TagString: Untagged
+  m_Name: Gun
+  m_TagString: Gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -544,13 +544,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gun
   offset: 0
   shotPoint: {fileID: 1130945334856831004}
+  gun: {fileID: 4000656715370855398}
   weakBullets: {fileID: 5624524580465994327, guid: 136f05cced7990945962f5644cc0411b, type: 3}
   timeBetweenStrongShoots: 1
   reloadTime: 0.8
   timeBetweenSmallerShoots: 0.09
   bulletsInMag: 0
   strongBullets: {fileID: 6989982116581036525, guid: 8cf95329a35bbf540897529bd5f440b9, type: 3}
-  gun: {fileID: 4000656715370855398}
 --- !u!1 &6860034271300976620
 GameObject:
   m_ObjectHideFlags: 0

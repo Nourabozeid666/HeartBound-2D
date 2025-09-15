@@ -1,14 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    [SerializeField] GameObject gun;
-    private void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField] List <GameObject> weapons = new List<GameObject>();
+    private void Start()
     {
-        if (collision.transform.tag == "Player")
-        { 
-            Destroy(this.gameObject);
-            gun.SetActive(true) ;
-        }
+        int i = Random.Range(0, weapons.Count);
+        weapons[i].SetActive(true);
     }
 }

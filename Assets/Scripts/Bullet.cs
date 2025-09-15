@@ -31,6 +31,7 @@ public class Bullet : MonoBehaviour
     IEnumerator bulletSystem()
     {
         yield return new WaitForSeconds(bulletDestroyingTime);
+        if(gameObject.CompareTag("Bullet"))
         animator.SetBool("active", true);
         undestroyedBullet = false;
         yield return new WaitForSeconds(steamTime);

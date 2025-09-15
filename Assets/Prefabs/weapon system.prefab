@@ -172,6 +172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7608913293526239766}
+  - component: {fileID: 8447853805010952545}
   m_Layer: 0
   m_Name: weapon system
   m_TagString: Untagged
@@ -197,6 +198,21 @@ Transform:
   - {fileID: 6208524352238303374}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8447853805010952545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6575276583192317069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be2f2ba34f84d074e8658e5ff0145fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponController
+  weapons:
+  - {fileID: 8674897044826176579}
+  - {fileID: 2789709316888272219}
 --- !u!1 &7883243258691796836
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,14 +362,14 @@ GameObject:
   - component: {fileID: 8101959073663343539}
   - component: {fileID: 6051207974229396800}
   - component: {fileID: 761825353200527293}
-  - component: {fileID: 6103422494772461552}
+  - component: {fileID: 5044987123843071948}
   m_Layer: 0
   m_Name: gun-icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4076380796272294402
 Transform:
   m_ObjectHideFlags: 0
@@ -495,7 +511,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8125, y: 0.46875}
   m_EdgeRadius: 0
---- !u!114 &6103422494772461552
+--- !u!114 &5044987123843071948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -504,7 +520,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8674897044826176579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be2f2ba34f84d074e8658e5ff0145fd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 75e66b7d1600e6248a0e56414202183f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WeaponController
-  gun: {fileID: 3906446410309438068, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::GunIconDisappear

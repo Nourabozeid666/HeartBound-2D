@@ -8,6 +8,8 @@ TagManager:
   - Spike
   - Potion
   - Sword
+  - Gun
+  - Bullet
   layers:
   - Default
   - TransparentFX
