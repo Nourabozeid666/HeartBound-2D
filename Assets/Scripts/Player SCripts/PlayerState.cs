@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerState : MonoBehaviour
 {
-    public int health = 50;
+    public int maxHealth = 50;
     public int lives;
     public int currentHealth;
     [SerializeField] Animator animator;
@@ -13,7 +13,7 @@ public class PlayerState : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = health;
+        currentHealth = maxHealth;
         animator = GetComponent<Animator>();
     }
     public void TakeDamage(int damage)
@@ -25,7 +25,7 @@ public class PlayerState : MonoBehaviour
                 currentHealth = 0;
             if (lives > 0 && currentHealth == 0)
             {
-                currentHealth = health;
+                currentHealth = maxHealth;
                 //lives--;
                 // FindObjectOfType<LevelManager>().RespawnPlayer();
             }

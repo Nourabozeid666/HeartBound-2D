@@ -45,6 +45,10 @@ public class SceneController : MonoBehaviour
             string nextScene = levelSceneNames[i];
             SceneManager.LoadScene(nextScene);
             levelSceneNames.RemoveAt(i);
+            if(levelSceneNames.Count == 0)
+            {
+                SceneManager.LoadScene(0);
+            }
         }
     }
     public void GameOver()

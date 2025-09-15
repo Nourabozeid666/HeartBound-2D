@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private CinemachineCamera cinemachineCam;
+    [SerializeField] private GameObject hudCanvas;
 
     private GameObject player;
 
@@ -20,6 +21,7 @@ public class LevelManager : MonoBehaviour
         var mainCam = Camera.main;
         if (mainCam) DontDestroyOnLoad(mainCam.gameObject);
         if (cinemachineCam) DontDestroyOnLoad(cinemachineCam.gameObject);
+        if (hudCanvas) DontDestroyOnLoad(hudCanvas);
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }

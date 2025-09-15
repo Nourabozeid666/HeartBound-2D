@@ -1,51 +1,69 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+
 public class BowEnemy : MonoBehaviour, ITargetedEnemy
 {
     [Header("Movement")]
     [SerializeField] float enemySpeed = 5f;
-    [SerializeField] float stopDis = 6f;      
-    [SerializeField] float retreatDis = 3.5f;  
+    [SerializeField] float stopDis = 6f;
+    [SerializeField] float retreatDis = 3.5f;
+
+    [Header("Engage Range")]
+    [SerializeField] float engageRadius = 10f;
+    [SerializeField] float disengageRadius = 12f;
 
     [Header("Target")]
     [SerializeField] Transform player;
 
     [Header("Shooting")]
-    [SerializeField] GameObject arrowPrefab;    
-    [SerializeField] Transform shootOrigin;     
-    [SerializeField] float fireCooldown = 1.0f; 
+    [SerializeField] GameObject arrowPrefab;
+    [SerializeField] Transform shootOrigin;
+    [SerializeField] float fireCooldown = 1.0f;
     [SerializeField] float arrowSpeed = 12f;
     [SerializeField] int arrowDamage = 10;
 
+    [Header("Animator (optional)")]
+    [SerializeField] Animator anim;
+    [SerializeField] bool driveWalkAnim = true;
+    [SerializeField] bool driveShootAnim = true;
+
+
+    readonly int hashIsWalking = Animator.StringToHash("isWalking");
+    readonly int hashIsShooting = Animator.StringToHash("isShooting");
 
     Rigidbody2D rb;
     float nextFireTime;
     bool inComfortRange;
-    Animator anim;
+    bool engaged;
 
-    bool driveWalkAnim = true;
-    bool driveShootAnim = true;
+    public void SetTarget(Transform target) => player = target;
 
-
-    public void SetTarget(Transform target)
-    {
-        player = target;
-    }
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponentInChildren<Animator>(true);
+        if (!anim) anim = GetComponentInChildren<Animator>(true);
+
 
         if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
+        if (disengageRadius < engageRadius) disengageRadius = engageRadius + 1f;
+        if (engageRadius < stopDis) engageRadius = stopDis + 0.5f;
+
+        if (!shootOrigin) shootOrigin = transform;
+    }
+
+    void OnValidate()
+    {
+        if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
+        if (disengageRadius < engageRadius) disengageRadius = engageRadius + 0.5f;
+        if (engageRadius < stopDis) engageRadius = stopDis + 0.5f;
     }
 
     void Start()
     {
         if (!player)
         {
-            var GetPlayer = GameObject.FindGameObjectWithTag("Player");
-            if (GetPlayer) player = GetPlayer.transform;
+            var p = GameObject.FindGameObjectWithTag("Player");
+            if (p) player = p.transform;
         }
     }
 
@@ -54,17 +72,36 @@ public class BowEnemy : MonoBehaviour, ITargetedEnemy
         if (!player) return;
 
         float distance = Vector2.Distance(rb.position, player.position);
+
+
+        if (!engaged && distance <= engageRadius) engaged = true;
+        else if (engaged && distance > disengageRadius) engaged = false;
+
+
+        if (!engaged)
+        {
+            inComfortRange = false;
+
+            if (anim && driveWalkAnim && anim.HasParameterOfType("isWalking", AnimatorControllerParameterType.Bool))
+                anim.SetBool(hashIsWalking, false);
+
+            UpdateFacing();
+            return;
+        }
+
         Vector2 newPos = rb.position;
         bool isMoving = false;
 
         if (distance > stopDis)
         {
+
             newPos = Vector2.MoveTowards(rb.position, player.position, enemySpeed * Time.fixedDeltaTime);
             isMoving = true;
             inComfortRange = false;
         }
         else if (distance < retreatDis)
         {
+
             Vector2 away = (rb.position - (Vector2)player.position).normalized;
             newPos = rb.position + away * enemySpeed * Time.fixedDeltaTime;
             isMoving = true;
@@ -72,55 +109,71 @@ public class BowEnemy : MonoBehaviour, ITargetedEnemy
         }
         else
         {
+
             inComfortRange = true;
             TryShootOnTimer();
             isMoving = false;
         }
 
         rb.MovePosition(newPos);
-
         UpdateFacing();
 
+
         if (anim && driveWalkAnim && anim.HasParameterOfType("isWalking", AnimatorControllerParameterType.Bool))
-            anim.SetBool("isWalking", isMoving);
+            anim.SetBool(hashIsWalking, isMoving);
 
         if (anim && driveShootAnim && anim.HasParameterOfType("isShooting", AnimatorControllerParameterType.Bool))
-            anim.SetBool("isShooting", inComfortRange);
+            anim.SetBool(hashIsShooting, inComfortRange);
     }
-
     void UpdateFacing()
     {
         if (!player) return;
-
         int face = (player.position.x >= transform.position.x) ? 1 : -1;
         var s = transform.localScale;
         s.x = Mathf.Abs(s.x) * face;
         transform.localScale = s;
     }
-
     void TryShootOnTimer()
     {
         if (!arrowPrefab || !player) return;
         if (Time.time < nextFireTime) return;
 
-        Vector2 origin = shootOrigin ? (Vector2)shootOrigin.position : (Vector2)transform.position;
-
-        Vector2 dir = ((Vector2)player.position - origin).normalized;
-
+        Vector2 origin = (Vector2)(shootOrigin ? shootOrigin.position : transform.position);
+        Vector2 toTarget = (Vector2)player.position - origin;
+        if (toTarget.sqrMagnitude < 0.0001f) return;
+        Vector2 dir = toTarget.normalized;
         GameObject arrow = Instantiate(arrowPrefab, origin, Quaternion.identity);
         float ang = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.AngleAxis(ang, Vector3.forward);
-
-        var rbArrow = arrow.GetComponent<Rigidbody2D>();
-        if (rbArrow) rbArrow.linearVelocity = dir * arrowSpeed;  
+        var arrowCol = arrow.GetComponent<Collider2D>();
+        if (arrowCol)
+        {
+            var myCols = GetComponentsInChildren<Collider2D>();
+            foreach (var c in myCols) Physics2D.IgnoreCollision(arrowCol, c, true);
+        }
 
         var proj = arrow.GetComponent<Projectile>();
         if (proj) proj.SetDamage(arrowDamage);
 
+
+        var rb2d = arrow.GetComponent<Rigidbody2D>();
+        if (rb2d != null)
+        {
+            rb2d.gravityScale = 0f;
+            rb2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            rb2d.AddForce(dir * arrowSpeed, ForceMode2D.Impulse);
+        }
+        else
+        {
+            var mover = arrow.GetComponent<Projectile>();
+            if (!mover) mover = arrow.AddComponent<Projectile>();
+            mover.Init(dir, arrowSpeed);
+        }
+
         nextFireTime = Time.time + fireCooldown;
     }
-}
 
+}
 static class AnimatorParamCheck
 {
     public static bool HasParameterOfType(this Animator a, string name, AnimatorControllerParameterType type)
