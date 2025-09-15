@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6301863363315413220}
   m_Layer: 0
   m_Name: weak bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9e272e7a01cdd1409246e78a6eb227d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  bulletDestroyingTime: 0.22
+  bulletDestroyingTime: 0.24
   steamTime: 1
   speed: 50
   steamSpeed: 5

@@ -6,6 +6,7 @@ public class Gun : MonoBehaviour
     [Header("Gun settings")]
     [SerializeField] float offset=-90;
     [SerializeField] Transform shotPoint;
+    [SerializeField] GameObject gun;
 
     [Header("Attack_1")]
     [SerializeField] GameObject weakBullets;
@@ -29,7 +30,6 @@ public class Gun : MonoBehaviour
 
     [Header("Attack_2")]
     [SerializeField] GameObject strongBullets;
-    [SerializeField] GameObject gun;
     bool canFireStrong = true;
 
     enum lockShooting { none, strong, weak}
