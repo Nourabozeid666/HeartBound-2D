@@ -9,7 +9,6 @@ public class HealthBar : MonoBehaviour
     private void Start()
     {
         HealthBarEmpty.fillAmount = 50f/100f;
-
     }
 
     private void Update()

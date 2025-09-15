@@ -48,6 +48,10 @@ public class PlayerState : MonoBehaviour
     }
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.V))
+        { 
+            TakeDamage(2);
+            return;
+        }
     }
 }
