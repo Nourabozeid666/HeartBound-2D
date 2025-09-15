@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Prefabs/Player.prefab.meta
+HEAD:Assets/Prefabs/Player.prefab.meta
 guid: 11dcf72d48336af449a71e1378daa99b
-========
 guid: c1bc39f6e2bdd514d8c5c3f22d8ed705
->>>>>>>> main:Assets/Prefabs/Arrow.prefab.meta
+main:Assets/Prefabs/Arrow.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

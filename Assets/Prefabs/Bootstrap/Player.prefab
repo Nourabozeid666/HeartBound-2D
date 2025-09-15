@@ -87,7 +87,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -765124993
-  m_SortingLayer: 10
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_Sprite: {fileID: 2629151423853186541, guid: 763d1a3bb1aad624da56d7bc6fc4466b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -324,7 +324,7 @@ MonoBehaviour:
   Playercollider: {fileID: 4530683772834570359}
   movementSpeed: 20
   isFacingRight: 1
-  dashSpeed: 40
+  dashSpeed: 50
   dashCooldown: 0.4
   dashDuration: 0.17
   doubleDashCoolDown: 0.6
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7e81a3d1431f4469650287f2dd0c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerState
-  health: 50
+  maxHealth: 50
   lives: 0
   currentHealth: 0
   animator: {fileID: 4353061609659153426}
@@ -517,7 +517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 626812855
-  m_SortingLayer: 11
+  m_SortingLayer: 14
   m_SortingOrder: 1
   m_Sprite: {fileID: 960953373, guid: fd3104f54e7684746a62847b73c7dd63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
