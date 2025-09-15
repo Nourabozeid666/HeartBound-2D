@@ -114100,6 +114100,18 @@ PrefabInstance:
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 1743309885}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: levelSceneNames.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: 'levelSceneNames.Array.data[4]'
+      value: the Hub Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: 'levelSceneNames.Array.data[5]'
+      value: Puzzle Room
+      objectReference: {fileID: 0}
     - target: {fileID: 4520363310244694635, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.2777
@@ -114204,6 +114216,11 @@ MonoBehaviour:
   attackRange: 3
   attackCooldown: 1.5
   Damage: 10
+  hitPoint: {fileID: 0}
+  hitRadius: 0.6
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
   slowdownDistance: 3
   chaseSpeed: 3.5
 --- !u!95 &3264751356567179276
