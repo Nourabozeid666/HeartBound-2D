@@ -1,10 +1,11 @@
 ﻿using Pathfinding;
 using UnityEngine;
 
-public class EnemyChaseLimit : MonoBehaviour
+public class EnemyChaseLimit : MonoBehaviour, ITargetedEnemy
 {
     [SerializeField] AIPath aiPath;
     [SerializeField] AIDestinationSetter destSetter;
+    [SerializeField] Transform player;
 
     [Header("Chase")]
     [SerializeField] float enterChaseRadius = 8f;
@@ -33,14 +34,20 @@ public class EnemyChaseLimit : MonoBehaviour
 
     PlayerState playerState;
     Animator Enemyanim;
-    Transform player;
 
 
+    public void SetTarget(Transform target)
+    {
+        player = target;
+    }
 
     void Start()
     {
-       player = FindFirstObjectByType<PlayerMovement>().transform;
-
+        if (!player)
+        {
+            var GetPlayer = GameObject.FindGameObjectWithTag("Player");
+            if (GetPlayer) player = GetPlayer.transform;
+        }
     }
     void Awake()
     {

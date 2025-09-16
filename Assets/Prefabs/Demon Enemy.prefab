@@ -181,6 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaseLimit
   aiPath: {fileID: 936427725390248292}
   destSetter: {fileID: 1947372216366950728}
+  player: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
   enterChaseRadius: 15
   exitChaseRadius: 16
   stopDistance: 1.5
@@ -244,18 +245,6 @@ PrefabInstance:
     - target: {fileID: 3346596759925860659, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
       propertyPath: m_Layer
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3346596759925860659, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
-      propertyPath: m_TagString
-      value: Demon
-      objectReference: {fileID: 0}
-    - target: {fileID: 8208327153053954383, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
-      propertyPath: m_SortingLayer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8208327153053954383, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -765124993
       objectReference: {fileID: 0}
     - target: {fileID: 8776560188255886825, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
       propertyPath: m_LocalPosition.x

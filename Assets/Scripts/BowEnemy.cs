@@ -1,48 +1,49 @@
 ﻿using UnityEngine;
 
 
-public class BowEnemy : MonoBehaviour
+public class BowEnemy : MonoBehaviour, ITargetedEnemy
 {
     [Header("Movement")]
     [SerializeField] float enemySpeed = 5f;
-    [SerializeField] float stopDis = 6f;     
-    [SerializeField] float retreatDis = 3.5f;   
+    [SerializeField] float stopDis = 6f;
+    [SerializeField] float retreatDis = 3.5f;
 
     [Header("Engage Range")]
-    [SerializeField] float engageRadius = 10f; 
+    [SerializeField] float engageRadius = 10f;
     [SerializeField] float disengageRadius = 12f;
 
+    [Header("Target")]
+    [SerializeField] Transform player;
 
     [Header("Shooting")]
-    [SerializeField] GameObject arrowPrefab;     
-    [SerializeField] Transform shootOrigin;       
+    [SerializeField] GameObject arrowPrefab;
+    [SerializeField] Transform shootOrigin;
     [SerializeField] float fireCooldown = 1.0f;
     [SerializeField] float arrowSpeed = 12f;
     [SerializeField] int arrowDamage = 10;
 
     [Header("Animator (optional)")]
-
-    [SerializeField] Animator anim;             
-    [SerializeField] bool driveWalkAnim = true;  
-    [SerializeField] bool driveShootAnim = true;  
-
+    [SerializeField] Animator anim;
+    [SerializeField] bool driveWalkAnim = true;
+    [SerializeField] bool driveShootAnim = true;
 
 
     readonly int hashIsWalking = Animator.StringToHash("isWalking");
     readonly int hashIsShooting = Animator.StringToHash("isShooting");
 
-    Transform player;
     Rigidbody2D rb;
     float nextFireTime;
     bool inComfortRange;
-    bool engaged; 
+    bool engaged;
+
+    public void SetTarget(Transform target) => player = target;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         if (!anim) anim = GetComponentInChildren<Animator>(true);
 
-    
+
         if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
         if (disengageRadius < engageRadius) disengageRadius = engageRadius + 1f;
         if (engageRadius < stopDis) engageRadius = stopDis + 0.5f;
@@ -59,7 +60,11 @@ public class BowEnemy : MonoBehaviour
 
     void Start()
     {
-       player = FindFirstObjectByType<PlayerMovement>().transform;  
+        if (!player)
+        {
+            var p = GameObject.FindGameObjectWithTag("Player");
+            if (p) player = p.transform;
+        }
     }
 
     void FixedUpdate()
@@ -81,7 +86,6 @@ public class BowEnemy : MonoBehaviour
                 anim.SetBool(hashIsWalking, false);
 
             UpdateFacing();
-
             return;
         }
 
@@ -129,7 +133,6 @@ public class BowEnemy : MonoBehaviour
         s.x = Mathf.Abs(s.x) * face;
         transform.localScale = s;
     }
-
     void TryShootOnTimer()
     {
         if (!arrowPrefab || !player) return;
@@ -137,11 +140,9 @@ public class BowEnemy : MonoBehaviour
 
         Vector2 origin = (Vector2)(shootOrigin ? shootOrigin.position : transform.position);
         Vector2 toTarget = (Vector2)player.position - origin;
-
-        if (toTarget.sqrMagnitude < 0.0001f) return; 
+        if (toTarget.sqrMagnitude < 0.0001f) return;
         Vector2 dir = toTarget.normalized;
         GameObject arrow = Instantiate(arrowPrefab, origin, Quaternion.identity);
-
         float ang = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.AngleAxis(ang, Vector3.forward);
         var arrowCol = arrow.GetComponent<Collider2D>();

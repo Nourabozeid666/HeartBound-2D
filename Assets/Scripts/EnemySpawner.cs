@@ -2,13 +2,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-
+public interface ITargetedEnemy
+{
+    void SetTarget(Transform target);
+}
 public class EnemySpawner : MonoBehaviour
 {
-    [Header("Target")]
+    [Header("Target (optional if enemies fallback to tag)")]
     [SerializeField] Transform player;
 
     [Header("Enemy Prefabs")]
@@ -16,11 +18,14 @@ public class EnemySpawner : MonoBehaviour
 
     [Header("Spawn Areas")]
     [SerializeField] BoxCollider2D[] boxAreas;   
- 
+    [SerializeField] CircleCollider2D[] circleAreas; 
 
     [Header("Placement Rules")]
+    [Tooltip("أقل مسافة من اللاعب")]
     [SerializeField] float minDistanceFromPlayer = 2.0f;
+    [Tooltip("نصف قطر نظافة حول نقطة السبون (لو =0 يتلغى الفحص)")]
     [SerializeField] float clearanceRadius = 0.4f;
+    [Tooltip("طبقات ممنوع التداخل معها عند السبون: Walls/Obstacles/Enemies...")]
     [SerializeField] LayerMask blockedMask;
     [SerializeField] int maxAttempts = 25;
 
@@ -34,9 +39,7 @@ public class EnemySpawner : MonoBehaviour
     public int SpawnedInBatch { get; private set; }
     public int LastBatchSize { get; private set; }
     public bool IsSpawning { get; private set; }
-
     public event Action<int> OnBatchCleared;
-
     [Header("Auto Test")]
     [SerializeField] bool autoTestOnPlay = false; 
     [SerializeField] int autoTestCount = 3;    
@@ -47,8 +50,6 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator Start()
     {
-        player = FindFirstObjectByType<PlayerMovement>().transform;
-
         if (autoTestOnPlay)
             yield return StartCoroutine(AutoTestRoutine());
     }
@@ -63,14 +64,20 @@ public class EnemySpawner : MonoBehaviour
                 yield return new WaitForSeconds(autoTestRepeatDelay);
         }
     }
-  
+
+
     void Awake()
     {
-      
+        if (!player)
+        {
+            var go = GameObject.FindGameObjectWithTag("Player");
+            if (go) player = go.transform;
+        }
+
         if (enemyPrefabs == null || enemyPrefabs.Count == 0)
             Debug.LogWarning("[EnemyBatchSpawner] No enemyPrefabs assigned.", this);
 
-        if (boxAreas == null || boxAreas.Length == 0)
+        if ((boxAreas == null || boxAreas.Length == 0) && (circleAreas == null || circleAreas.Length == 0))
             Debug.LogWarning("[EnemyBatchSpawner] No spawn areas assigned.", this);
 
         if (maxAttempts < 1) maxAttempts = 1;
@@ -80,6 +87,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if (count <= 0)
         {
+            Debug.LogWarning("[EnemyBatchSpawner] BeginBatch called with count <= 0", this);
             return null;
         }
         return StartCoroutine(SpawnBatchRoutine(count));
@@ -95,6 +103,9 @@ public class EnemySpawner : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             bool ok = SpawnOne();
+            if (!ok)
+                Debug.LogWarning($"[EnemyBatchSpawner] Failed to spawn enemy #{i + 1}/{count}", this);
+
             if (spawnInterval > 0f) yield return new WaitForSeconds(spawnInterval);
         }
 
@@ -109,7 +120,7 @@ public class EnemySpawner : MonoBehaviour
     bool SpawnOne()
     {
         if (enemyPrefabs == null || enemyPrefabs.Count == 0) return false;
-        if (boxAreas == null || boxAreas.Length == 0)  return false;
+        if ((boxAreas == null || boxAreas.Length == 0) && (circleAreas == null || circleAreas.Length == 0)) return false;
 
         var prefab = randomizeEnemyType
             ? enemyPrefabs[UnityEngine.Random.Range(0, enemyPrefabs.Count)]
@@ -118,11 +129,14 @@ public class EnemySpawner : MonoBehaviour
         Vector2 pos;
         if (!TryGetValidPoint(out pos))
         {
+            Debug.LogWarning("[EnemyBatchSpawner] Could not find a valid spawn point after attempts.", this);
             return false;
         }
 
         var enemy = Instantiate(prefab, pos, Quaternion.identity);
-    
+
+        foreach (var targeted in enemy.GetComponentsInChildren<ITargetedEnemy>(true))
+            targeted.SetTarget(player);
 
         var hp = enemy.GetComponentInChildren<EnemyHealth>(true);
         if (hp != null)
@@ -150,12 +164,15 @@ public class EnemySpawner : MonoBehaviour
             bool got = false;
             Vector2 p = Vector2.zero;
 
-            bool tryBoxFirst = (boxAreas != null && boxAreas.Length > 0) 
+            bool tryBoxFirst = (boxAreas != null && boxAreas.Length > 0) &&
+                               (circleAreas != null && circleAreas.Length > 0)
                                ? (UnityEngine.Random.value < 0.5f)
                                : (boxAreas != null && boxAreas.Length > 0);
 
             if (tryBoxFirst)
                 got = TryPointInRandomBox(out p);
+            if (!got && circleAreas != null && circleAreas.Length > 0)
+                got = TryPointInRandomCircle(out p);
             if (!got && boxAreas != null && boxAreas.Length > 0)
                 got = TryPointInRandomBox(out p);
 
@@ -198,6 +215,24 @@ public class EnemySpawner : MonoBehaviour
       
         Vector2 localWithOffset = box.offset + local;
         p = box.transform.TransformPoint(localWithOffset);
+        return true;
+    }
+
+    bool TryPointInRandomCircle(out Vector2 p)
+    {
+        p = Vector2.zero;
+        if (circleAreas == null || circleAreas.Length == 0) return false;
+
+        var cc = circleAreas[UnityEngine.Random.Range(0, circleAreas.Length)];
+        if (!cc) return false;
+
+        
+        float r = cc.radius * Mathf.Sqrt(UnityEngine.Random.value);
+        float t = UnityEngine.Random.Range(0f, Mathf.PI * 2f);
+        Vector2 local = new Vector2(Mathf.Cos(t), Mathf.Sin(t)) * r;
+
+        Vector2 localWithOffset = cc.offset + local;
+        p = cc.transform.TransformPoint(localWithOffset);
         return true;
     }
 

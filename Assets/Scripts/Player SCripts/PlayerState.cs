@@ -1,11 +1,9 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerState : MonoBehaviour
 {
-  
     public int maxHealth = 50;
     public int lives;
     public int currentHealth;
