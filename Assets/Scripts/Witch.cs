@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-public class Witch : MonoBehaviour, ITargetedEnemy
+public class Witch : MonoBehaviour
 {
     [Header("Game Objects")]
     [SerializeField] Transform player;
@@ -12,18 +12,11 @@ public class Witch : MonoBehaviour, ITargetedEnemy
     [SerializeField] CircleCollider2D SpawnRange;
 
     [SerializeField] float numberOfSkelton = 4f;
-    public void SetTarget(Transform target)
-    {
-        player = target;
-    }
+   
 
     void Start()
     {
-        if (!player)
-        {
-            var GetPlayer = GameObject.FindGameObjectWithTag("Player");
-            if (GetPlayer) player = GetPlayer.transform;
-        }
+        player = FindFirstObjectByType<PlayerMovement>().transform;
     }
 
     void Update()
