@@ -1,27 +1,31 @@
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    [SerializeField] Image HealthBarEmpty;
-    [SerializeField] Image healthBarCurrent;
+    Sprite HealthBarEmpty;
+    [SerializeField] Image barImage;
     [SerializeField] string playerTag = "Player";  // make sure your player clone uses this tag
     [SerializeField] List <Sprite> healthState = new List<Sprite>();
+    [SerializeField] private float stepDelay = 1f;
+    int shownIndex = 0;
+    bool isChanging = false;
+    public int targetIndex = 0;
+    Coroutine animCo = null;
 
     private PlayerState playerState;
     private float nextSearchTime = 0f;
     private const float searchInterval = 0.5f;
     private void Start()
     {
-        // set a default look so it isn't empty
-        if (HealthBarEmpty) HealthBarEmpty.fillAmount = 1f;
-        if (healthBarCurrent) healthBarCurrent.fillAmount = 0f;
+        HealthBarEmpty = healthState[29];
     }
 
     private void Update()
     {
-        // If we don't have a player yet, keep trying to find one
         if (playerState == null && Time.time >= nextSearchTime)
         {
             TryFindPlayer();
@@ -29,12 +33,14 @@ public class HealthBar : MonoBehaviour
         }
 
         // If we have a player now, update the bar
-        if (playerState != null && healthBarCurrent != null)
+        if (playerState != null && barImage != null &&  healthState != null && healthState.Count > 0 )
         {
-            // Use maxHealth if your PlayerState has it; otherwise assume 100
-            int max = playerState.maxHealth > 0 ? playerState.maxHealth : 100;
-            float pct = Mathf.Clamp01((float)playerState.currentHealth / max);
-            healthBarCurrent.fillAmount = pct;
+            if(shownIndex != targetIndex)
+            {
+                //if (animCo != null) 
+                //    StopCoroutine(animCo);
+                animCo = StartCoroutine(AnimateBar(shownIndex, targetIndex));
+            }
         }
     }
     private void TryFindPlayer()
@@ -46,10 +52,21 @@ public class HealthBar : MonoBehaviour
             playerState = go.GetComponent<PlayerState>();
             if (playerState != null) return;
         }
-
-        // 2) Fallback: find ANY PlayerState in the scene (including inactive)
-        //    Unity 6: use FindFirstObjectByType with Include inactive
         playerState = FindFirstObjectByType<PlayerState>(FindObjectsInactive.Include);
-        // If still null, we'll try again on the next tick (no errors, no spam).
+    }
+
+    IEnumerator AnimateBar(int from, int to)
+    {
+        for (int i = from; i < to; i++)
+        {
+            shownIndex = i;
+            barImage.sprite = healthState[shownIndex];
+            isChanging = true;
+            yield return new WaitForSeconds(stepDelay);
+            isChanging = false;
+            if (shownIndex == to)
+                break;
+        }
+       // animCo = null;
     }
 }
