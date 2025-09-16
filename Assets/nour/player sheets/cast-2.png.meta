@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,12 +127,12 @@ TextureImporter:
       name: Spellsword sprite sheet magic attack_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 25
-        width: 56
-        height: 33
+        x: 20
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,177 +146,177 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_1
+      name: cast-2_0
       rect:
         serializedVersion: 2
-        x: 165
-        y: 22
-        width: 56
-        height: 46
+        x: 146
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 389384eead06326c0800000000000000
-      internalID: -4169382336598099581
+      spriteID: 2571e84cbf552464084504d005d70ad2
+      internalID: -1327495383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_2
+      name: cast-2_1
       rect:
         serializedVersion: 2
-        x: 291
-        y: 15
-        width: 54
-        height: 61
+        x: 276
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c8317710a305e0c0800000000000000
-      internalID: -4547224262637700923
+      spriteID: e5b4979c505770844b7213d3ebd1170b
+      internalID: 403202697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_3
+      name: cast-2_2
       rect:
         serializedVersion: 2
-        x: 415
-        y: 12
-        width: 54
-        height: 71
+        x: 399
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e7588695b0080d00800000000000000
-      internalID: 939001302221346786
+      spriteID: 7ae6c53520ab3a84d868ec1f6f17aeeb
+      internalID: 1854867326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_4
+      name: cast-2_3
       rect:
         serializedVersion: 2
-        x: 540
-        y: 25
-        width: 53
-        height: 33
+        x: 524
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a8a5269091a70d40800000000000000
-      internalID: 5550582708123838629
+      spriteID: 5f223966c518527489465f37df4ec608
+      internalID: 2123918560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_5
+      name: cast-2_4
       rect:
         serializedVersion: 2
-        x: 664
-        y: 25
-        width: 53
-        height: 33
+        x: 642
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47ef81089b7562840800000000000000
-      internalID: 5198939274075504244
+      spriteID: 86e058186f66c834d8da1153cf0fecdb
+      internalID: 318474323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_6
+      name: cast-2_5
       rect:
         serializedVersion: 2
-        x: 788
-        y: 25
-        width: 53
-        height: 33
+        x: 770
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e6cdf5ff44877d20800000000000000
-      internalID: 3276232732899657441
+      spriteID: 3366229cfba0d10459e11769fa3a957e
+      internalID: 2112465494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_7
+      name: cast-2_6
       rect:
         serializedVersion: 2
-        x: 912
-        y: 25
-        width: 53
-        height: 33
+        x: 896
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76a6be9ede0bb5130800000000000000
-      internalID: 3556630866617395815
+      spriteID: 70d16702655fca04c936a942b1ee7f9c
+      internalID: -1531625686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spellsword sprite sheet magic attack_8
+      name: cast-2_7
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 25
-        width: 53
-        height: 33
+        x: 1024
+        y: 0
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 726db73e41e756870800000000000000
-      internalID: 8675478885380118055
+      spriteID: 361fa170021c7b0499d6793d15a6ba5c
+      internalID: -1774994005
       vertices: []
       indices: 
       edges: []
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5156da8e7f0113a4fbca5262a7b555c1
     internalID: 0
     vertices: []
     indices: 
@@ -344,6 +344,14 @@ TextureImporter:
       Spellsword sprite sheet magic attack_6: 3276232732899657441
       Spellsword sprite sheet magic attack_7: 3556630866617395815
       Spellsword sprite sheet magic attack_8: 8675478885380118055
+      cast-2_0: -1327495383
+      cast-2_1: 403202697
+      cast-2_2: 1854867326
+      cast-2_3: 2123918560
+      cast-2_4: 318474323
+      cast-2_5: 2112465494
+      cast-2_6: -1531625686
+      cast-2_7: -1774994005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

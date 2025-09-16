@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] Image HealthBarEmpty;
     [SerializeField] Image healthBarCurrent;
     [SerializeField] string playerTag = "Player";  // make sure your player clone uses this tag
+    [SerializeField] List <Sprite> healthState = new List<Sprite>();
 
     private PlayerState playerState;
     private float nextSearchTime = 0f;

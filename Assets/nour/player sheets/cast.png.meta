@@ -201,8 +201,8 @@ TextureImporter:
       name: Spellsword sprite sheet enchant_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 27
+        x: 19
+        y: 25
         width: 73
         height: 58
       alignment: 0
@@ -351,6 +351,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cast_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 25
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635b149f3f993b488acc9c91ba572f9
+      internalID: 596482884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -384,6 +406,7 @@ TextureImporter:
       Spellsword sprite sheet enchant_7: -2599580411834609705
       Spellsword sprite sheet enchant_8: -1369965444288585572
       Spellsword sprite sheet enchant_9: -6286790325973302497
+      cast_0: 596482884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
@@ -27,6 +28,7 @@ public class SceneController : MonoBehaviour
         }
         if (gameOverPanel == null)
             gameOverPanel = GameObject.FindWithTag("GameOverPanel");
+
     }
     public void NextLevel()
     {
@@ -53,6 +55,8 @@ public class SceneController : MonoBehaviour
     }
     public void GameOver()
     {
+        var ScenePlayerInput = FindFirstObjectByType<PlayerInput>();
+        ScenePlayerInput.DeactivateInput();
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
@@ -66,7 +70,6 @@ public class SceneController : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f; // Pause game
         }
         else
         {
@@ -78,7 +81,7 @@ public class SceneController : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
-            Time.timeScale = 1f; // Resume game
+
         }
     }
 
