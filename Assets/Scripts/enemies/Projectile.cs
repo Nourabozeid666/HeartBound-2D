@@ -17,7 +17,6 @@ public class Projectile : MonoBehaviour
         if (ps) { ps.TakeDamage(damage); Destroy(gameObject); }
         else { Destroy(gameObject); }
     }
-
     public void Init(Vector2 direction, float spd)
     {
         dir = direction.normalized;
@@ -29,4 +28,5 @@ public class Projectile : MonoBehaviour
     {
         transform.position += (Vector3)(dir * speed * Time.deltaTime);
     }
+
 }
