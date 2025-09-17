@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-public class BowEnemy : MonoBehaviour, ITargetedEnemy
+public class BowEnemy : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] float enemySpeed = 5f;
@@ -12,8 +12,7 @@ public class BowEnemy : MonoBehaviour, ITargetedEnemy
     [SerializeField] float engageRadius = 10f;
     [SerializeField] float disengageRadius = 12f;
 
-    [Header("Target")]
-    [SerializeField] Transform player;
+ 
 
     [Header("Shooting")]
     [SerializeField] GameObject arrowPrefab;
@@ -31,12 +30,11 @@ public class BowEnemy : MonoBehaviour, ITargetedEnemy
     readonly int hashIsWalking = Animator.StringToHash("isWalking");
     readonly int hashIsShooting = Animator.StringToHash("isShooting");
 
+    Transform player;
     Rigidbody2D rb;
     float nextFireTime;
     bool inComfortRange;
     bool engaged;
-
-    public void SetTarget(Transform target) => player = target;
 
     void Awake()
     {
@@ -60,11 +58,8 @@ public class BowEnemy : MonoBehaviour, ITargetedEnemy
 
     void Start()
     {
-        if (!player)
-        {
-            var p = GameObject.FindGameObjectWithTag("Player");
-            if (p) player = p.transform;
-        }
+        player = FindFirstObjectByType<PlayerMovement>().transform;
+        arrowPrefab = FindFirstObjectByType<Projectile>().gameObject;
     }
 
     void FixedUpdate()

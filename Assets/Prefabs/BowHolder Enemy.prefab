@@ -81,12 +81,16 @@ MonoBehaviour:
   enemySpeed: 5
   stopDis: 6
   retreatDis: 3.5
-  player: {fileID: 8646362972892390297, guid: 11dcf72d48336af449a71e1378daa99b, type: 3}
+  engageRadius: 10
+  disengageRadius: 12
   arrowPrefab: {fileID: 1503419230760656796, guid: c1bc39f6e2bdd514d8c5c3f22d8ed705, type: 3}
   shootOrigin: {fileID: 3902569900339395354}
   fireCooldown: 1
   arrowSpeed: 12
   arrowDamage: 10
+  anim: {fileID: 3671217815712734665}
+  driveWalkAnim: 1
+  driveShootAnim: 1
 --- !u!50 &4488640142702528251
 Rigidbody2D:
   serializedVersion: 5
@@ -241,7 +245,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -765124993
-  m_SortingLayer: 10
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_Sprite: {fileID: 2696214034221626940, guid: ea8d96d0b152fa946969f2643ce36a5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -4,28 +4,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ITargetedEnemy
-{
-    void SetTarget(Transform target);
-}
 public class EnemySpawner : MonoBehaviour
 {
-    [Header("Target (optional if enemies fallback to tag)")]
-    [SerializeField] Transform player;
-
+  
+ 
     [Header("Enemy Prefabs")]
     [SerializeField] List<GameObject> enemyPrefabs;
 
     [Header("Spawn Areas")]
     [SerializeField] BoxCollider2D[] boxAreas;   
-    [SerializeField] CircleCollider2D[] circleAreas; 
 
     [Header("Placement Rules")]
-    [Tooltip("أقل مسافة من اللاعب")]
     [SerializeField] float minDistanceFromPlayer = 2.0f;
-    [Tooltip("نصف قطر نظافة حول نقطة السبون (لو =0 يتلغى الفحص)")]
     [SerializeField] float clearanceRadius = 0.4f;
-    [Tooltip("طبقات ممنوع التداخل معها عند السبون: Walls/Obstacles/Enemies...")]
     [SerializeField] LayerMask blockedMask;
     [SerializeField] int maxAttempts = 25;
 
@@ -33,6 +24,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] bool randomizeEnemyType = true;
     [SerializeField] float spawnInterval = 0.1f;
 
+
+    Transform player;
 
     // To use in Level Spawner
     public int AliveInBatch { get; private set; }
@@ -68,16 +61,12 @@ public class EnemySpawner : MonoBehaviour
 
     void Awake()
     {
-        if (!player)
-        {
-            var go = GameObject.FindGameObjectWithTag("Player");
-            if (go) player = go.transform;
-        }
+        player = FindFirstObjectByType<PlayerMovement>().transform;
 
         if (enemyPrefabs == null || enemyPrefabs.Count == 0)
             Debug.LogWarning("[EnemyBatchSpawner] No enemyPrefabs assigned.", this);
 
-        if ((boxAreas == null || boxAreas.Length == 0) && (circleAreas == null || circleAreas.Length == 0))
+        if (boxAreas == null || boxAreas.Length == 0)
             Debug.LogWarning("[EnemyBatchSpawner] No spawn areas assigned.", this);
 
         if (maxAttempts < 1) maxAttempts = 1;
@@ -120,7 +109,7 @@ public class EnemySpawner : MonoBehaviour
     bool SpawnOne()
     {
         if (enemyPrefabs == null || enemyPrefabs.Count == 0) return false;
-        if ((boxAreas == null || boxAreas.Length == 0) && (circleAreas == null || circleAreas.Length == 0)) return false;
+        if (boxAreas == null || boxAreas.Length == 0) return false;
 
         var prefab = randomizeEnemyType
             ? enemyPrefabs[UnityEngine.Random.Range(0, enemyPrefabs.Count)]
@@ -133,10 +122,7 @@ public class EnemySpawner : MonoBehaviour
             return false;
         }
 
-        var enemy = Instantiate(prefab, pos, Quaternion.identity);
-
-        foreach (var targeted in enemy.GetComponentsInChildren<ITargetedEnemy>(true))
-            targeted.SetTarget(player);
+        var enemy = Instantiate(prefab, pos, Quaternion.identity);;
 
         var hp = enemy.GetComponentInChildren<EnemyHealth>(true);
         if (hp != null)
@@ -164,15 +150,12 @@ public class EnemySpawner : MonoBehaviour
             bool got = false;
             Vector2 p = Vector2.zero;
 
-            bool tryBoxFirst = (boxAreas != null && boxAreas.Length > 0) &&
-                               (circleAreas != null && circleAreas.Length > 0)
+            bool tryBoxFirst = (boxAreas != null && boxAreas.Length > 0) 
                                ? (UnityEngine.Random.value < 0.5f)
                                : (boxAreas != null && boxAreas.Length > 0);
 
             if (tryBoxFirst)
                 got = TryPointInRandomBox(out p);
-            if (!got && circleAreas != null && circleAreas.Length > 0)
-                got = TryPointInRandomCircle(out p);
             if (!got && boxAreas != null && boxAreas.Length > 0)
                 got = TryPointInRandomBox(out p);
 
@@ -218,23 +201,6 @@ public class EnemySpawner : MonoBehaviour
         return true;
     }
 
-    bool TryPointInRandomCircle(out Vector2 p)
-    {
-        p = Vector2.zero;
-        if (circleAreas == null || circleAreas.Length == 0) return false;
-
-        var cc = circleAreas[UnityEngine.Random.Range(0, circleAreas.Length)];
-        if (!cc) return false;
-
-        
-        float r = cc.radius * Mathf.Sqrt(UnityEngine.Random.value);
-        float t = UnityEngine.Random.Range(0f, Mathf.PI * 2f);
-        Vector2 local = new Vector2(Mathf.Cos(t), Mathf.Sin(t)) * r;
-
-        Vector2 localWithOffset = cc.offset + local;
-        p = cc.transform.TransformPoint(localWithOffset);
-        return true;
-    }
 
     void HandleEnemyDead(EnemyHealth eh)
     {
