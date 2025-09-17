@@ -8,11 +8,11 @@ public class HealthBar : MonoBehaviour
 {
     Sprite HealthBarEmpty;
     [SerializeField] Image barImage;
-    [SerializeField] string playerTag = "Player";  // make sure your player clone uses this tag
+    [SerializeField] Sprite idleBarImage;
+    [SerializeField] string playerTag = "Player"; 
     [SerializeField] List <Sprite> healthState = new List<Sprite>();
     [SerializeField] private float stepDelay = 1f;
     int shownIndex = 0;
-    bool isChanging = false;
     public int targetIndex = 0;
     Coroutine animCo = null;
 
@@ -32,7 +32,6 @@ public class HealthBar : MonoBehaviour
             nextSearchTime = Time.time + searchInterval;
         }
 
-        // If we have a player now, update the bar
         if (playerState != null && barImage != null &&  healthState != null && healthState.Count > 0 )
         {
             if(shownIndex != targetIndex)
@@ -43,9 +42,15 @@ public class HealthBar : MonoBehaviour
             }
         }
     }
+
+    public void RestoreHealthBar()
+    {
+        targetIndex = 0;
+        shownIndex = 0;
+        barImage.sprite = idleBarImage;
+    }
     private void TryFindPlayer()
     {
-        // 1) Fast path: find an active Player by tag
         var go = GameObject.FindGameObjectWithTag(playerTag);
         if (go != null)
         {
@@ -61,12 +66,11 @@ public class HealthBar : MonoBehaviour
         {
             shownIndex = i;
             barImage.sprite = healthState[shownIndex];
-            isChanging = true;
             yield return new WaitForSeconds(stepDelay);
-            isChanging = false;
             if (shownIndex == to)
                 break;
         }
        // animCo = null;
     }
+
 }

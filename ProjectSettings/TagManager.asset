@@ -10,6 +10,8 @@ TagManager:
   - Sword
   - Gun
   - Bullet
+  - Demon
+  - ShieldUI
   layers:
   - Default
   - TransparentFX
