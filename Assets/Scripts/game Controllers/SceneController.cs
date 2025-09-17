@@ -17,7 +17,17 @@ public class SceneController : MonoBehaviour
     [Tooltip("Put scene numbers here (exactly as in Build Profiles Scene List).")]
     public List<string> levelSceneNames = new List<string>();
 
-    [SerializeField] string mainMenuINT; 
+    [SerializeField] string mainMenuINT;
+
+    // using Enemy Spawner 
+
+    [Header("Enemy Spawner")]
+    [SerializeField] int BaseAmount = 4;
+    [SerializeField] int enemiesInc = 2;
+    int LvlNum = 1;
+    bool CanExitLevel = false;
+    EnemySpawner enemySpawner;
+
     void Awake()
     {
         if (instance == null)
@@ -32,6 +42,58 @@ public class SceneController : MonoBehaviour
         if (gameOverPanel == null)
             gameOverPanel = GameObject.FindWithTag("GameOverPanel");
 
+        SceneManager.sceneLoaded+= OnSceneLoaded;
+
+    }
+     void OnDestroy()
+    {
+        if(instance == this)
+            SceneManager.sceneLoaded-= OnSceneLoaded;
+    }
+    void OnSceneLoaded(Scene scene , LoadSceneMode mode)
+    {
+        SetupLevel();
+    }
+    void SetupLevel()
+    {
+        CanExitLevel = false;
+        HideGameOver();
+
+        enemySpawner = FindFirstObjectByType<EnemySpawner>(FindObjectsInactive.Exclude);
+        if(enemySpawner != null)
+        {
+            enemySpawner.OnBatchCleared -= HandleBatchCleared;
+            enemySpawner.OnBatchCleared += HandleBatchCleared;
+
+            int NumOfEnem = BaseAmount + (LvlNum - 1) * enemiesInc;
+            enemySpawner.BeginBatch(NumOfEnem);
+        }
+        else
+        {
+            Debug.Log("No Enemyspawner");
+        }
+        gate Gate = FindFirstObjectByType<gate>();
+        if (!Gate.BypassesLock) 
+            Gate.SetLocked(true);
+        else
+            Gate.SetLocked(false);
+    }
+    void HandleBatchCleared(int BatchSize)
+    {
+        CanExitLevel = true;
+
+        gate Gate = FindFirstObjectByType<gate>();
+        if (!Gate.BypassesLock)
+            Gate.SetLocked(false);
+    }
+
+    public bool canExitLevel => CanExitLevel;
+
+    public void GoToNextLevel()
+    {
+        if (!CanExitLevel) return;
+        LvlNum++;
+        NextLevel();
     }
     public void NextLevel()
     {

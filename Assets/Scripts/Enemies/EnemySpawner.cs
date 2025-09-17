@@ -33,6 +33,7 @@ public class EnemySpawner : MonoBehaviour
     public int LastBatchSize { get; private set; }
     public bool IsSpawning { get; private set; }
     public event Action<int> OnBatchCleared;
+
     [Header("Auto Test")]
     [SerializeField] bool autoTestOnPlay = false; 
     [SerializeField] int autoTestCount = 3;    
