@@ -110607,7 +110607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -7.528015, y: 79}
+  m_AnchoredPosition: {x: -7.528076, y: 79}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1440014865
@@ -111941,6 +111941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d8b36e8a64efe4f9d0db2142d0228c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gate
+  bypassLevelLock: 1
 --- !u!61 &1653213572
 BoxCollider2D:
   m_ObjectHideFlags: 0
