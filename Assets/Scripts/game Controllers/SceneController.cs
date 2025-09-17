@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -9,6 +10,8 @@ public class SceneController : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] GameObject gameOverPanel;
+    //bool isDead = false;
+    Animator anim;
 
     [Header("Random Level Pool (choose scene names you want to randomize)")]
     [Tooltip("Put scene numbers here (exactly as in Build Profiles Scene List).")]
@@ -55,34 +58,36 @@ public class SceneController : MonoBehaviour
     }
     public void GameOver()
     {
-        var ScenePlayerInput = FindFirstObjectByType<PlayerInput>();
-        ScenePlayerInput.DeactivateInput();
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+        var pi = FindFirstObjectByType<PlayerInput>();
+        if (pi) pi.enabled = false;
+
+        if (gameOverPanel) gameOverPanel.SetActive(true);
+        if (anim == null && gameOverPanel) 
+            anim = gameOverPanel.GetComponent<Animator>();
+
+        if (anim) anim.SetBool("isDead", true);
+
+        Invoke(nameof(EndGameOver),2);
+        // SceneManager.LoadScene(0);
     }
     public void MainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenuINT);
     }
-    public void ShowGameOver()
-    {
-        if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(true);
-        }
-        else
-        {
-            Debug.Log("gameOverPanel is not found");
-        }
-    }
     public void HideGameOver()
     {
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
-
         }
     }
-
+    void EndGameOver()
+    {
+        if (anim) 
+            anim.SetBool("isDead", false);
+        // Unity will return a PlayerState even if its GameObject (or any parent) is disabled.
+        var pi = FindFirstObjectByType<PlayerInput>(FindObjectsInactive.Include);
+        if (pi) pi.enabled = true;
+    }
 }

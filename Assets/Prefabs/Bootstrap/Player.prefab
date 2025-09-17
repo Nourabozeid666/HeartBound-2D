@@ -368,7 +368,6 @@ MonoBehaviour:
   currentHealth: 0
   animator: {fileID: 4353061609659153426}
   playerMovement: {fileID: 8323004684991511334}
-  playerInput: {fileID: 0}
 --- !u!70 &4530683772834570359
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
