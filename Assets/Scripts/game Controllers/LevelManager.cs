@@ -40,6 +40,7 @@ public class LevelManager : MonoBehaviour
             SnapPlayerToSceneSpawn();
             RetargetCameraToPlayer();
         }
+
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

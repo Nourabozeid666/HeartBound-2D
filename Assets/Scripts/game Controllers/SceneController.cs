@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -11,7 +12,8 @@ public class SceneController : MonoBehaviour
     [Header("UI")]
     [SerializeField] GameObject gameOverPanel;
     //bool isDead = false;
-    Animator anim;
+    Animator gameOverPanalAnim;
+    Animator playerAnim; 
 
     [Header("Random Level Pool (choose scene names you want to randomize)")]
     [Tooltip("Put scene numbers here (exactly as in Build Profiles Scene List).")]
@@ -27,6 +29,7 @@ public class SceneController : MonoBehaviour
     int LvlNum = 1;
     bool CanExitLevel = false;
     EnemySpawner enemySpawner;
+    bool isDead = false;
 
     void Awake()
     {
@@ -41,7 +44,6 @@ public class SceneController : MonoBehaviour
         }
         if (gameOverPanel == null)
             gameOverPanel = GameObject.FindWithTag("GameOverPanel");
-
         SceneManager.sceneLoaded+= OnSceneLoaded;
 
     }
@@ -98,7 +100,16 @@ public class SceneController : MonoBehaviour
     public void NextLevel()
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        if (currentScene == 5)
+        if (isDead)
+        {
+            //------------------------------------------------------------------
+            GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
+            playerAnim = playerGO.GetComponent<Animator>();
+            playerAnim.SetBool("isDead", false);
+            SceneManager.LoadScene(0);
+            isDead = false;
+        }
+        else if (currentScene == 5)
         {
             SceneManager.LoadScene(0);
         }
@@ -124,10 +135,10 @@ public class SceneController : MonoBehaviour
         if (pi) pi.enabled = false;
 
         if (gameOverPanel) gameOverPanel.SetActive(true);
-        if (anim == null && gameOverPanel) 
-            anim = gameOverPanel.GetComponent<Animator>();
+        if (gameOverPanalAnim == null && gameOverPanel) 
+            gameOverPanalAnim = gameOverPanel.GetComponent<Animator>();
 
-        if (anim) anim.SetBool("isDead", true);
+        if (gameOverPanalAnim) gameOverPanalAnim.SetBool("isDead", true);
 
         Invoke(nameof(EndGameOver),2);
         // SceneManager.LoadScene(0);
@@ -146,10 +157,12 @@ public class SceneController : MonoBehaviour
     }
     void EndGameOver()
     {
-        if (anim) 
-            anim.SetBool("isDead", false);
+        if (gameOverPanalAnim) 
+            gameOverPanalAnim.SetBool("isDead", false);
         // Unity will return a PlayerState even if its GameObject (or any parent) is disabled.
         var pi = FindFirstObjectByType<PlayerInput>(FindObjectsInactive.Include);
         if (pi) pi.enabled = true;
+        isDead = true;
+        NextLevel();
     }
 }

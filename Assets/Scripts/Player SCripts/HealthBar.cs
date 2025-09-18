@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    Sprite HealthBarEmpty;
     [SerializeField] Image barImage;
     [SerializeField] Sprite idleBarImage;
     [SerializeField] string playerTag = "Player"; 
@@ -19,10 +18,6 @@ public class HealthBar : MonoBehaviour
     private PlayerState playerState;
     private float nextSearchTime = 0f;
     private const float searchInterval = 0.5f;
-    private void Start()
-    {
-        HealthBarEmpty = healthState[29];
-    }
 
     private void Update()
     {
