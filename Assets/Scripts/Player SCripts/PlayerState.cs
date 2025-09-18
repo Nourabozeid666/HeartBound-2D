@@ -58,8 +58,9 @@ public class PlayerState : MonoBehaviour
                 shield.ShieldIsActive = false;
                 ShieldBarUI.SetActive(true);
             }
-            if (shield.targetIndex <= 29)
-                shield.targetIndex += 3;
+            if (shield.targetIndexShield <= 29)
+                shield.targetIndexShield += 3;
+            Debug.Log("the shield health : " + shieldHealth);
         }
     }
     IEnumerator HandleDeath()

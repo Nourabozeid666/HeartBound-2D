@@ -364,6 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerState
   maxHealth: 50
+  shieldHealth: 0
   lives: 0
   currentHealth: 0
   animator: {fileID: 4353061609659153426}
@@ -402,8 +403,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.025725307, y: -0.038546626}
-  m_Size: {x: 0.13966979, y: 0.5473807}
+  m_Offset: {x: 0.02572531, y: -0.06909476}
+  m_Size: {x: 0.13966979, y: 0.60847694}
   m_Direction: 0
 --- !u!114 &4174866348346690389
 MonoBehaviour:
