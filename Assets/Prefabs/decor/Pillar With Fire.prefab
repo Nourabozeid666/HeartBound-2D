@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4906579235289775987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pillar With Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,9 +151,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2660764349441799082, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2938063425999601073, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
       propertyPath: m_Name
       value: Fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938063425999601073, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239784262209359557, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239784262209359557, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1873001941
       objectReference: {fileID: 0}
     - target: {fileID: 5121688647210029787, guid: 646875c573a0e01439e7e8af9f58ebc9, type: 3}
       propertyPath: m_SortingLayer

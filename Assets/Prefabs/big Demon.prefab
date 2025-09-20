@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e73ed040f9a3fc479db00e89f461783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  health: 30
+  health: 10
   isDead: 0
   animator: {fileID: 1152941426492813852}
   enemyHurt: {fileID: 0}

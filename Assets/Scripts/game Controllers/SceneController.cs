@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -11,105 +9,149 @@ public class SceneController : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] GameObject gameOverPanel;
-    //bool isDead = false;
-    Animator gameOverPanalAnim;
-    Animator playerAnim; 
+    Animator gameOverAnim;
 
-    [Header("Random Level Pool (choose scene names you want to randomize)")]
-    [Tooltip("Put scene numbers here (exactly as in Build Profiles Scene List).")]
+    [Header("Levels (names from Build Settings)")]
     public List<string> levelSceneNames = new List<string>();
-
     [SerializeField] string mainMenuINT;
 
-    // using Enemy Spawner 
+    [Header("Enemy Progression")]
+    [SerializeField] int baseAmount = 4;   
+    [SerializeField] int enemiesInc = 2;   
 
-    [Header("Enemy Spawner")]
-    [SerializeField] int BaseAmount = 4;
-    [SerializeField] int enemiesInc = 2;
-    int LvlNum = 1;
-    bool CanExitLevel = false;
-    EnemySpawner enemySpawner;
-    bool isDead = false;
+    int levelNum = 1;
+    bool canExitLevel = false;     
+    bool isDeadFlow = false;       
 
+
+    List<EnemySpawner> spawners = new List<EnemySpawner>();
+    int levelAlive = 0;
+
+    // -------- Lifecycle --------
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-        if (gameOverPanel == null)
-            gameOverPanel = GameObject.FindWithTag("GameOverPanel");
-        SceneManager.sceneLoaded+= OnSceneLoaded;
+        if (instance == null) { instance = this; DontDestroyOnLoad(gameObject); }
+        else if (instance != this) { Destroy(gameObject); return; }
 
+        if (!gameOverPanel) gameOverPanel = GameObject.FindWithTag("GameOverPanel");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
-     void OnDestroy()
+
+    void OnDestroy()
     {
-        if(instance == this)
-            SceneManager.sceneLoaded-= OnSceneLoaded;
+        if (instance == this)
+            SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-    void OnSceneLoaded(Scene scene , LoadSceneMode mode)
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SetupLevel();
     }
+
+    // -------- Level Setup / Flow --------
     void SetupLevel()
     {
-        CanExitLevel = false;
+        canExitLevel = false;
+        levelAlive = 0;
         HideGameOver();
 
-        enemySpawner = FindFirstObjectByType<EnemySpawner>(FindObjectsInactive.Exclude);
-        if(enemySpawner != null)
+ 
+        foreach (var sp in spawners)
         {
-            enemySpawner.OnBatchCleared -= HandleBatchCleared;
-            enemySpawner.OnBatchCleared += HandleBatchCleared;
+            if (!sp) continue;
+            sp.OnEnemySpawned -= HandleEnemySpawned;
+            sp.OnEnemyDied -= HandleEnemyDied;
+        }
+        spawners.Clear();
 
-            int NumOfEnem = BaseAmount + (LvlNum - 1) * enemiesInc;
-            enemySpawner.BeginBatch(NumOfEnem);
+        spawners.AddRange(FindObjectsByType<EnemySpawner>(
+            FindObjectsInactive.Exclude,
+            FindObjectsSortMode.None));
+        foreach (var sp in spawners)
+        {
+            sp.OnEnemySpawned += HandleEnemySpawned;
+            sp.OnEnemyDied += HandleEnemyDied;
+        }
+
+        int enemiesThisLevel = baseAmount + ((levelNum - 1) * enemiesInc);
+
+        if (spawners.Count == 0)
+        {
+            Debug.LogWarning("[SceneController] No EnemySpawner found in this scene.");
         }
         else
         {
-            Debug.Log("No Enemyspawner");
+            int perSpawner = Mathf.Max(1, enemiesThisLevel / spawners.Count);
+            int remainder = Mathf.Max(0, enemiesThisLevel - perSpawner * spawners.Count);
+
+            for (int i = 0; i < spawners.Count; i++)
+            {
+                int count = perSpawner + (i < remainder ? 1 : 0);
+                spawners[i].BeginBatch(count);
+            }
         }
-        gate Gate = FindFirstObjectByType<gate>();
-        if (!Gate.BypassesLock) 
-            Gate.SetLocked(true);
-        else
-            Gate.SetLocked(false);
+
+   
     }
-    void HandleBatchCleared(int BatchSize)
+
+    void HandleEnemySpawned()
     {
-        CanExitLevel = true;
-
-        gate Gate = FindFirstObjectByType<gate>();
-        if (!Gate.BypassesLock)
-            Gate.SetLocked(false);
+        levelAlive++;
+        
     }
 
-    public bool canExitLevel => CanExitLevel;
+    void HandleEnemyDied()
+    {
+        levelAlive = Mathf.Max(0, levelAlive - 1);
+       ;
+        TryOpenGatesIfClear();
+    }
+
+    void TryOpenGatesIfClear()
+    {
+        if (levelAlive > 0) return;
+
+        foreach (var sp in spawners)
+            if (sp && sp.IsSpawning) return;
+
+        canExitLevel = true;
+
+        gate Gate = FindFirstObjectByType<gate>();
+ 
+        foreach (var ga in FindObjectsByType<gateAnim>(
+                     FindObjectsInactive.Include,
+                     FindObjectsSortMode.None))
+        {
+            ga.Open();
+            Gate.HandleGateOpened();
+        }
+    }
+
+    public bool CanExitLevel => canExitLevel;
 
     public void GoToNextLevel()
     {
-        if (!CanExitLevel) return;
-        LvlNum++;
+        if (!canExitLevel) return;
+        levelNum++;
         NextLevel();
     }
+
     public void NextLevel()
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        if (isDead)
+
+        if (isDeadFlow)
         {
-            //------------------------------------------------------------------
-            GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
-            playerAnim = playerGO.GetComponent<Animator>();
-            playerAnim.SetBool("isDead", false);
+            var playerGO = GameObject.FindGameObjectWithTag("Player");
+            var playerAnim = playerGO ? playerGO.GetComponent<Animator>() : null;
+            if (playerAnim) playerAnim.SetBool("isDead", false);
+
             SceneManager.LoadScene(0);
-            isDead = false;
+            isDeadFlow = false;
+            return;
         }
-        else if (currentScene == 5)
+
+        if (currentScene == 5)
         {
             SceneManager.LoadScene(0);
         }
@@ -119,50 +161,52 @@ public class SceneController : MonoBehaviour
         }
         else
         {
-            int i = Random.Range(0, levelSceneNames.Count);
-            string nextScene = levelSceneNames[i];
-            SceneManager.LoadScene(nextScene);
-            levelSceneNames.RemoveAt(i);
-            if(levelSceneNames.Count == 0)
+            if (levelSceneNames.Count > 0)
+            {
+                int i = Random.Range(0, levelSceneNames.Count);
+                string nextScene = levelSceneNames[i];
+                SceneManager.LoadScene(nextScene);
+                levelSceneNames.RemoveAt(i);
+            }
+            else
             {
                 SceneManager.LoadScene(0);
             }
         }
     }
+
+    // -------- Game Over --------
     public void GameOver()
     {
         var pi = FindFirstObjectByType<PlayerInput>();
         if (pi) pi.enabled = false;
 
         if (gameOverPanel) gameOverPanel.SetActive(true);
-        if (gameOverPanalAnim == null && gameOverPanel) 
-            gameOverPanalAnim = gameOverPanel.GetComponent<Animator>();
+        if (!gameOverAnim && gameOverPanel)
+            gameOverAnim = gameOverPanel.GetComponent<Animator>();
 
-        if (gameOverPanalAnim) gameOverPanalAnim.SetBool("isDead", true);
+        if (gameOverAnim) gameOverAnim.SetBool("isDead", true);
 
-        Invoke(nameof(EndGameOver),2);
-        // SceneManager.LoadScene(0);
+        Invoke(nameof(EndGameOver), 2f);
     }
+
     public void MainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenuINT);
     }
+
     public void HideGameOver()
     {
-        if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(false);
-        }
+        if (gameOverPanel) gameOverPanel.SetActive(false);
     }
+
     void EndGameOver()
     {
-        if (gameOverPanalAnim) 
-            gameOverPanalAnim.SetBool("isDead", false);
-        // Unity will return a PlayerState even if its GameObject (or any parent) is disabled.
+        if (gameOverAnim) gameOverAnim.SetBool("isDead", false);
         var pi = FindFirstObjectByType<PlayerInput>(FindObjectsInactive.Include);
         if (pi) pi.enabled = true;
-        isDead = true;
+        isDeadFlow = true;
         NextLevel();
     }
 }
