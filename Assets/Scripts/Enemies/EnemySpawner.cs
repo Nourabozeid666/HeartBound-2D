@@ -32,7 +32,11 @@ public class EnemySpawner : MonoBehaviour
     public int SpawnedInBatch { get; private set; }
     public int LastBatchSize { get; private set; }
     public bool IsSpawning { get; private set; }
+
     public event Action<int> OnBatchCleared;
+    public event Action OnEnemySpawned;
+    public event Action OnEnemyDied;
+
 
     [Header("Auto Test")]
     [SerializeField] bool autoTestOnPlay = false; 
@@ -123,26 +127,27 @@ public class EnemySpawner : MonoBehaviour
             return false;
         }
 
-        var enemy = Instantiate(prefab, pos, Quaternion.identity);;
+        var enemy = Instantiate(prefab, pos, Quaternion.identity);
 
         var hp = enemy.GetComponentInChildren<EnemyHealth>(true);
+
+        AliveInBatch++;
+        SpawnedInBatch++;
+        OnEnemySpawned?.Invoke();
+
         if (hp != null)
         {
-            AliveInBatch++;
-            SpawnedInBatch++;
             hp.OnDead += HandleEnemyDead;
         }
         else
         {
-            AliveInBatch++;
-            SpawnedInBatch++;
             var notifier = enemy.AddComponent<_DestroyNotifier>();
             notifier.onDestroyed += HandleEnemyDestroyedNoHealth;
         }
         return true;
     }
 
-    
+
     bool TryGetValidPoint(out Vector2 result)
     {
        
@@ -207,6 +212,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if (eh != null) eh.OnDead -= HandleEnemyDead;
         AliveInBatch = Mathf.Max(AliveInBatch - 1, 0);
+        OnEnemyDied?.Invoke();
     }
 
     void HandleEnemyDestroyedNoHealth(GameObject go)
@@ -214,7 +220,9 @@ public class EnemySpawner : MonoBehaviour
         var n = go.GetComponent<_DestroyNotifier>();
         if (n) n.onDestroyed -= HandleEnemyDestroyedNoHealth;
         AliveInBatch = Mathf.Max(AliveInBatch - 1, 0);
+        OnEnemyDied?.Invoke();
     }
+
 
     class _DestroyNotifier : MonoBehaviour
     {

@@ -132189,7 +132189,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d8b36e8a64efe4f9d0db2142d0228c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gate
-  bypassLevelLock: 1
+  anim: {fileID: 0}
+  openTrigger: Open
+  passCollider: {fileID: 1653213572}
+  isHubGate: 1
 --- !u!61 &1653213572
 BoxCollider2D:
   m_ObjectHideFlags: 0

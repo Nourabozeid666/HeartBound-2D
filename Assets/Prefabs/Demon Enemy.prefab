@@ -185,7 +185,7 @@ MonoBehaviour:
   exitChaseRadius: 16
   stopDistance: 1.5
   attackRange: 3
-  attackCooldown: 3
+  attackCooldown: 5
   Damage: 10
   hitPoint: {fileID: 1282080485295527661}
   hitRadius: 3.5

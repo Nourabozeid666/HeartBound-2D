@@ -73,8 +73,7 @@ public class EnemyChaseLimit : MonoBehaviour
     void CachePlayerState()
     {
         playerState = player ? player.GetComponent<PlayerState>() : null;
-        if (!playerState)
-            Debug.LogWarning("[Enemy] PlayerState not found on 'player' Transform!", player);
+      
     }
 
     void Update()
