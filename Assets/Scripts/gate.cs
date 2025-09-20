@@ -1,45 +1,51 @@
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public class gate : MonoBehaviour
 {
-    //[SerializeField] AudioClip travelPort;
+    [Header("Links")]
+    [SerializeField] gateAnim gateAnimator;   
+    [SerializeField] bool isHubGate = false;
 
-    Collider2D col;
 
-    bool locked = false;
+     Collider2D trig;
 
-    [SerializeField] bool bypassLevelLock = false;
-    public bool BypassesLock => bypassLevelLock;
-    private void Awake()
+    void Awake()
     {
-        col = GetComponent<Collider2D>();
-    }
-    public void SetLocked(bool val)
-    {
-        if (bypassLevelLock)
+        trig = GetComponent<Collider2D>();
+        
+
+        if (!isHubGate)
         {
-            locked = false;
-            col.enabled = true;
+            trig.isTrigger = false;
+        }
+        else
+        {
+            trig.isTrigger = true;
+        }
+    }
+
+  
+    public void HandleGateOpened()
+    {
+        trig.isTrigger = true;
+
+    }
+
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        if (!other.CompareTag("Player")) return;
+
+        if (isHubGate)
+        {
+            SceneController.instance?.NextLevel();
             return;
         }
-        locked = val;
-        col.enabled = !locked;
-    }
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            if (bypassLevelLock)
-            {
-                SceneController.instance.NextLevel();
-                return;
-            }
-            if(SceneController.instance && SceneController.instance.canExitLevel)
-            {
-                // AudioManager.instance.EnemyAction(travelPort);
-                SceneController.instance.GoToNextLevel();
 
-            }
+        if (SceneController.instance && SceneController.instance.CanExitLevel)
+        {
+            SceneController.instance.GoToNextLevel();
         }
     }
+
 }
