@@ -13,12 +13,12 @@ public class BowEnemy : MonoBehaviour
     [SerializeField] float disengageRadius = 12f;
 
     [Header("Shooting")]
-    [SerializeField] GameObject arrowPrefab;        // أربطه من الPrefab نفسه (مش نسخة بالمشهد)
+    [SerializeField] GameObject arrowPrefab;        
     [SerializeField] Transform shootOrigin;
-    [SerializeField] float fireCooldown = 0.6f;     // قلّليها لو عايزة أسرع
+    [SerializeField] float fireCooldown = 0.6f;     
     [SerializeField] float arrowSpeed = 12f;
     [SerializeField] int arrowDamage = 10;
-    [SerializeField] float spawnOffset = 0.6f;      // أبعد نقطة ولادة السهم قدّام
+    [SerializeField] float spawnOffset = 0.6f;      
 
     [Header("Animator (optional)")]
     [SerializeField] Animator anim;
@@ -41,7 +41,6 @@ public class BowEnemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (!anim) anim = GetComponentInChildren<Animator>(true);
 
-        // ضبط الحدود بحيث تكون منطقية
         if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
         if (disengageRadius < engageRadius) disengageRadius = engageRadius + 1f;
         if (engageRadius < stopDis) engageRadius = stopDis + 0.5f;
@@ -63,7 +62,7 @@ public class BowEnemy : MonoBehaviour
 
     IEnumerator RetryFindPlayer()
     {
-        // جرّب نعيد المحاولة أول شوية فريمات بعد السبان (مفيد مع السباونر)
+ 
         for (int i = 0; i < 10 && !player; i++)
         {
             yield return null;
@@ -91,7 +90,7 @@ public class BowEnemy : MonoBehaviour
 
         float distance = Vector2.Distance(rb.position, player.position);
 
-        // دخول/خروج الاشتباك
+
         if (!engaged && distance <= engageRadius) engaged = true;
         else if (engaged && distance > disengageRadius) engaged = false;
 
@@ -102,7 +101,6 @@ public class BowEnemy : MonoBehaviour
             return;
         }
 
-        // الحركة: يقرب لو بعيد، يبعد لو لازق
         Vector2 newPos = rb.position;
         bool isMoving = false;
 
@@ -121,10 +119,10 @@ public class BowEnemy : MonoBehaviour
         rb.MovePosition(newPos);
         UpdateFacing();
 
-        // 🔥 يطلق طول ما هو engaged (سواء بيتحرك أو ثابت)
+      
         TryShootOnTimer();
 
-        // أنيميشن اختياري
+
         SetAnim(isMoving, !isMoving);
     }
 
@@ -170,7 +168,6 @@ public class BowEnemy : MonoBehaviour
 
         Vector2 dir = toTarget.normalized;
 
-        // ✅ نبعد نقطة ولادة السهم لقدّام علشان ما يتولدش جوّه اللاعب
         Vector2 spawnPos = origin + dir * spawnOffset;
 
         if (debugShoot) Debug.Log($"[BowEnemy] Spawn arrow at {spawnPos}, dir={dir}, t={Time.time}", this);
@@ -182,11 +179,10 @@ public class BowEnemy : MonoBehaviour
             return;
         }
 
-        // توجيه بصري
         float ang = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.AngleAxis(ang, Vector3.forward);
 
-        // تجاهل اصطدام السهم بجسمي
+  
         var arrowCol = arrow.GetComponent<Collider2D>();
         if (arrowCol)
         {
@@ -194,11 +190,10 @@ public class BowEnemy : MonoBehaviour
             foreach (var c in myCols) Physics2D.IgnoreCollision(arrowCol, c, true);
         }
 
-        // دامج
         var proj = arrow.GetComponent<Projectile>();
         if (proj) proj.SetDamage(arrowDamage);
 
-        // حركة: Velocity مباشرة لو فيه Rigidbody2D
+        
         var rb2d = arrow.GetComponent<Rigidbody2D>();
         if (rb2d != null)
         {
