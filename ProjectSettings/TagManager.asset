@@ -71,11 +71,11 @@ TagManager:
   - name: wallDetails
     uniqueID: 635566059
     locked: 0
-  - name: fire
-    uniqueID: 1873001941
-    locked: 0
   - name: Elements
     uniqueID: 3374947939
+    locked: 0
+  - name: fire
+    uniqueID: 1873001941
     locked: 0
   - name: collision
     uniqueID: 2864856699
