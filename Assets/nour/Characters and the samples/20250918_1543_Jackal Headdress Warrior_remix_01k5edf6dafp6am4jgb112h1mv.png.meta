@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 23956c62ab9efdb4caf7be9547853609
+guid: 4663090bbd68553459ad4081807f6402
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1471336669273319529
-    second: QuickSand32x32_0
+      213: -2354081970609346616
+    second: 20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_0
+  - first:
+      213: -1643055166653914538
+    second: 20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_1
+  - first:
+      213: 3050239210080694751
+    second: 20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_2
+  - first:
+      213: 7999940084473296323
+    second: 20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_3
+  - first:
+      213: -3338044892768588747
+    second: 20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: QuickSand32x32_0
+      name: 20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 32
-        height: 32
+        width: 1535
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 968ea0db7ec3b6410800000000000000
-      internalID: 1471336669273319529
+      spriteID: 8c7ada19bee945fd0800000000000000
+      internalID: -2354081970609346616
       vertices: []
       indices: 
       edges: []
@@ -125,7 +137,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35967322d0c50d04f821e9f48ab6d99f
+    spriteID: 4751aa87ec8a3a146986bd3307a0a6c6
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +147,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      QuickSand32x32_0: 1471336669273319529
+      20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_0: -2354081970609346616
+      20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_1: -1643055166653914538
+      20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_2: 3050239210080694751
+      20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_3: 7999940084473296323
+      20250918_1543_Jackal Headdress Warrior_remix_01k5edf6dafp6am4jgb112h1mv_4: -3338044892768588747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

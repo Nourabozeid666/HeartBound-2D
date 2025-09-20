@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 23956c62ab9efdb4caf7be9547853609
+guid: 4efdb0e33321a72409e0da58a604a6dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1471336669273319529
-    second: QuickSand32x32_0
+      213: -3338749442709606003
+    second: Coin_0
+  - first:
+      213: 5848064539680731454
+    second: Coin_1
+  - first:
+      213: -2652133911391862278
+    second: Coin_2
+  - first:
+      213: 5522397121026081838
+    second: Coin_3
+  - first:
+      213: 4786861022352539597
+    second: Coin_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: QuickSand32x32_0
+      name: Coin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 11
+        y: 10
+        width: 10
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 968ea0db7ec3b6410800000000000000
-      internalID: 1471336669273319529
+      spriteID: d81b24142116aa1d0800000000000000
+      internalID: -3338749442709606003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 10
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e317a37e6bf782150800000000000000
+      internalID: 5848064539680731454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 10
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af188ba524ab13bd0800000000000000
+      internalID: -2652133911391862278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 10
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2446633cee73ac40800000000000000
+      internalID: 5522397121026081838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 10
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf7c7aecb85e6240800000000000000
+      internalID: 4786861022352539597
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35967322d0c50d04f821e9f48ab6d99f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      QuickSand32x32_0: 1471336669273319529
+      Coin_0: -3338749442709606003
+      Coin_1: 5848064539680731454
+      Coin_2: -2652133911391862278
+      Coin_3: 5522397121026081838
+      Coin_4: 4786861022352539597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

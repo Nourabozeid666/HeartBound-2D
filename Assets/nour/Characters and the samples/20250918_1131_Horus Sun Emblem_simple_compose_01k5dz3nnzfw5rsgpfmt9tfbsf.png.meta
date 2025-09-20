@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: e396f5bcb87842f44a4d385e13b5eee4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6986595335820094109
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_0
+  - first:
+      213: -285805605087750165
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_1
+  - first:
+      213: 776301644466119998
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_2
+  - first:
+      213: -718923030542866111
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_3
+  - first:
+      213: 6827501618235348134
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_4
+  - first:
+      213: -7835645907125189824
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_5
+  - first:
+      213: 7157003229770468698
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_6
+  - first:
+      213: 4964106390899497498
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_7
+  - first:
+      213: -257555345377792886
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_8
+  - first:
+      213: 3991363971026091130
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_9
+  - first:
+      213: 4909260085689119938
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_10
+  - first:
+      213: -3571237585993773923
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_11
+  - first:
+      213: -273132481167687398
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_12
+  - first:
+      213: -1912208342190727746
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_13
+  - first:
+      213: -7007885754592733199
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_14
+  - first:
+      213: -8117805744911549280
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_15
+  - first:
+      213: 1784034203125071578
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_16
+  - first:
+      213: 2571576068741587686
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_17
+  - first:
+      213: 1816058249559044909
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_18
+  - first:
+      213: -3089576347156594422
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_19
+  - first:
+      213: 7303176365025138757
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_20
+  - first:
+      213: -7499816543405451340
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_21
+  - first:
+      213: -2039498717304638841
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_22
+  - first:
+      213: 4210194224654428241
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_23
+  - first:
+      213: 4994312133501165525
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_24
+  - first:
+      213: -7553356758449449982
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_25
+  - first:
+      213: 6366831217157576703
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_26
+  - first:
+      213: 2375845038593368215
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_27
+  - first:
+      213: 434642412930782590
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_28
+  - first:
+      213: -6349423255351547469
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_29
+  - first:
+      213: 3782494220203008960
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_30
+  - first:
+      213: 671107589559155633
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_31
+  - first:
+      213: -7849652649035037867
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_32
+  - first:
+      213: 3127206404721426469
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_33
+  - first:
+      213: -9160368465512197894
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_34
+  - first:
+      213: 1009619635308901687
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_35
+  - first:
+      213: -3952465296469373099
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_36
+  - first:
+      213: -3634253637518000017
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_37
+  - first:
+      213: -123141936344914331
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_38
+  - first:
+      213: -1048315985670477983
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_39
+  - first:
+      213: -188297319497599724
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_40
+  - first:
+      213: -5454038077368787784
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_41
+  - first:
+      213: 945119005420538802
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_42
+  - first:
+      213: -7905977473883263684
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_43
+  - first:
+      213: -3726823374757079792
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_44
+  - first:
+      213: 5286996802758401917
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_45
+  - first:
+      213: 6696293424333764294
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_46
+  - first:
+      213: -6899334125943548545
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_47
+  - first:
+      213: -6444294947668246154
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_48
+  - first:
+      213: 1794307015987203371
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_49
+  - first:
+      213: -318781949041229172
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_50
+  - first:
+      213: -4838871210725472673
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_51
+  - first:
+      213: 4917214716248445698
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_52
+  - first:
+      213: 3407422217984260858
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_53
+  - first:
+      213: 5463033010039930524
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_54
+  - first:
+      213: 1648394294786943351
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_55
+  - first:
+      213: 3079840437404384220
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_56
+  - first:
+      213: 93405679901188714
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_57
+  - first:
+      213: 1664760620843012598
+    second: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 254
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a25fcf07f55f060800000000000000
+      internalID: 6986595335820094109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0271d1cfd6f82214795905e257014273
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1024.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      20250918_1131_Horus Sun Emblem_simple_compose_01k5dz3nnzfw5rsgpfmt9tfbsf_0: 6986595335820094109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

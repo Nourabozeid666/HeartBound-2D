@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 23956c62ab9efdb4caf7be9547853609
+guid: 7082f7404bfcff6429297b4234ab1a1b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1471336669273319529
-    second: QuickSand32x32_0
+      213: 3394068623508305898
+    second: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_0
+  - first:
+      213: -4488452120043203686
+    second: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: QuickSand32x32_0
+      name: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 32
-        height: 32
+        width: 1513
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 968ea0db7ec3b6410800000000000000
-      internalID: 1471336669273319529
+      spriteID: ae7f2873e672a1f20800000000000000
+      internalID: 3394068623508305898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1008
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93d971e390d5b1c0800000000000000
+      internalID: -4488452120043203686
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35967322d0c50d04f821e9f48ab6d99f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      QuickSand32x32_0: 1471336669273319529
+      20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_0: 3394068623508305898
+      20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_1: -4488452120043203686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

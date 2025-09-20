@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 23956c62ab9efdb4caf7be9547853609
+guid: a62658ee5d99ff74cb0128ef6216e375
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1471336669273319529
-    second: QuickSand32x32_0
+      213: -5281422124547630143
+    second: Chest_0
+  - first:
+      213: 4714410783012859700
+    second: Chest_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: QuickSand32x32_0
+      name: Chest_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 19
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 968ea0db7ec3b6410800000000000000
-      internalID: 1471336669273319529
+      spriteID: 1cb13755f8e94b6b0800000000000000
+      internalID: -5281422124547630143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fa0ce01a3fc6140800000000000000
+      internalID: 4714410783012859700
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35967322d0c50d04f821e9f48ab6d99f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      QuickSand32x32_0: 1471336669273319529
+      Chest_0: -5281422124547630143
+      Chest_1: 4714410783012859700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

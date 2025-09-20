@@ -1,10 +1,49 @@
 fileFormatVersion: 2
-guid: 23956c62ab9efdb4caf7be9547853609
+guid: 143b5091fb4dbad4daa5c65df37bd374
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1471336669273319529
-    second: QuickSand32x32_0
+      213: -4158270848607859999
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_0
+  - first:
+      213: 3495614814510700634
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_1
+  - first:
+      213: -4163393519091265029
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_2
+  - first:
+      213: -4570704623580501949
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_3
+  - first:
+      213: -8012464720817849337
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_4
+  - first:
+      213: 2221444546653057735
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_5
+  - first:
+      213: -3887975158488861431
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_6
+  - first:
+      213: 811136240166639560
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_7
+  - first:
+      213: 4447131726166285080
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_8
+  - first:
+      213: 6542578235490498941
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_9
+  - first:
+      213: -8867552467059609472
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_10
+  - first:
+      213: -8278657605389384667
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_11
+  - first:
+      213: 7179445958413425826
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_12
+  - first:
+      213: 6409142737152946285
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 254
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: QuickSand32x32_0
+      name: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 968ea0db7ec3b6410800000000000000
-      internalID: 1471336669273319529
+      spriteID: 1eacdd4d1bada46c0800000000000000
+      internalID: -4158270848607859999
       vertices: []
       indices: 
       edges: []
@@ -125,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35967322d0c50d04f821e9f48ab6d99f
+    spriteID: 163ec39e80de0494199c8cf4db192732
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +172,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1024.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      QuickSand32x32_0: 1471336669273319529
+      20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_0: -4158270848607859999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

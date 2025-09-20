@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 23956c62ab9efdb4caf7be9547853609
+guid: 91b0f567aa65bda46b8478424d182afa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1471336669273319529
-    second: QuickSand32x32_0
+      213: -6755378720695489191
+    second: 20250918_0421_Thoth's Luminous Crescent_remix_01k5d6fb2pee48g8sb2d8c405j_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: QuickSand32x32_0
+      name: 20250918_0421_Thoth's Luminous Crescent_remix_01k5d6fb2pee48g8sb2d8c405j_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 968ea0db7ec3b6410800000000000000
-      internalID: 1471336669273319529
+      spriteID: 95d66b558d21042a0800000000000000
+      internalID: -6755378720695489191
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35967322d0c50d04f821e9f48ab6d99f
+    spriteID: aff604d5b4596974d9ddc41baaf1be28
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      QuickSand32x32_0: 1471336669273319529
+      20250918_0421_Thoth's Luminous Crescent_remix_01k5d6fb2pee48g8sb2d8c405j_0: -6755378720695489191
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
