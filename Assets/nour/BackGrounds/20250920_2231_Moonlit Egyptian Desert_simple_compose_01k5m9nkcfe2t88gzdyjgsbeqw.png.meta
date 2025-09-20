@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 2e5db81526cfb0f4e9d8a0c8bf6bb4f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1353010209866916537
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_0
+  - first:
+      213: -7754257214906987144
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_1
+  - first:
+      213: -2844757044932491253
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_2
+  - first:
+      213: 1157896677749764814
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_3
+  - first:
+      213: 3433265399283002795
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_4
+  - first:
+      213: 5227556435734902234
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_5
+  - first:
+      213: 1380505156166149657
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_6
+  - first:
+      213: 2833266988216779144
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_7
+  - first:
+      213: -3025294565099160839
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_8
+  - first:
+      213: -5194416745843146883
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_9
+  - first:
+      213: -3718527037507933332
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_10
+  - first:
+      213: 1705173323364513943
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_11
+  - first:
+      213: 1941256049901498028
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_12
+  - first:
+      213: 6160197685372442386
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_13
+  - first:
+      213: -2649463624717121278
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_14
+  - first:
+      213: -129135436723657409
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_15
+  - first:
+      213: 9221413868605474932
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_16
+  - first:
+      213: 8396391952839093802
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_17
+  - first:
+      213: 6202080501091041637
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_18
+  - first:
+      213: 6288711348441288154
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_19
+  - first:
+      213: -7904666013232873338
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_20
+  - first:
+      213: 6003745418310759089
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_21
+  - first:
+      213: 3222670095271478448
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_22
+  - first:
+      213: -3867107537050642335
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_23
+  - first:
+      213: -6162444500560055288
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_24
+  - first:
+      213: 1349119901510472738
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_25
+  - first:
+      213: -7919721045288812300
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_26
+  - first:
+      213: -9196597695464820625
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_27
+  - first:
+      213: -3324786925829359009
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_28
+  - first:
+      213: 8056723011472600461
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_29
+  - first:
+      213: -1053590655223550794
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_30
+  - first:
+      213: 400403376171763188
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_31
+  - first:
+      213: -7229521777394801625
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_32
+  - first:
+      213: 1596089149757779843
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_33
+  - first:
+      213: -7946499668070467230
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_34
+  - first:
+      213: 4926471219709142676
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_35
+  - first:
+      213: -3805084285639510018
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_36
+  - first:
+      213: 4687838957739141913
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_37
+  - first:
+      213: -1981990085261477913
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_38
+  - first:
+      213: 7898949431936264575
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_39
+  - first:
+      213: -2969759381846134482
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_40
+  - first:
+      213: -6651410636939783619
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_41
+  - first:
+      213: 267611445362264075
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_42
+  - first:
+      213: 5338977824560383503
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_43
+  - first:
+      213: 4067635429998332558
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_44
+  - first:
+      213: 2927383168700042496
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_45
+  - first:
+      213: 6920762847279899280
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_46
+  - first:
+      213: -1982135590368892025
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_47
+  - first:
+      213: -2273214290931458477
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_48
+  - first:
+      213: 2362977863353354118
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_49
+  - first:
+      213: 5695351260033933185
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_50
+  - first:
+      213: 2522978031081696113
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_51
+  - first:
+      213: -7456864343731041279
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_52
+  - first:
+      213: 7088889290031490584
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_53
+  - first:
+      213: 4955130363605050546
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_54
+  - first:
+      213: -4045041647977988552
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_55
+  - first:
+      213: -2510013411161648165
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_56
+  - first:
+      213: -3597678529197225004
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_57
+  - first:
+      213: 5838941022480576700
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_58
+  - first:
+      213: 6911877677585606187
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_59
+  - first:
+      213: 3987873781643517134
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_60
+  - first:
+      213: -8515160261529908779
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_61
+  - first:
+      213: -2690480318688429336
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_62
+  - first:
+      213: -9086353189512918700
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_63
+  - first:
+      213: 7337123596910838802
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_64
+  - first:
+      213: -103556796997931965
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_65
+  - first:
+      213: -5487569931943541126
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_66
+  - first:
+      213: 535335857105282824
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_67
+  - first:
+      213: -841851020059454726
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_68
+  - first:
+      213: 8208969286348486064
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_69
+  - first:
+      213: -4184857438566353785
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_70
+  - first:
+      213: 840376993858661828
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_71
+  - first:
+      213: -4103917806328226859
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_72
+  - first:
+      213: 6593511249575190388
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_73
+  - first:
+      213: 5654621336330298692
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_74
+  - first:
+      213: -9144615040518662325
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_75
+  - first:
+      213: -556301662874469577
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_76
+  - first:
+      213: 8626336339297907510
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_77
+  - first:
+      213: 8746825251564219615
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_78
+  - first:
+      213: -6070762065095882394
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_79
+  - first:
+      213: 6065111464284950672
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_80
+  - first:
+      213: 3003665897718028279
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_81
+  - first:
+      213: 5099853965473886950
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_82
+  - first:
+      213: -7702942189824030631
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_83
+  - first:
+      213: 1860921982661079339
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_84
+  - first:
+      213: -6484193543327783468
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_85
+  - first:
+      213: 442150127767670691
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_86
+  - first:
+      213: -4739881785818673839
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_87
+  - first:
+      213: 2421957704907266386
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_88
+  - first:
+      213: 2952056437870364301
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_89
+  - first:
+      213: 4108622088957284449
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_90
+  - first:
+      213: -5153746047346354164
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_91
+  - first:
+      213: -5466014932587351288
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_92
+  - first:
+      213: 3809723738138229507
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_93
+  - first:
+      213: -8781882395809440290
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_94
+  - first:
+      213: -5976718046151965195
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_95
+  - first:
+      213: -8762494023298931231
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_96
+  - first:
+      213: 982192735242087570
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_97
+  - first:
+      213: -6444939334445266391
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_98
+  - first:
+      213: -2095044673267167259
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_99
+  - first:
+      213: -5341442673566434348
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_100
+  - first:
+      213: -5178916772642562645
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_101
+  - first:
+      213: -8760650410155209809
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_102
+  - first:
+      213: -6755938078469950747
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_103
+  - first:
+      213: -4517036128152646234
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_104
+  - first:
+      213: -8517616958507538908
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_105
+  - first:
+      213: 4854525721365612298
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_106
+  - first:
+      213: 5076695217425438552
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_107
+  - first:
+      213: 1248316954923858939
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_108
+  - first:
+      213: 8885101996829836213
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_109
+  - first:
+      213: 8231769638513247253
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_110
+  - first:
+      213: 1211093033388581358
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_111
+  - first:
+      213: 7661638381182876641
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_112
+  - first:
+      213: 2026572137825296928
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_113
+  - first:
+      213: -5357739361097263138
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_114
+  - first:
+      213: 7343492877131548942
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_115
+  - first:
+      213: -1103527968939970761
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_116
+  - first:
+      213: 7778715678354712952
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_117
+  - first:
+      213: 493231050838586792
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_118
+  - first:
+      213: 2234444676331407611
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_119
+  - first:
+      213: -5973147262102879910
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_120
+  - first:
+      213: 8243928750574501660
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_121
+  - first:
+      213: -5711232485400470525
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_122
+  - first:
+      213: -4991881113598608123
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_123
+  - first:
+      213: 6742248253890954998
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_124
+  - first:
+      213: 2115591199238006222
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_125
+  - first:
+      213: -6996363318947546414
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_126
+  - first:
+      213: 4837945615377935739
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_127
+  - first:
+      213: -1641366956616853524
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_128
+  - first:
+      213: -6732255207727530262
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_129
+  - first:
+      213: -7021255886017823776
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_130
+  - first:
+      213: 3273349896684067728
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_131
+  - first:
+      213: -6556869566246935493
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_132
+  - first:
+      213: -8114484046413515696
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_133
+  - first:
+      213: -1947539938383132054
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_134
+  - first:
+      213: 335521965525675034
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_135
+  - first:
+      213: 4659679115973796625
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_136
+  - first:
+      213: -1644636526451462033
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_137
+  - first:
+      213: -1235492799138098108
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_138
+  - first:
+      213: -7925236504234882906
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_139
+  - first:
+      213: -3987509786337095443
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_140
+  - first:
+      213: 8564371082343590504
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_141
+  - first:
+      213: -1871490113781631536
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_142
+  - first:
+      213: -3031705881497236219
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_143
+  - first:
+      213: -7972329146947546962
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_144
+  - first:
+      213: 649999738452388331
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_145
+  - first:
+      213: 6825556633708510431
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_146
+  - first:
+      213: 631434864460422122
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_147
+  - first:
+      213: -8714100732168721840
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_148
+  - first:
+      213: 4790480460651148148
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_149
+  - first:
+      213: 6740532723116581943
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_150
+  - first:
+      213: -3048627247062874191
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_151
+  - first:
+      213: -5383972019864600472
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_152
+  - first:
+      213: 7720938089571658696
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_153
+  - first:
+      213: -2388594545095602082
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_154
+  - first:
+      213: -3152451658896237631
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_155
+  - first:
+      213: -6567336109412818596
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_156
+  - first:
+      213: -8675854937426182128
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_157
+  - first:
+      213: 4157061856353560071
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_158
+  - first:
+      213: 565135941640970287
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_159
+  - first:
+      213: -3285992247368578858
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_160
+  - first:
+      213: -3757390826470080950
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_161
+  - first:
+      213: 3434252233359758446
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_162
+  - first:
+      213: -9136877396204583540
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_163
+  - first:
+      213: 4829919668850727621
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_164
+  - first:
+      213: -1195782815898576025
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_165
+  - first:
+      213: -1258933875041414029
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_166
+  - first:
+      213: -5899036809814034888
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_167
+  - first:
+      213: 5889293498913823772
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_168
+  - first:
+      213: 3636237077626519950
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_169
+  - first:
+      213: 6296696848323140069
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_170
+  - first:
+      213: -88322421350158738
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_171
+  - first:
+      213: -8445739911279392079
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_172
+  - first:
+      213: -9131774760285839404
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_173
+  - first:
+      213: 127602859142230800
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_174
+  - first:
+      213: 3201786365639935071
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_175
+  - first:
+      213: 3028249672743449774
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_176
+  - first:
+      213: -695620716998290937
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_177
+  - first:
+      213: 6225588823489281515
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_178
+  - first:
+      213: -814802444160838357
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_179
+  - first:
+      213: -1393971952091151009
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_180
+  - first:
+      213: -1805338355858624913
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_181
+  - first:
+      213: -9035926575446815207
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_182
+  - first:
+      213: 3746514492819678895
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_183
+  - first:
+      213: 1919057126967242330
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_184
+  - first:
+      213: 7619997845697894654
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_185
+  - first:
+      213: 3209803989598887563
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_186
+  - first:
+      213: -6564973816328370146
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_187
+  - first:
+      213: 7452371161656504623
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_188
+  - first:
+      213: 2516251400998296454
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_189
+  - first:
+      213: 4433258202831955842
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_190
+  - first:
+      213: 1435117647366210632
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_191
+  - first:
+      213: 2929508183828781832
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_192
+  - first:
+      213: 6717948837018758714
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_193
+  - first:
+      213: 3458405169252746491
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_194
+  - first:
+      213: -8687167868801648770
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_195
+  - first:
+      213: -6818486111273225613
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_196
+  - first:
+      213: 1243045347164176165
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_197
+  - first:
+      213: 2396327513947807458
+    second: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_198
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b228980e9bd6c210800000000000000
+      internalID: 1353010209866916537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 55cb7a7d4a3ed9d4984098fc2661b48b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      20250920_2231_Moonlit Egyptian Desert_simple_compose_01k5m9nkcfe2t88gzdyjgsbeqw_0: 1353010209866916537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

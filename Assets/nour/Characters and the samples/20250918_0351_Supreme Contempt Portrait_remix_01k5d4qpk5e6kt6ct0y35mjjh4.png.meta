@@ -103,12 +103,12 @@ TextureImporter:
       name: 20250918_0351_Supreme Contempt Portrait_remix_01k5d4qpk5e6kt6ct0y35mjjh4_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 1515
+        width: 1536
         height: 1024
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 09d93048ff7660f41bda2a21f39e9b2c
     internalID: 0
     vertices: []
     indices: 

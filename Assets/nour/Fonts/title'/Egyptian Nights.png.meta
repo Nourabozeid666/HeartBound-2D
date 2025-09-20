@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 7082f7404bfcff6429297b4234ab1a1b
+guid: f81dbdace97cdda45b974851f1c104ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3394068623508305898
-    second: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_0
-  - first:
-      213: -4488452120043203686
-    second: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_1
+      213: -7265675632627321348
+    second: Egyptian Nights_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_0
+      name: Egyptian Nights_0
       rect:
         serializedVersion: 2
-        x: 468
-        y: 513
-        width: 550
-        height: 484
+        x: 0
+        y: 0
+        width: 2545
+        height: 1409
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae7f2873e672a1f20800000000000000
-      internalID: 3394068623508305898
+      spriteID: cf57900e1822b2b90800000000000000
+      internalID: -7265675632627321348
       vertices: []
       indices: 
       edges: []
@@ -128,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 32afd84aec61c674499513c1963fe828
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -138,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_0: 3394068623508305898
-      20250918_0441_Regal Divine Stride_remix_01k5d7ke5reatapdjgvyez3msc 1_1: -4488452120043203686
+      Egyptian Nights_0: -7265675632627321348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

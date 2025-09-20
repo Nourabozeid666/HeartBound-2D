@@ -1,11 +1,18 @@
+using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "Dialogue",menuName = "Dialogue")]
+
+[CreateAssetMenu(fileName = "Dialogue", menuName = "Dialogue")]
 public class DialogueSystem : ScriptableObject
 {
-    public string[] characterName;
-    public string[] speech;
-    public Sprite[] characterImage;
+    [System.Serializable]
+    public class Line
+    {
+        public string characterName;
+        [TextArea] public string speech;
+        public Sprite characterImage;
+        public AudioClip voiceOver; // optional, per-line
+    }
+
+    public List<Line> lines = new();
     public float typeSpeed = 0.02f;
-    public AudioClip voiceOver;
-     
 }
