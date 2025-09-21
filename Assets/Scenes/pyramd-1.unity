@@ -107121,6 +107121,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9105252678232416433, guid: b48141f754fcb404e8a8be201eb72c04, type: 3}
+      propertyPath: autoTestOnPlay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105252678232416433, guid: b48141f754fcb404e8a8be201eb72c04, type: 3}
       propertyPath: 'boxAreas.Array.data[0]'
       value: 
       objectReference: {fileID: 943014264}
@@ -107129,9 +107133,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9105252678232416433, guid: b48141f754fcb404e8a8be201eb72c04, type: 3}
+      propertyPath: 'enemyPrefabs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2591671886898415739, guid: 9657c654be4ee7b4ab9acd7fb1d878e8, type: 3}
+    - target: {fileID: 9105252678232416433, guid: b48141f754fcb404e8a8be201eb72c04, type: 3}
       propertyPath: 'enemyPrefabs.Array.data[1]'
       value: 
       objectReference: {fileID: 7406480773286462030, guid: 69c8867a0e3ab6f409c53c1e57f7fe0c, type: 3}
+    - target: {fileID: 9105252678232416433, guid: b48141f754fcb404e8a8be201eb72c04, type: 3}
+      propertyPath: 'enemyPrefabs.Array.data[2]'
+      value: 
+      objectReference: {fileID: 5993161253457388178, guid: 4f5c99fd4674cc340b0e118af79d6799, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

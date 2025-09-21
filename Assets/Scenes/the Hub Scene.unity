@@ -132189,9 +132189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d8b36e8a64efe4f9d0db2142d0228c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gate
-  anim: {fileID: 0}
-  openTrigger: Open
-  passCollider: {fileID: 1653213572}
+  gateAnimator: {fileID: 0}
   isHubGate: 1
 --- !u!61 &1653213572
 BoxCollider2D:
@@ -142308,6 +142306,14 @@ PrefabInstance:
     - target: {fileID: 761204404212391768, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: m_Name
       value: SceneManeger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: baseAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: enemiesInc
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: gameOverPanel
