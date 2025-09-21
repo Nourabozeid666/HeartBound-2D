@@ -1,64 +1,225 @@
-using System;
+﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding; 
 
 public class EnemyHealth : MonoBehaviour
 {
     public event Action<EnemyHealth> OnDead;
 
-    [SerializeField] float health;
+    [Header("Health")]
+    [SerializeField] float health = 30f;
     float currentHealth;
-    public bool isDead = false;
-    [SerializeField] Animator animator;
-    [SerializeField] AudioClip enemyHurt;
-    [SerializeField] AudioClip enemyDead;
-    //private bool recentlyHit = false;
-    void Start()
+    public bool IsDead { get; private set; }
+    public bool IsStunned { get; private set; }
+
+    [Header("Animation")]
+    [SerializeField] Animator animator;               
+    [SerializeField] string deathStateName = "";     
+
+    [Header("Hurt / Stun")]
+    [SerializeField] bool useHurtAnimLength = true;
+    [SerializeField] float fallbackStunDuration = 0.35f;
+
+
+    AIPath aiPath;
+    Seeker seeker;
+    AIDestinationSetter destSetter;
+    Rigidbody2D rb;
+    RigidbodyConstraints2D originalConstraints;
+
+
+    readonly List<MonoBehaviour> autoBehaviours = new();
+
+    Coroutine stunCo;
+
+    void Awake()
     {
-        currentHealth = health;
+        if (!animator) animator = GetComponentInChildren<Animator>(true);
+
+     
+        rb = GetComponent<Rigidbody2D>() ?? GetComponentInParent<Rigidbody2D>();
+        aiPath = GetComponent<AIPath>() ?? GetComponentInParent<AIPath>();
+        seeker = GetComponent<Seeker>() ?? GetComponentInParent<Seeker>();
+        destSetter = GetComponent<AIDestinationSetter>() ?? GetComponentInParent<AIDestinationSetter>();
+
+ 
+        CollectBehaviours(this.transform);
     }
+
+    void CollectBehaviours(Transform t)
+    {
+        var parentScripts = t.GetComponentsInParent<MonoBehaviour>(true);
+        var childScripts = t.GetComponentsInChildren<MonoBehaviour>(true);
+
+        void AddRange(MonoBehaviour[] arr)
+        {
+            foreach (var mb in arr)
+            {
+                if (!mb) continue;
+                if (mb == this) continue;
+                if (animator && mb == animator) continue;
+                if (mb is AIPath || mb is Seeker || mb is AIDestinationSetter) continue;
+                autoBehaviours.Add(mb);
+            }
+        }
+
+        AddRange(parentScripts);
+        AddRange(childScripts);
+    }
+
+    void Start() => currentHealth = health;
+
+    // ================== Damage ==================
     public void TakeDamage(float damage)
     {
-        if (isDead ) return;
+        if (IsDead) return;
+
         currentHealth -= damage;
-        if (currentHealth < 0)
-            currentHealth = 0;
-        if (currentHealth == 0)
+        if (currentHealth <= 0f)
         {
-            //AudioManager.instance.EnemyAction(enemyDead);
+            currentHealth = 0f;
+            Die();
+            return;
+        }
+
+        // Hurt + Stun
+        IsStunned = true;
+        if (animator) animator.SetBool("isHurt", true);
+
+        if (stunCo != null) StopCoroutine(stunCo);
+        stunCo = StartCoroutine(StunRoutine());
+    }
+
+    IEnumerator StunRoutine()
+    {
+        PauseMovement();
+
+        float t = GetHurtDuration();
+        yield return new WaitForSeconds(t);
+
+        if (!IsDead && animator) animator.SetBool("isHurt", false);
+        IsStunned = false;
+
+        if (!IsDead) ResumeMovement();
+        stunCo = null;
+    }
+
+    float GetHurtDuration()
+    {
+        if (useHurtAnimLength && animator)
+        {
+            var info = animator.GetCurrentAnimatorStateInfo(0);
+            if (info.length > 0.01f) return info.length;
+        }
+        return fallbackStunDuration;
+    }
+
+    // ================== Death ==================
+    void Die()
+    {
+        IsDead = true;
+        IsStunned = false;
+
+        if (stunCo != null) StopCoroutine(stunCo);
+
+        StopAllBehavioursHard();
+
+        if (animator)
+        {
+    
+            animator.ResetTrigger("Hurt");
+            animator.SetBool("isHurt", false);
+
+        
             animator.SetBool("isDead", true);
-            isDead = true;
-            OnDead?.Invoke(this);
-            StartCoroutine(DeathCleanup());
+
+    
+            if (!string.IsNullOrEmpty(deathStateName))
+            {
+                animator.Play(deathStateName, 0, 0f);
+            }
         }
-        else
+
+        OnDead?.Invoke(this);
+        StartCoroutine(DeathCleanup(1f)); 
+    }
+
+    // ================== Movement Control ==================
+    void PauseMovement()
+    {
+        if (aiPath)
         {
-            //AudioManager.instance.EnemyAction(enemyHurt);
-            HitReactionRoutine();
+            aiPath.isStopped = true;
+            aiPath.canMove = false;
+            aiPath.canSearch = false;
+        }
+        if (seeker) seeker.CancelCurrentPathRequest();
+        if (destSetter) destSetter.target = null;
+
+        if (rb)
+        {
+            originalConstraints = rb.constraints;
+            rb.linearVelocity = Vector2.zero;     
+            rb.angularVelocity = 0f;
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
+
+        foreach (var mb in autoBehaviours) if (mb) mb.enabled = false;
+    }
+
+    void ResumeMovement()
+    {
+        if (rb) rb.constraints = originalConstraints;
+
+        if (aiPath)
+        {
+            aiPath.isStopped = false;
+            aiPath.canMove = true;
+            aiPath.canSearch = true;
+        }
+
+        foreach (var mb in autoBehaviours) if (mb) mb.enabled = true;
+
+        if (destSetter && !destSetter.target)
+        {
+            var player = GameObject.FindWithTag("Player");
+            if (player) destSetter.target = player.transform;
         }
     }
-    //to avoid the double hit from the back
-   // IEnumerator HitCooldown()
-   // {
-   //     recentlyHit = true;
-   //     yield return new WaitForSeconds(0.4f); // adjust based on animation/delay
-   //     recentlyHit = false;
-   // }
-    void HitReactionRoutine()
-    {
-        StartCoroutine(EnemyHitReaction());
-    }
-    IEnumerator EnemyHitReaction()
-    {
-        animator.SetBool("isHurt", true);
 
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-        animator.SetBool("isHurt", false);
-    }
-    IEnumerator DeathCleanup()
+    void StopAllBehavioursHard()
     {
-        yield return new WaitForSeconds(1f);
-        Destroy(transform.parent.gameObject);
+        foreach (var mb in autoBehaviours) if (mb) mb.enabled = false;
 
+        if (aiPath)
+        {
+            aiPath.isStopped = true;
+            aiPath.canMove = false;
+            aiPath.canSearch = false;
+            aiPath.enabled = false;
+        }
+        if (seeker) seeker.enabled = false;
+        if (destSetter)
+        {
+            destSetter.target = null;
+            destSetter.enabled = false;
+        }
+
+        if (rb)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            rb.simulated = false; 
+        }
+    }
+
+    IEnumerator DeathCleanup(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        var root = transform.root ? transform.root.gameObject : gameObject;
+        Destroy(root);
     }
 }
