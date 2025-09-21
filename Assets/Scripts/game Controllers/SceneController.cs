@@ -146,19 +146,16 @@ public class SceneController : MonoBehaviour
             var playerAnim = playerGO ? playerGO.GetComponent<Animator>() : null;
             if (playerAnim) playerAnim.SetBool("isDead", false);
 
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("the Hub Scene");
             isDeadFlow = false;
             return;
         }
 
-        if (currentScene == 5)
+        else if (currentScene == 2)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
         }
-        else if (currentScene == 0)
-        {
-            SceneManager.LoadScene(1);
-        }
+
         else
         {
             if (levelSceneNames.Count > 0)

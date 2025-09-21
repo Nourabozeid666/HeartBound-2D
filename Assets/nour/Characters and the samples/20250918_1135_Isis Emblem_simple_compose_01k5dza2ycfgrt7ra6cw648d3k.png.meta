@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 143b5091fb4dbad4daa5c65df37bd374
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4158270848607859999
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_0
+  - first:
+      213: 3495614814510700634
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_1
+  - first:
+      213: -4163393519091265029
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_2
+  - first:
+      213: -4570704623580501949
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_3
+  - first:
+      213: -8012464720817849337
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_4
+  - first:
+      213: 2221444546653057735
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_5
+  - first:
+      213: -3887975158488861431
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_6
+  - first:
+      213: 811136240166639560
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_7
+  - first:
+      213: 4447131726166285080
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_8
+  - first:
+      213: 6542578235490498941
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_9
+  - first:
+      213: -8867552467059609472
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_10
+  - first:
+      213: -8278657605389384667
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_11
+  - first:
+      213: 7179445958413425826
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_12
+  - first:
+      213: 6409142737152946285
+    second: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 254
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eacdd4d1bada46c0800000000000000
+      internalID: -4158270848607859999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 163ec39e80de0494199c8cf4db192732
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1024.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      20250918_1135_Isis Emblem_simple_compose_01k5dza2ycfgrt7ra6cw648d3k_0: -4158270848607859999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc172295ca1d1ac4dbe09dd84d2387fa, type: 3}
+  m_Name: First Converastion
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
+  lines:
+  - characterName: Set
+    speech: Father pointed once, and you turned it into a crown you never take off.
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Osiris
+    speech: "He pointed because someone had to hold the field straight. I do the
+      work you wouldn\u2019t finish."
+    characterImage: {fileID: 3394068623508305898, guid: 7082f7404bfcff6429297b4234ab1a1b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Set
+    speech: The priests chant your name like the sun; they speak mine like bad weather.
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Osiris
+    speech: "Weather is useful\u2014when it knows its season."
+    characterImage: {fileID: 3394068623508305898, guid: 7082f7404bfcff6429297b4234ab1a1b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Set
+    speech: Useful? You call me a tool and wonder why I bite the hand.
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Osiris
+    speech: I call you brother. And brother, you must learn to rule yourself before
+      you dream of ruling anything else.
+    characterImage: {fileID: 3394068623508305898, guid: 7082f7404bfcff6429297b4234ab1a1b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Set
+    speech: "I have ruled storms you\u2019re afraid to name."
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Osiris
+    speech: Save the poetry. When the hall needs order, it calls for me. When it
+      needs noise, it suffers you.
+    characterImage: {fileID: 3394068623508305898, guid: 7082f7404bfcff6429297b4234ab1a1b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Set
+    speech: "So that\u2019s what I am to you\u2014noise."
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Osiris
+    speech: A Storm. Strong for a moment, then gone.
+    characterImage: {fileID: 3394068623508305898, guid: 7082f7404bfcff6429297b4234ab1a1b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Set
+    speech: "Enjoy your applause, \u201Cchosen son.\u201D"
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Osiris
+    speech: "Enjoy your temper, \u201Csecond storm.\u201D"
+    characterImage: {fileID: 3394068623508305898, guid: 7082f7404bfcff6429297b4234ab1a1b, type: 3}
+    voiceOver: {fileID: 0}
+  - characterName: Set
+    speech: "I\u2019ll show you something that stays after the wind DIES.   \n(turning
+      away and leaving in anger)"
+    characterImage: {fileID: 3276521346898926691, guid: a00f098aba8c7e545a3ecd595169622b, type: 3}
+    voiceOver: {fileID: 0}
+  typeSpeed: 0.02

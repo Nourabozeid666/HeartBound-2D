@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: cb90492417896b942b63a2837200c8f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1865090598705720805
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_0
+  - first:
+      213: -2945873377709575351
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_1
+  - first:
+      213: -9215387375006690041
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_2
+  - first:
+      213: -7626447984717170403
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_3
+  - first:
+      213: -5101415136854883615
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_4
+  - first:
+      213: -1515905587322581491
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_5
+  - first:
+      213: 281616443350786297
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_6
+  - first:
+      213: -3688158070692819183
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_7
+  - first:
+      213: 2763500843223551305
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_8
+  - first:
+      213: 9171223723602371367
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_9
+  - first:
+      213: 5457199289086140089
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_10
+  - first:
+      213: 246379604582027434
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_11
+  - first:
+      213: -4714251747210905069
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_12
+  - first:
+      213: -5207518486938577232
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_13
+  - first:
+      213: -7281805026166697406
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_14
+  - first:
+      213: -557031258698544232
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_15
+  - first:
+      213: -529791297658253332
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_16
+  - first:
+      213: -990416038831696405
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_17
+  - first:
+      213: 9025787793031598061
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_18
+  - first:
+      213: 8785727307178919958
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_19
+  - first:
+      213: -5180730279549027188
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_20
+  - first:
+      213: 6958347767642060541
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_21
+  - first:
+      213: -2201980944561760063
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_22
+  - first:
+      213: -9163543752508910855
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_23
+  - first:
+      213: -3356631629383727898
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_24
+  - first:
+      213: 1004560419795646864
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_25
+  - first:
+      213: -7451150841191879963
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_26
+  - first:
+      213: -6799727228086139239
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_27
+  - first:
+      213: -7447254114062763747
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_28
+  - first:
+      213: 3966508596165982164
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_29
+  - first:
+      213: -6966150159275013937
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_30
+  - first:
+      213: -2350917088135971845
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_31
+  - first:
+      213: -7144876717993150430
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_32
+  - first:
+      213: -5347777730645070074
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_33
+  - first:
+      213: 5652898626477920831
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_34
+  - first:
+      213: 8579618329948637008
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_35
+  - first:
+      213: -3010317312944246089
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_36
+  - first:
+      213: 1482969531414823475
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_37
+  - first:
+      213: 4677511323641006856
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_38
+  - first:
+      213: -6572428731056849233
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_39
+  - first:
+      213: -3199770699208804189
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_40
+  - first:
+      213: 5324545941643526638
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_41
+  - first:
+      213: 7465901476187813137
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_42
+  - first:
+      213: -655399115949704100
+    second: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 254
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12993e6bfddd16e0800000000000000
+      internalID: -1865090598705720805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d40c78ebfff7fe4d9eace1990dd9ff0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1024.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      20250918_1149_Set-Animal Emblem_simple_compose_01k5e03h2ef7ha7647cbecnwer_0: -1865090598705720805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
