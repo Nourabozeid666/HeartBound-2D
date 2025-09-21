@@ -142277,6 +142277,10 @@ PrefabInstance:
       value: SceneManeger
       objectReference: {fileID: 0}
     - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: hudTag
+      value: ui
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: baseAmount
       value: 3
       objectReference: {fileID: 0}
@@ -142290,7 +142294,7 @@ PrefabInstance:
       objectReference: {fileID: 1875744121}
     - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: mainCameraTag
-      value: camira
+      value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: levelSceneNames.Array.size
@@ -142488,7 +142492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5791502184044151442, guid: 07ce0f349981a3c48a05f063de00a878, type: 3}
       propertyPath: m_TagString
-      value: camira
+      value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 6606009432626546209, guid: 07ce0f349981a3c48a05f063de00a878, type: 3}
       propertyPath: orthographic size
