@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 6b7b946dac576704289ee3d9eff1f6ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5103666952269157721
+    second: Onre_spritelist_0
+  - first:
+      213: 4313159669968996160
+    second: Onre_spritelist_1
+  - first:
+      213: 4406012451698558714
+    second: Onre_spritelist_2
+  - first:
+      213: 3364228831361709438
+    second: Onre_spritelist_3
+  - first:
+      213: 1433510905844470477
+    second: Onre_spritelist_4
+  - first:
+      213: -2904412790607890021
+    second: Onre_spritelist_5
+  - first:
+      213: 7694413412301204853
+    second: Onre_spritelist_6
+  - first:
+      213: -111529716370500458
+    second: Onre_spritelist_7
+  - first:
+      213: 8062810511015059520
+    second: Onre_spritelist_8
+  - first:
+      213: 2781642156332370234
+    second: Onre_spritelist_9
+  - first:
+      213: 2641521906362033456
+    second: Onre_spritelist_10
+  - first:
+      213: 5362034731084727968
+    second: Onre_spritelist_11
+  - first:
+      213: 6360864889866423174
+    second: Onre_spritelist_12
+  - first:
+      213: -7481112968684948456
+    second: Onre_spritelist_13
+  - first:
+      213: -4564949767249552177
+    second: Onre_spritelist_14
+  - first:
+      213: -1468869956786833714
+    second: Onre_spritelist_15
+  - first:
+      213: -7266209312205219095
+    second: Onre_spritelist_16
+  - first:
+      213: -3316215013969306369
+    second: Onre_spritelist_17
+  - first:
+      213: 7754842842220081896
+    second: Onre_spritelist_18
+  - first:
+      213: -1437637360466460281
+    second: Onre_spritelist_19
+  - first:
+      213: 3140899591855235143
+    second: Onre_spritelist_20
+  - first:
+      213: 1184956182990561921
+    second: Onre_spritelist_21
+  - first:
+      213: -3196535405548623159
+    second: Onre_spritelist_22
+  - first:
+      213: -77701153311390972
+    second: Onre_spritelist_23
+  - first:
+      213: 6823939434779931430
+    second: Onre_spritelist_24
+  - first:
+      213: 7127977703112679840
+    second: Onre_spritelist_25
+  - first:
+      213: 1445555257618071617
+    second: Onre_spritelist_26
+  - first:
+      213: 42715393027261425
+    second: Onre_spritelist_27
+  - first:
+      213: -3005533594757602818
+    second: Onre_spritelist_28
+  - first:
+      213: 5753259418045970254
+    second: Onre_spritelist_29
+  - first:
+      213: 6493463211645834117
+    second: Onre_spritelist_30
+  - first:
+      213: -212765512485027617
+    second: Onre_spritelist_31
+  - first:
+      213: 7353342076457546209
+    second: Onre_spritelist_32
+  - first:
+      213: 2882351760159509041
+    second: Onre_spritelist_33
+  - first:
+      213: 7834710540041915607
+    second: Onre_spritelist_34
+  - first:
+      213: 120703131602938520
+    second: Onre_spritelist_35
+  - first:
+      213: 3083913258634063754
+    second: Onre_spritelist_36
+  - first:
+      213: -1467345879402276750
+    second: Onre_spritelist_37
+  - first:
+      213: 923238567875022806
+    second: Onre_spritelist_38
+  - first:
+      213: 5754826478519155637
+    second: Onre_spritelist_39
+  - first:
+      213: 1256670787626638153
+    second: Onre_spritelist_40
+  - first:
+      213: -2442178254366009000
+    second: Onre_spritelist_41
+  - first:
+      213: -4857492010377583877
+    second: Onre_spritelist_42
+  - first:
+      213: 1759615089031329781
+    second: Onre_spritelist_43
+  - first:
+      213: 1603676950666869331
+    second: Onre_spritelist_44
+  - first:
+      213: -5359413256554292227
+    second: Onre_spritelist_45
+  - first:
+      213: 3492296294386266795
+    second: Onre_spritelist_46
+  - first:
+      213: 7612323007077166066
+    second: Onre_spritelist_47
+  - first:
+      213: 2300548954128948974
+    second: Onre_spritelist_48
+  - first:
+      213: -7142733029501294150
+    second: Onre_spritelist_49
+  - first:
+      213: -6994587339225209284
+    second: Onre_spritelist_50
+  - first:
+      213: -7517308609431568773
+    second: Onre_spritelist_51
+  - first:
+      213: 4872654618020008099
+    second: Onre_spritelist_52
+  - first:
+      213: 6146131899304451771
+    second: Onre_spritelist_53
+  - first:
+      213: 4715137356364898050
+    second: Onre_spritelist_54
+  - first:
+      213: 5464429821805555053
+    second: Onre_spritelist_55
+  - first:
+      213: -6667393737113474351
+    second: Onre_spritelist_56
+  - first:
+      213: -279416131535720437
+    second: Onre_spritelist_57
+  - first:
+      213: 6382411765120569150
+    second: Onre_spritelist_58
+  - first:
+      213: 4402842262024768864
+    second: Onre_spritelist_59
+  - first:
+      213: -2339201132423830611
+    second: Onre_spritelist_60
+  - first:
+      213: -3673593904575900584
+    second: Onre_spritelist_61
+  - first:
+      213: -2855368045411290225
+    second: Onre_spritelist_62
+  - first:
+      213: -1877175263462355110
+    second: Onre_spritelist_63
+  - first:
+      213: 5466382282066821175
+    second: Onre_spritelist_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Onre_spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1153
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95557ed7d0ed3d640800000000000000
+      internalID: 5103666952269157721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1153
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0470b042edb6bdb30800000000000000
+      internalID: 4313159669968996160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1153
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6c0731bfc452d30800000000000000
+      internalID: 4406012451698558714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1153
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7531743c4420be20800000000000000
+      internalID: 3364228831361709438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1153
+        width: 33
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc21284e29ad4e310800000000000000
+      internalID: 1433510905844470477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1153
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9937b684f371b7d0800000000000000
+      internalID: -2904412790607890021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1023
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57de6335b3c08ca60800000000000000
+      internalID: 7694413412301204853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1023
+        width: 21
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69416d95054c37ef0800000000000000
+      internalID: -111529716370500458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1023
+        width: 21
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040a650f07bd4ef60800000000000000
+      internalID: 8062810511015059520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1023
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39417cadc06a9620800000000000000
+      internalID: 2781642156332370234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1023
+        width: 24
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0352f1fad2298a420800000000000000
+      internalID: 2641521906362033456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1023
+        width: 21
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6cc9bbd26c96a40800000000000000
+      internalID: 5362034731084727968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1023
+        width: 21
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b0eb08ae4564850800000000000000
+      internalID: 6360864889866423174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 895
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81437f0446fbd2890800000000000000
+      internalID: -7481112968684948456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 895
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc96917f5a06a0c0800000000000000
+      internalID: -4564949767249552177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 895
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec63a748e868d9be0800000000000000
+      internalID: -1468869956786833714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 895
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea5f5ae02d392b90800000000000000
+      internalID: -7266209312205219095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 895
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcda8dc3007af1d0800000000000000
+      internalID: -3316215013969306369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 895
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e232836a7cbe9b60800000000000000
+      internalID: 7754842842220081896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 895
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7810195007c7c0ce0800000000000000
+      internalID: -1437637360466460281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 767
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74063bf9987b69b20800000000000000
+      internalID: 3140899591855235143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 767
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1822e89ce5fc17010800000000000000
+      internalID: 1184956182990561921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 767
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caa0501cff93a3d0800000000000000
+      internalID: -3196535405548623159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 767
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4038c367633fbeef0800000000000000
+      internalID: -77701153311390972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 767
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62376dad2c083be50800000000000000
+      internalID: 6823939434779931430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 639
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1afe094f9abe260800000000000000
+      internalID: 7127977703112679840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 639
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140068119d4af0410800000000000000
+      internalID: 1445555257618071617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 639
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3c4d37c61c79000800000000000000
+      internalID: 42715393027261425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 663
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef168fb9e133a46d0800000000000000
+      internalID: -3005533594757602818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 661
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47fc4965fea7df40800000000000000
+      internalID: 5753259418045970254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 639
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583973c136a6d1a50800000000000000
+      internalID: 6493463211645834117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 511
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd040e7c4ea1c0df0800000000000000
+      internalID: -212765512485027617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 511
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e17f2ba8a15c0660800000000000000
+      internalID: 7353342076457546209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 511
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a870e87ab200820800000000000000
+      internalID: 2882351760159509041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 553
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc0531e9bb7abc60800000000000000
+      internalID: 7834710540041915607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 511
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a6872dbd2dca100800000000000000
+      internalID: 120703131602938520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f200bf4c24cca20800000000000000
+      internalID: 3083913258634063754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278189f62b0f2abe0800000000000000
+      internalID: -1467345879402276750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df8121069000dc00800000000000000
+      internalID: 923238567875022806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb752c11304ddf40800000000000000
+      internalID: 5754826478519155637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b98185c67907110800000000000000
+      internalID: 1256670787626638153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859945e11d3ab1ed0800000000000000
+      internalID: -2442178254366009000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 383
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2652ea0c8b69cb0800000000000000
+      internalID: -4857492010377583877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 257
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f73123c9986b6810800000000000000
+      internalID: 1759615089031329781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 257
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35afaf2a0b7614610800000000000000
+      internalID: 1603676950666869331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 257
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbdf8ed90a8f95b0800000000000000
+      internalID: -5359413256554292227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 257
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba27e4d0af0277030800000000000000
+      internalID: 3492296294386266795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 255
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb2e50717764a960800000000000000
+      internalID: 7612323007077166066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 255
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee904fb5113def10800000000000000
+      internalID: 2300548954128948974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 127
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9202b472aefdc90800000000000000
+      internalID: -7142733029501294150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 127
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c366907bfdb3eee90800000000000000
+      internalID: -6994587339225209284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 127
+        width: 33
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e78dbe5a72da790800000000000000
+      internalID: -7517308609431568773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0df340f852f9340800000000000000
+      internalID: 4872654618020008099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe1db816627b4550800000000000000
+      internalID: 6146131899304451771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 23
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fdd4991788f6140800000000000000
+      internalID: 4715137356364898050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 33
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d65cc98fd85db40800000000000000
+      internalID: 5464429821805555053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 55
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daefa1b8b8a873a0800000000000000
+      internalID: -6667393737113474351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 18
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00bc4f32805f1cf0800000000000000
+      internalID: -279416131535720437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 18
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f09465fa1e29850800000000000000
+      internalID: 6382411765120569150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 46
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d4016c5b90a1d30800000000000000
+      internalID: 4402842262024768864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 37
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3afa3b6fc798fd0800000000000000
+      internalID: -2339201132423830611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85496bcaec5c40dc0800000000000000
+      internalID: -3673593904575900584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83324e14e1bf58d0800000000000000
+      internalID: -2855368045411290225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 18
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f0d282b0fe2f5e0800000000000000
+      internalID: -1877175263462355110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onre_spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730051139bd7cdb40800000000000000
+      internalID: 5466382282066821175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Onre_spritelist_0: 5103666952269157721
+      Onre_spritelist_1: 4313159669968996160
+      Onre_spritelist_10: 2641521906362033456
+      Onre_spritelist_11: 5362034731084727968
+      Onre_spritelist_12: 6360864889866423174
+      Onre_spritelist_13: -7481112968684948456
+      Onre_spritelist_14: -4564949767249552177
+      Onre_spritelist_15: -1468869956786833714
+      Onre_spritelist_16: -7266209312205219095
+      Onre_spritelist_17: -3316215013969306369
+      Onre_spritelist_18: 7754842842220081896
+      Onre_spritelist_19: -1437637360466460281
+      Onre_spritelist_2: 4406012451698558714
+      Onre_spritelist_20: 3140899591855235143
+      Onre_spritelist_21: 1184956182990561921
+      Onre_spritelist_22: -3196535405548623159
+      Onre_spritelist_23: -77701153311390972
+      Onre_spritelist_24: 6823939434779931430
+      Onre_spritelist_25: 7127977703112679840
+      Onre_spritelist_26: 1445555257618071617
+      Onre_spritelist_27: 42715393027261425
+      Onre_spritelist_28: -3005533594757602818
+      Onre_spritelist_29: 5753259418045970254
+      Onre_spritelist_3: 3364228831361709438
+      Onre_spritelist_30: 6493463211645834117
+      Onre_spritelist_31: -212765512485027617
+      Onre_spritelist_32: 7353342076457546209
+      Onre_spritelist_33: 2882351760159509041
+      Onre_spritelist_34: 7834710540041915607
+      Onre_spritelist_35: 120703131602938520
+      Onre_spritelist_36: 3083913258634063754
+      Onre_spritelist_37: -1467345879402276750
+      Onre_spritelist_38: 923238567875022806
+      Onre_spritelist_39: 5754826478519155637
+      Onre_spritelist_4: 1433510905844470477
+      Onre_spritelist_40: 1256670787626638153
+      Onre_spritelist_41: -2442178254366009000
+      Onre_spritelist_42: -4857492010377583877
+      Onre_spritelist_43: 1759615089031329781
+      Onre_spritelist_44: 1603676950666869331
+      Onre_spritelist_45: -5359413256554292227
+      Onre_spritelist_46: 3492296294386266795
+      Onre_spritelist_47: 7612323007077166066
+      Onre_spritelist_48: 2300548954128948974
+      Onre_spritelist_49: -7142733029501294150
+      Onre_spritelist_5: -2904412790607890021
+      Onre_spritelist_50: -6994587339225209284
+      Onre_spritelist_51: -7517308609431568773
+      Onre_spritelist_52: 4872654618020008099
+      Onre_spritelist_53: 6146131899304451771
+      Onre_spritelist_54: 4715137356364898050
+      Onre_spritelist_55: 5464429821805555053
+      Onre_spritelist_56: -6667393737113474351
+      Onre_spritelist_57: -279416131535720437
+      Onre_spritelist_58: 6382411765120569150
+      Onre_spritelist_59: 4402842262024768864
+      Onre_spritelist_6: 7694413412301204853
+      Onre_spritelist_60: -2339201132423830611
+      Onre_spritelist_61: -3673593904575900584
+      Onre_spritelist_62: -2855368045411290225
+      Onre_spritelist_63: -1877175263462355110
+      Onre_spritelist_64: 5466382282066821175
+      Onre_spritelist_7: -111529716370500458
+      Onre_spritelist_8: 8062810511015059520
+      Onre_spritelist_9: 2781642156332370234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

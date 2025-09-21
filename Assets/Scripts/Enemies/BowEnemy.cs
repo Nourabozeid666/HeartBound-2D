@@ -36,10 +36,15 @@ public class BowEnemy : MonoBehaviour
     float nextFireTime;
     bool engaged;
 
+    EnemyHealth eh;        // ⬅️ إضافة
+    
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         if (!anim) anim = GetComponentInChildren<Animator>(true);
+        eh = GetComponentInParent<EnemyHealth>() ?? GetComponent<EnemyHealth>();   // ⬅️ إضافة
+
 
         if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
         if (disengageRadius < engageRadius) disengageRadius = engageRadius + 1f;
@@ -52,8 +57,32 @@ public class BowEnemy : MonoBehaviour
     {
         TryAssignPlayerOnce();
         if (!player) StartCoroutine(RetryFindPlayer());
+
+        if (eh != null) eh.OnDead += HandleDead;
     }
 
+    void OnDisable()      // ⬅️ إضافة
+    {
+        if (eh != null) eh.OnDead -= HandleDead;
+    }
+
+    void HandleDead(EnemyHealth _)   // ⬅️ إضافة
+    {
+  
+        nextFireTime = float.PositiveInfinity;   // قفل أي إطلاق معلّق
+        if (anim)
+        {
+            // اختياري: اطفي حركات الإطلاق/المشي
+            if (anim.parameters != null)
+            {
+                if (anim.HasParameterOfType("isShooting", AnimatorControllerParameterType.Bool))
+                    anim.SetBool(hashIsShooting, false);
+                if (anim.HasParameterOfType("isWalking", AnimatorControllerParameterType.Bool))
+                    anim.SetBool(hashIsWalking, false);
+            }
+        }
+        enabled = false;  
+    }
     void Start()
     {
         if (!arrowPrefab)
@@ -86,7 +115,18 @@ public class BowEnemy : MonoBehaviour
 
     void FixedUpdate()
     {
+  
         if (!player) return;
+
+        if (eh && (eh.IsDead || eh.IsStunned))
+        {
+            if (anim && driveWalkAnim && anim.HasParameterOfType("isWalking", AnimatorControllerParameterType.Bool))
+                anim.SetBool(hashIsWalking, false);
+            if (anim && driveShootAnim && anim.HasParameterOfType("isShooting", AnimatorControllerParameterType.Bool))
+                anim.SetBool(hashIsShooting, false);
+            return;
+        }
+
 
         float distance = Vector2.Distance(rb.position, player.position);
 
@@ -146,11 +186,8 @@ public class BowEnemy : MonoBehaviour
 
     void TryShootOnTimer()
     {
-        if (!player)
-        {
-            if (debugShoot) Debug.LogWarning("[BowEnemy] No player ref yet.", this);
-            return;
-        }
+        if (eh && (eh.IsDead || eh.IsStunned)) return; // ⬅️ ممنوع الإطلاق أثناء الـHurt/Death
+        if (!player) return;
         if (!arrowPrefab)
         {
             if (debugShoot) Debug.LogError("[BowEnemy] arrowPrefab is NULL! اربطيه على الPrefab.", this);
@@ -160,29 +197,15 @@ public class BowEnemy : MonoBehaviour
 
         Vector2 origin = (Vector2)(shootOrigin ? shootOrigin.position : transform.position);
         Vector2 toTarget = (Vector2)player.position - origin;
-        if (toTarget.sqrMagnitude < 0.0001f)
-        {
-            if (debugShoot) Debug.Log("[BowEnemy] Target too close (zero vector).", this);
-            return;
-        }
+        if (toTarget.sqrMagnitude < 0.0001f) return;
 
         Vector2 dir = toTarget.normalized;
-
         Vector2 spawnPos = origin + dir * spawnOffset;
 
-        if (debugShoot) Debug.Log($"[BowEnemy] Spawn arrow at {spawnPos}, dir={dir}, t={Time.time}", this);
-
         GameObject arrow = Instantiate(arrowPrefab, spawnPos, Quaternion.identity);
-        if (!arrow)
-        {
-            Debug.LogError("[BowEnemy] Instantiate returned null! Prefab missing?", this);
-            return;
-        }
-
         float ang = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.AngleAxis(ang, Vector3.forward);
 
-  
         var arrowCol = arrow.GetComponent<Collider2D>();
         if (arrowCol)
         {
@@ -193,25 +216,23 @@ public class BowEnemy : MonoBehaviour
         var proj = arrow.GetComponent<Projectile>();
         if (proj) proj.SetDamage(arrowDamage);
 
-        
         var rb2d = arrow.GetComponent<Rigidbody2D>();
         if (rb2d != null)
         {
             rb2d.gravityScale = 0f;
             rb2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
             rb2d.interpolation = RigidbodyInterpolation2D.Interpolate;
-            rb2d.linearVelocity = dir * arrowSpeed;
-            if (debugShoot) Debug.Log("[BowEnemy] Arrow uses Rigidbody2D.velocity.", arrow);
+            rb2d.linearVelocity = dir * arrowSpeed; 
         }
         else
         {
             if (!proj) proj = arrow.AddComponent<Projectile>();
             proj.Init(dir, arrowSpeed);
-            if (debugShoot) Debug.Log("[BowEnemy] Arrow uses Projectile.Update() movement.", arrow);
         }
 
         nextFireTime = Time.time + fireCooldown;
     }
+
 }
 
 static class AnimatorParamCheck
