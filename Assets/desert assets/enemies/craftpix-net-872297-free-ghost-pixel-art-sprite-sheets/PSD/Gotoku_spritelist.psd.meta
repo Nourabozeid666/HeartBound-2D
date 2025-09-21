@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 81b41c53eafba404cb6a676f58d8a270
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2355479273349262582
+    second: Gotoku_spritelist_0
+  - first:
+      213: -4956260492041379450
+    second: Gotoku_spritelist_1
+  - first:
+      213: 5008911032787808852
+    second: Gotoku_spritelist_2
+  - first:
+      213: -4944733177590912261
+    second: Gotoku_spritelist_3
+  - first:
+      213: -7593357903353628174
+    second: Gotoku_spritelist_4
+  - first:
+      213: -5353555694108020876
+    second: Gotoku_spritelist_5
+  - first:
+      213: -3367800729187332713
+    second: Gotoku_spritelist_6
+  - first:
+      213: 746643500199882828
+    second: Gotoku_spritelist_7
+  - first:
+      213: -6127661327413502523
+    second: Gotoku_spritelist_8
+  - first:
+      213: 6439226878704678336
+    second: Gotoku_spritelist_9
+  - first:
+      213: 583109777435186482
+    second: Gotoku_spritelist_10
+  - first:
+      213: 2094815523909846064
+    second: Gotoku_spritelist_11
+  - first:
+      213: 2416764430159357152
+    second: Gotoku_spritelist_12
+  - first:
+      213: 2752422197450206982
+    second: Gotoku_spritelist_13
+  - first:
+      213: 1860965044638541617
+    second: Gotoku_spritelist_14
+  - first:
+      213: 7261408677560040988
+    second: Gotoku_spritelist_15
+  - first:
+      213: -8791757168178010659
+    second: Gotoku_spritelist_16
+  - first:
+      213: -6528902156981743292
+    second: Gotoku_spritelist_17
+  - first:
+      213: 2650562185880404258
+    second: Gotoku_spritelist_18
+  - first:
+      213: -6343692317764255063
+    second: Gotoku_spritelist_19
+  - first:
+      213: -8960737478757939343
+    second: Gotoku_spritelist_20
+  - first:
+      213: -3366988027222729414
+    second: Gotoku_spritelist_21
+  - first:
+      213: -819674966865973291
+    second: Gotoku_spritelist_22
+  - first:
+      213: -7601167642399477641
+    second: Gotoku_spritelist_23
+  - first:
+      213: 3483989481632287705
+    second: Gotoku_spritelist_24
+  - first:
+      213: 1921892781057553423
+    second: Gotoku_spritelist_25
+  - first:
+      213: 1088390172912964092
+    second: Gotoku_spritelist_26
+  - first:
+      213: 1900395689802297391
+    second: Gotoku_spritelist_27
+  - first:
+      213: 7270887570926109345
+    second: Gotoku_spritelist_28
+  - first:
+      213: -1779828589257695567
+    second: Gotoku_spritelist_29
+  - first:
+      213: 3141768580536160455
+    second: Gotoku_spritelist_30
+  - first:
+      213: -149590317518384615
+    second: Gotoku_spritelist_31
+  - first:
+      213: 2012675507526543256
+    second: Gotoku_spritelist_32
+  - first:
+      213: 4847451803166280786
+    second: Gotoku_spritelist_33
+  - first:
+      213: -796195503287305670
+    second: Gotoku_spritelist_34
+  - first:
+      213: -5308105640357255320
+    second: Gotoku_spritelist_35
+  - first:
+      213: -7603409003558557240
+    second: Gotoku_spritelist_36
+  - first:
+      213: 2810507131355504221
+    second: Gotoku_spritelist_37
+  - first:
+      213: -7214385634934284529
+    second: Gotoku_spritelist_38
+  - first:
+      213: 8231175975451317944
+    second: Gotoku_spritelist_39
+  - first:
+      213: -7609180338634933146
+    second: Gotoku_spritelist_40
+  - first:
+      213: -1530364316963636866
+    second: Gotoku_spritelist_41
+  - first:
+      213: -2352556829405143160
+    second: Gotoku_spritelist_42
+  - first:
+      213: 2713439004496088143
+    second: Gotoku_spritelist_43
+  - first:
+      213: -8400963466374157756
+    second: Gotoku_spritelist_44
+  - first:
+      213: 7461390113531854121
+    second: Gotoku_spritelist_45
+  - first:
+      213: 7821436787037112579
+    second: Gotoku_spritelist_46
+  - first:
+      213: -17340324749813754
+    second: Gotoku_spritelist_47
+  - first:
+      213: -7582713770225243572
+    second: Gotoku_spritelist_48
+  - first:
+      213: -980798692798431755
+    second: Gotoku_spritelist_49
+  - first:
+      213: -5948582186155260997
+    second: Gotoku_spritelist_50
+  - first:
+      213: 7401460122747352553
+    second: Gotoku_spritelist_51
+  - first:
+      213: 2808709414685190221
+    second: Gotoku_spritelist_52
+  - first:
+      213: -8918066846323365426
+    second: Gotoku_spritelist_53
+  - first:
+      213: 2897951890484863270
+    second: Gotoku_spritelist_54
+  - first:
+      213: 3076908557929581925
+    second: Gotoku_spritelist_55
+  - first:
+      213: 8379056513845215586
+    second: Gotoku_spritelist_56
+  - first:
+      213: 4610260042376498420
+    second: Gotoku_spritelist_57
+  - first:
+      213: 6581453967053426362
+    second: Gotoku_spritelist_58
+  - first:
+      213: 1416512243725405231
+    second: Gotoku_spritelist_59
+  - first:
+      213: 9164900477489672828
+    second: Gotoku_spritelist_60
+  - first:
+      213: 2548610672763246433
+    second: Gotoku_spritelist_61
+  - first:
+      213: 2982212893790541925
+    second: Gotoku_spritelist_62
+  - first:
+      213: 7715352921640456280
+    second: Gotoku_spritelist_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gotoku_spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1153
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03d83ca418af4fd0800000000000000
+      internalID: -2355479273349262582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1153
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68122958753d73bb0800000000000000
+      internalID: -4956260492041379450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1153
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4523ad4cb0a338540800000000000000
+      internalID: 5008911032787808852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1153
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaea909f57c06bb0800000000000000
+      internalID: -4944733177590912261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1153
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9b33ed739fe9690800000000000000
+      internalID: -7593357903353628174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1023
+        width: 30
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47feb67e57954b5b0800000000000000
+      internalID: -5353555694108020876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1023
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dcc76841b2341d0800000000000000
+      internalID: -3367800729187332713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1023
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40b44bbe4c9c5a00800000000000000
+      internalID: 746643500199882828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1023
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd9e9b0d7c26faa0800000000000000
+      internalID: -6127661327413502523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1023
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5f65dcababc5950800000000000000
+      internalID: 6439226878704678336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1023
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235d41dc04f971800800000000000000
+      internalID: 583109777435186482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 895
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034ce94ce97421d10800000000000000
+      internalID: 2094815523909846064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 895
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4a275d1721a8120800000000000000
+      internalID: 2416764430159357152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 895
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f6be6d761923620800000000000000
+      internalID: 2752422197450206982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 895
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137691929d973d910800000000000000
+      internalID: 1860965044638541617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 895
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1eb7ea38b4b5c460800000000000000
+      internalID: 7261408677560040988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 895
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5614faf676df580800000000000000
+      internalID: -8791757168178010659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 895
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44152df641ea465a0800000000000000
+      internalID: -6528902156981743292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 767
+        width: 40
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2210c78c340b8c420800000000000000
+      internalID: 2650562185880404258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 767
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a28943827da6f7a0800000000000000
+      internalID: -6343692317764255063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 767
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1778a153db015a380800000000000000
+      internalID: -8960737478757939343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 797
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d55627a3e0641d0800000000000000
+      internalID: -3366988027222729414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 767
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df6ca0e5fdef94f0800000000000000
+      internalID: -819674966865973291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 639
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770f59c4d4a338690800000000000000
+      internalID: -7601167642399477641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 639
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbc3ed79fd995030800000000000000
+      internalID: 3483989481632287705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 639
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04b25f3d4febaa10800000000000000
+      internalID: 1921892781057553423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 687
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1d081881dba1f00800000000000000
+      internalID: 1088390172912964092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 639
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f207957afcf8f5a10800000000000000
+      internalID: 1900395689802297391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 511
+        width: 33
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a28ad219b167e460800000000000000
+      internalID: 7270887570926109345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 511
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bed538f357cc47e0800000000000000
+      internalID: -1779828589257695567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 511
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c05751d0edc99b20800000000000000
+      internalID: 3141768580536160455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 511
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9129a76166c8cedf0800000000000000
+      internalID: -149590317518384615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 383
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897af32e5b57eeb10800000000000000
+      internalID: 2012675507526543256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 383
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c8d896bbb954340800000000000000
+      internalID: 4847451803166280786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 383
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3afbce786853f4f0800000000000000
+      internalID: -796195503287305670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 383
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867224c2b02d556b0800000000000000
+      internalID: -5308105640357255320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 255
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a2ecbbc34b7690800000000000000
+      internalID: -7603409003558557240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 255
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e9523685de00720800000000000000
+      internalID: 2810507131355504221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 255
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f9f0d0d7a51eb90800000000000000
+      internalID: -7214385634934284529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 270
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6518460f20b3270800000000000000
+      internalID: 8231175975451317944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 269
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c37c31cc2c66690800000000000000
+      internalID: -7609180338634933146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 255
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79f27e03cd03cae0800000000000000
+      internalID: -1530364316963636866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 255
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f136d270a0a5fd0800000000000000
+      internalID: -2352556829405143160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 255
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ccdaee56218a520800000000000000
+      internalID: 2713439004496088143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 127
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aebbfcc38c96b80800000000000000
+      internalID: -8400963466374157756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 127
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d7dafa6ce2c8760800000000000000
+      internalID: 7461390113531854121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 127
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309058c61535b8c60800000000000000
+      internalID: 7821436787037112579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6085ff6011562cff0800000000000000
+      internalID: -17340324749813754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ae24c300ac4c690800000000000000
+      internalID: -7582713770225243572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 36
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdf49f09c08362f0800000000000000
+      internalID: -980798692798431755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 26
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3cff4c404627da0800000000000000
+      internalID: -5948582186155260997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 20
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5339b54c447b660800000000000000
+      internalID: 7401460122747352553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d482b9bd45a8af620800000000000000
+      internalID: 2808709414685190221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 12
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec925b50479ac3480800000000000000
+      internalID: -8918066846323365426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 36
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621a580f3e7973820800000000000000
+      internalID: 2897951890484863270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 29
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d80c1080063ba20800000000000000
+      internalID: 3076908557929581925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 49
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261caa45183684470800000000000000
+      internalID: 8379056513845215586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 18
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc4704151feaff30800000000000000
+      internalID: 4610260042376498420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 43
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe0ec35385065b50800000000000000
+      internalID: 6581453967053426362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 38
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c8e33716678a310800000000000000
+      internalID: 1416512243725405231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7274923d64403f70800000000000000
+      internalID: 9164900477489672828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 12
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16792dc57eb7e5320800000000000000
+      internalID: 2548610672763246433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56899f293d2f26920800000000000000
+      internalID: 2982212893790541925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotoku_spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850d623ca90721b60800000000000000
+      internalID: 7715352921640456280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gotoku_spritelist_0: -2355479273349262582
+      Gotoku_spritelist_1: -4956260492041379450
+      Gotoku_spritelist_10: 583109777435186482
+      Gotoku_spritelist_11: 2094815523909846064
+      Gotoku_spritelist_12: 2416764430159357152
+      Gotoku_spritelist_13: 2752422197450206982
+      Gotoku_spritelist_14: 1860965044638541617
+      Gotoku_spritelist_15: 7261408677560040988
+      Gotoku_spritelist_16: -8791757168178010659
+      Gotoku_spritelist_17: -6528902156981743292
+      Gotoku_spritelist_18: 2650562185880404258
+      Gotoku_spritelist_19: -6343692317764255063
+      Gotoku_spritelist_2: 5008911032787808852
+      Gotoku_spritelist_20: -8960737478757939343
+      Gotoku_spritelist_21: -3366988027222729414
+      Gotoku_spritelist_22: -819674966865973291
+      Gotoku_spritelist_23: -7601167642399477641
+      Gotoku_spritelist_24: 3483989481632287705
+      Gotoku_spritelist_25: 1921892781057553423
+      Gotoku_spritelist_26: 1088390172912964092
+      Gotoku_spritelist_27: 1900395689802297391
+      Gotoku_spritelist_28: 7270887570926109345
+      Gotoku_spritelist_29: -1779828589257695567
+      Gotoku_spritelist_3: -4944733177590912261
+      Gotoku_spritelist_30: 3141768580536160455
+      Gotoku_spritelist_31: -149590317518384615
+      Gotoku_spritelist_32: 2012675507526543256
+      Gotoku_spritelist_33: 4847451803166280786
+      Gotoku_spritelist_34: -796195503287305670
+      Gotoku_spritelist_35: -5308105640357255320
+      Gotoku_spritelist_36: -7603409003558557240
+      Gotoku_spritelist_37: 2810507131355504221
+      Gotoku_spritelist_38: -7214385634934284529
+      Gotoku_spritelist_39: 8231175975451317944
+      Gotoku_spritelist_4: -7593357903353628174
+      Gotoku_spritelist_40: -7609180338634933146
+      Gotoku_spritelist_41: -1530364316963636866
+      Gotoku_spritelist_42: -2352556829405143160
+      Gotoku_spritelist_43: 2713439004496088143
+      Gotoku_spritelist_44: -8400963466374157756
+      Gotoku_spritelist_45: 7461390113531854121
+      Gotoku_spritelist_46: 7821436787037112579
+      Gotoku_spritelist_47: -17340324749813754
+      Gotoku_spritelist_48: -7582713770225243572
+      Gotoku_spritelist_49: -980798692798431755
+      Gotoku_spritelist_5: -5353555694108020876
+      Gotoku_spritelist_50: -5948582186155260997
+      Gotoku_spritelist_51: 7401460122747352553
+      Gotoku_spritelist_52: 2808709414685190221
+      Gotoku_spritelist_53: -8918066846323365426
+      Gotoku_spritelist_54: 2897951890484863270
+      Gotoku_spritelist_55: 3076908557929581925
+      Gotoku_spritelist_56: 8379056513845215586
+      Gotoku_spritelist_57: 4610260042376498420
+      Gotoku_spritelist_58: 6581453967053426362
+      Gotoku_spritelist_59: 1416512243725405231
+      Gotoku_spritelist_6: -3367800729187332713
+      Gotoku_spritelist_60: 9164900477489672828
+      Gotoku_spritelist_61: 2548610672763246433
+      Gotoku_spritelist_62: 2982212893790541925
+      Gotoku_spritelist_63: 7715352921640456280
+      Gotoku_spritelist_7: 746643500199882828
+      Gotoku_spritelist_8: -6127661327413502523
+      Gotoku_spritelist_9: 6439226878704678336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

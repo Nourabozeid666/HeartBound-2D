@@ -181,11 +181,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaseLimit
   aiPath: {fileID: 936427725390248292}
   destSetter: {fileID: 1947372216366950728}
+  anim: {fileID: 0}
   enterChaseRadius: 15
   exitChaseRadius: 16
   stopDistance: 1.5
   attackRange: 3
-  attackCooldown: 5
+  attackWindup: 0.8
+  attackActive: 0.2
+  attackRecovery: 0.4
+  attackCooldown: 3
   Damage: 10
   hitPoint: {fileID: 1282080485295527661}
   hitRadius: 3.5
@@ -245,6 +249,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5582502062280092909, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
+      propertyPath: health
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582502062280092909, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
+      propertyPath: behavioursToDisable.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582502062280092909, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
+      propertyPath: 'behavioursToDisable.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1536007069262662923}
+    - target: {fileID: 5582502062280092909, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
+      propertyPath: 'behavioursToDisable.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1536007069262662923}
     - target: {fileID: 8208327153053954383, guid: 6236b6f8107bdfd4c95b054e14a3e63d, type: 3}
       propertyPath: m_SortingLayer
       value: 11
