@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pathfinding; // احذفيه لو مش بتستخدمي A*
+using Pathfinding; 
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -15,21 +15,21 @@ public class EnemyHealth : MonoBehaviour
     public bool IsStunned { get; private set; }
 
     [Header("Animation")]
-    [SerializeField] Animator animator;               // على الطفل
-    [SerializeField] string deathStateName = "";      // اختياري: اسم ستايت الموت (مثلاً "Die")
+    [SerializeField] Animator animator;               
+    [SerializeField] string deathStateName = "";     
 
     [Header("Hurt / Stun")]
     [SerializeField] bool useHurtAnimLength = true;
     [SerializeField] float fallbackStunDuration = 0.35f;
 
-    // مكوّنات الحركة
+
     AIPath aiPath;
     Seeker seeker;
     AIDestinationSetter destSetter;
     Rigidbody2D rb;
     RigidbodyConstraints2D originalConstraints;
 
-    // سكربتات الحركة/الهجوم (هنجمعها من الأب + الأبناء)
+
     readonly List<MonoBehaviour> autoBehaviours = new();
 
     Coroutine stunCo;
@@ -38,21 +38,19 @@ public class EnemyHealth : MonoBehaviour
     {
         if (!animator) animator = GetComponentInChildren<Animator>(true);
 
-        // هات المكونات من نفس الجيم أوبجكت أو من الأب
+     
         rb = GetComponent<Rigidbody2D>() ?? GetComponentInParent<Rigidbody2D>();
         aiPath = GetComponent<AIPath>() ?? GetComponentInParent<AIPath>();
         seeker = GetComponent<Seeker>() ?? GetComponentInParent<Seeker>();
         destSetter = GetComponent<AIDestinationSetter>() ?? GetComponentInParent<AIDestinationSetter>();
 
-        // ✅ اجمع السكربتات من الأب والأبناء معًا
+ 
         CollectBehaviours(this.transform);
     }
 
     void CollectBehaviours(Transform t)
     {
-        // من الأب
         var parentScripts = t.GetComponentsInParent<MonoBehaviour>(true);
-        // من الأبناء
         var childScripts = t.GetComponentsInChildren<MonoBehaviour>(true);
 
         void AddRange(MonoBehaviour[] arr)
@@ -130,14 +128,14 @@ public class EnemyHealth : MonoBehaviour
 
         if (animator)
         {
-            // امنعي أي Hurt بعد الموت
+    
             animator.ResetTrigger("Hurt");
             animator.SetBool("isHurt", false);
 
-            // فعّلي حالة الموت
+        
             animator.SetBool("isDead", true);
 
-            // اختياري: أجبر اللعب إلى ستايت الموت بالاسم (لو عندك State محدد)
+    
             if (!string.IsNullOrEmpty(deathStateName))
             {
                 animator.Play(deathStateName, 0, 0f);
@@ -145,7 +143,7 @@ public class EnemyHealth : MonoBehaviour
         }
 
         OnDead?.Invoke(this);
-        StartCoroutine(DeathCleanup(1f)); // عدّليها حسب طول كليب الموت
+        StartCoroutine(DeathCleanup(1f)); 
     }
 
     // ================== Movement Control ==================
@@ -163,7 +161,7 @@ public class EnemyHealth : MonoBehaviour
         if (rb)
         {
             originalConstraints = rb.constraints;
-            rb.linearVelocity = Vector2.zero;     // ✅ صح في 2D
+            rb.linearVelocity = Vector2.zero;     
             rb.angularVelocity = 0f;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
@@ -214,7 +212,7 @@ public class EnemyHealth : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
-            rb.simulated = false; // يمنع أي فيزيكس بعد الموت
+            rb.simulated = false; 
         }
     }
 

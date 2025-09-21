@@ -36,14 +36,14 @@ public class BowEnemy : MonoBehaviour
     float nextFireTime;
     bool engaged;
 
-    EnemyHealth eh;        // ⬅️ إضافة
+    EnemyHealth eh;     
     
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         if (!anim) anim = GetComponentInChildren<Animator>(true);
-        eh = GetComponentInParent<EnemyHealth>() ?? GetComponent<EnemyHealth>();   // ⬅️ إضافة
+        eh = GetComponentInParent<EnemyHealth>() ?? GetComponent<EnemyHealth>(); 
 
 
         if (stopDis <= retreatDis) stopDis = retreatDis + 0.5f;
@@ -61,18 +61,18 @@ public class BowEnemy : MonoBehaviour
         if (eh != null) eh.OnDead += HandleDead;
     }
 
-    void OnDisable()      // ⬅️ إضافة
+    void OnDisable()    
     {
         if (eh != null) eh.OnDead -= HandleDead;
     }
 
-    void HandleDead(EnemyHealth _)   // ⬅️ إضافة
+    void HandleDead(EnemyHealth _)   
     {
   
-        nextFireTime = float.PositiveInfinity;   // قفل أي إطلاق معلّق
+        nextFireTime = float.PositiveInfinity;   
         if (anim)
         {
-            // اختياري: اطفي حركات الإطلاق/المشي
+   
             if (anim.parameters != null)
             {
                 if (anim.HasParameterOfType("isShooting", AnimatorControllerParameterType.Bool))
@@ -186,7 +186,7 @@ public class BowEnemy : MonoBehaviour
 
     void TryShootOnTimer()
     {
-        if (eh && (eh.IsDead || eh.IsStunned)) return; // ⬅️ ممنوع الإطلاق أثناء الـHurt/Death
+        if (eh && (eh.IsDead || eh.IsStunned)) return;
         if (!player) return;
         if (!arrowPrefab)
         {
