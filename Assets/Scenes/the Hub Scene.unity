@@ -142277,8 +142277,12 @@ PrefabInstance:
       value: SceneManeger
       objectReference: {fileID: 0}
     - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
-      propertyPath: hudTag
-      value: ui
+      propertyPath: baseAmount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
+      propertyPath: enemiesInc
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907993250841424328, guid: cea79792f9bd58c40a8eb37e63ede35c, type: 3}
       propertyPath: gameOverPanel
