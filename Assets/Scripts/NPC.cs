@@ -15,6 +15,7 @@ public class NPC : MonoBehaviour, Iinteractable
     [SerializeField] Image portraitImage;
     [SerializeField] Image Icon;
 
+    public bool IsDialogueActive => isDialogueActive;
     int dialogueIndex = 0;
     bool isTyping = false, isDialogueActive = false;
 

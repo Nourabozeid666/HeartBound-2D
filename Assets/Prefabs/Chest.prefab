@@ -152,4 +152,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   chestList:
   - {fileID: 287249639402601377, guid: ef5a29396f0500947a2c6a6ae6ec665f, type: 3}
+  - {fileID: 5778907181547988394, guid: 36e0ed59bd69549409cf52a71dd6fc7d, type: 3}
+  - {fileID: 306238538065323890, guid: e6530357ccbb65a419cff2f3bd227b0c, type: 3}
+  - {fileID: 4256166016146238, guid: ebe08d46825e61d4abeb33e1cf54ee0d, type: 3}
+  - {fileID: 1052620501174315544, guid: 5d5230c3c90d19342afb39a524e0e486, type: 3}
+  - {fileID: 4017683481117480954, guid: 3e889b4bb69716d4986c7590cbdbba71, type: 3}
+  - {fileID: 3079022296553075386, guid: 177b8f920a250aa418507ef3e0061b72, type: 3}
+  - {fileID: 1123113308421182804, guid: 9a6811e9892ab934ab8f774fff8d2611, type: 3}
+  - {fileID: 6224847310853316840, guid: 8f92cfb6f05217c4d92636685744555f, type: 3}
   openedSprite: {fileID: 4714410783012859700, guid: a62658ee5d99ff74cb0128ef6216e375, type: 3}
